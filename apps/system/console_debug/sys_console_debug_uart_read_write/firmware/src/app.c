@@ -168,7 +168,7 @@ void APP_Tasks ( void )
             break;
 
         case APP_STATE_READ_FROM_CONSOLE:
-            SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %d bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.consoleHandle));
+            SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %ld bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.consoleHandle));
             SYS_CONSOLE_Print(appData.consoleHandle, "\n\rEnter %d characters:", UART_CONSOLE_NUM_BYTES_READ);
             appData.state = APP_STATE_WAIT_READ_COMPLETE;
             break;
@@ -178,7 +178,7 @@ void APP_Tasks ( void )
 
             if (SYS_CONSOLE_ReadCountGet(appData.consoleHandle) >= UART_CONSOLE_NUM_BYTES_READ)
             {
-                SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %d bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.consoleHandle));
+                SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %ld bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.consoleHandle));
 
                 /* UART_CONSOLE_NUM_BYTES_READ or more characters are available. Read the data in the application buffer. */
                 if (SYS_CONSOLE_Read(appData.consoleHandle, uart_console_read_buffer, UART_CONSOLE_NUM_BYTES_READ) == UART_CONSOLE_NUM_BYTES_READ)
@@ -202,7 +202,7 @@ void APP_Tasks ( void )
         case APP_STATE_WAIT_WRITE_BUFFER_EMPTY:
             if (SYS_CONSOLE_WriteCountGet(appData.consoleHandle) == 0)
             {
-                SYS_CONSOLE_PRINT("\n\rFree Space in TX Buffer = %d", SYS_CONSOLE_WriteFreeBufferCountGet(appData.consoleHandle));
+                SYS_CONSOLE_PRINT("\n\rFree Space in TX Buffer = %ld", SYS_CONSOLE_WriteFreeBufferCountGet(appData.consoleHandle));
                 appData.state = APP_STATE_ECHO_TEST;
             }
             break;
