@@ -194,7 +194,7 @@ void APP_Tasks ( void )
 
         case APP_STATE_READ_FROM_CONSOLE:
             /* SYS_CONSOLE_PRINT and SYS_CONSOLE_MESSAGE print on the default console instance */
-            SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %d bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.console0Handle));
+            SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %ld bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.console0Handle));
             SYS_CONSOLE_Print(appData.console0Handle, "\n\rEnter %d characters:", USB_CONSOLE_NUM_BYTES_READ);
             appData.state = APP_STATE_WAIT_READ_COMPLETE;
             break;
@@ -204,7 +204,7 @@ void APP_Tasks ( void )
 
             if (SYS_CONSOLE_ReadCountGet(appData.console0Handle) >= USB_CONSOLE_NUM_BYTES_READ)
             {
-                SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %d bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.console0Handle));
+                SYS_CONSOLE_PRINT("\n\rFree Space in RX Buffer = %ld bytes", SYS_CONSOLE_ReadFreeBufferCountGet(appData.console0Handle));
 
                 /* USB_CONSOLE_NUM_BYTES_READ or more characters are available. Read the data in the application buffer. */
                 if (SYS_CONSOLE_Read(appData.console0Handle, usb_console_0_read_buffer, USB_CONSOLE_NUM_BYTES_READ) == USB_CONSOLE_NUM_BYTES_READ)
@@ -221,7 +221,7 @@ void APP_Tasks ( void )
         case APP_STATE_WRITE_RECEIVED_DATA:
             /* Demonstrate SYS_CONSOLE_WriteFreeBufferCountGet() and SYS_CONSOLE_Write() APIs */
 
-            SYS_CONSOLE_PRINT("\n\rFree Space in TX Buffer = %d", SYS_CONSOLE_WriteFreeBufferCountGet(appData.console0Handle));
+            SYS_CONSOLE_PRINT("\n\rFree Space in TX Buffer = %ld", SYS_CONSOLE_WriteFreeBufferCountGet(appData.console0Handle));
             SYS_CONSOLE_MESSAGE("\n\rReceived Characters:");
             SYS_CONSOLE_Write(appData.console0Handle, usb_console_0_read_buffer, USB_CONSOLE_NUM_BYTES_READ);
 
