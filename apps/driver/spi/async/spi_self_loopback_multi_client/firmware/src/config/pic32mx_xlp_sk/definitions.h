@@ -52,7 +52,7 @@
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
 #include "bsp/bsp.h"
-#include "peripheral/spi/plib_spi1.h"
+#include "peripheral/spi/spi_master/plib_spi1_master.h"
 #include "driver/spi/drv_spi.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"

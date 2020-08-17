@@ -45,7 +45,6 @@ The following table shows the target hardware for the application projects.
 - Use jumper wire to connect "Pin 5 of J5" to "Pin 6 of J5"
     - SDI1 is mapped to RC8 that is routed to "Pin 5 of J5"
     - SDO1 is mapped to RA8 that is routed to "Pin 6 of J5"
-    - Connect a micro USB cable to the USB DEBUG port J19
 
 ## Running the Application
 
