@@ -1,27 +1,17 @@
 /*******************************************************************************
-  SYS CLK Static Functions for Clock System Service
+  UART2 PLIB
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_clk.c
+    plib_uart2.h
 
   Summary:
-    SYS CLK static function implementations for the Clock System Service.
+    UART2 PLIB Header File
 
   Description:
-    The Clock System Service provides a simple interface to manage the
-    oscillators on Microchip microcontrollers. This file defines the static
-    implementation for the Clock System Service.
-
-  Remarks:
-    Static functions incorporate all system clock configuration settings as
-    determined by the user via the Microchip Harmony Configurator GUI.
-    It provides static version of the routines, eliminating the need for an
-    object ID or object handle.
-
-    Static single-open interfaces also eliminate the need for the open handle.
+    None
 
 *******************************************************************************/
 
@@ -48,44 +38,59 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-// *****************************************************************************
-// *****************************************************************************
-// Section: Include Files
-// *****************************************************************************
-// *****************************************************************************
+#ifndef PLIB_UART2_H
+#define PLIB_UART2_H
 
+#include <stddef.h>
+#include <stdbool.h>
+#include <stdint.h>
 #include "device.h"
-#include "plib_clk.h"
+#include "plib_uart_common.h"
+
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    extern "C" {
+
+#endif
+// DOM-IGNORE-END
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: File Scope Functions
+// Section: Interface
 // *****************************************************************************
 // *****************************************************************************
 
-// *****************************************************************************
-/* Function:
-    void CLK_Initialize( void )
+#define UART2_FrequencyGet()    (uint32_t)(80000000UL)
 
-  Summary:
-    Initializes hardware and internal data structure of the System Clock.
+/****************************** UART2 API *********************************/
 
-  Description:
-    This function initializes the hardware and internal data structure of System
-    Clock Service.
+void UART2_Initialize( void );
 
-  Remarks:
-    This is configuration values for the static version of the Clock System
-    Service module is determined by the user via the MHC GUI.
+bool UART2_SerialSetup( UART_SERIAL_SETUP *setup, uint32_t srcClkFreq );
 
-    The objective is to eliminate the user's need to be knowledgeable in the
-    function of the 'configuration bits' to configure the system oscillators.
-*/
+bool UART2_Write( void *buffer, const size_t size );
 
-void CLK_Initialize( void )
-{
+bool UART2_Read( void *buffer, const size_t size );
 
-    /* Default clock setting is used, hence no code is generated */
-    /* Code for fuse settings can be found in "initialization.c" */
+UART_ERROR UART2_ErrorGet( void );
 
-}
+int UART2_ReadByte( void );
+
+bool UART2_ReceiverIsReady( void );
+
+void UART2_WriteByte( int data );
+
+bool UART2_TransmitterIsReady( void );
+
+bool UART2_TransmitComplete( void );
+
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+    }
+
+#endif
+// DOM-IGNORE-END
+
+#endif // PLIB_UART2_H
