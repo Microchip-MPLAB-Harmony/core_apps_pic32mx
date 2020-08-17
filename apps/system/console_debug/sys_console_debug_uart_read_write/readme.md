@@ -36,13 +36,21 @@ The following table shows the target hardware for the application projects.
 | pic32mx470_curiosity.X <br> pic32mx470_curiosity_freertos.X | [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103) |
 |||
 
+- To run the demo, the following additional hardware are required:
+    - [USB UART click](https://www.mikroe.com/usb-uart-click) board
+
 ### Setting up [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103)
 
 - Connect mini USB cable to the 'Debug USB' connector(J3) on the board to the computer
+- Install the [USB UART click](https://www.mikroe.com/usb-uart-click) board on to the mikroBUS socket J5 of [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103)
+- Connect mini USB cable to the [USB UART click](https://www.mikroe.com/usb-uart-click) board. This will enumerate the USB to UART port
+- **Note:** Ensure that the series resistors on the mikroBUS headers are of value 0 Ohms
 
 ### Setting up [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105)
 
-- Connect micro USB cable to the 'Debug USB' connector(J9) on the board to the computer. 
+- Connect micro USB cable to the 'Debug USB' connector(J9) on the board to the computer
+- Install the [USB UART click](https://www.mikroe.com/usb-uart-click) board on to the mikroBUS socket J5 of [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105)
+- Connect mini USB cable to the [USB UART click](https://www.mikroe.com/usb-uart-click) board. This will enumerate the USB to UART port
 
 ## Running the Application
 
