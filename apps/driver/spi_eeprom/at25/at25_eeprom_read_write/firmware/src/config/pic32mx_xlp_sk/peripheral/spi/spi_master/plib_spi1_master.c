@@ -5,10 +5,10 @@
     Microchip Technology Inc.
 
   File Name:
-    plib_spi1.c
+    plib_spi1_master.c
 
   Summary:
-    SPI1 Source File
+    SPI1 Master Source File
 
   Description:
     This file has implementation of all the interfaces provided for particular
@@ -39,7 +39,7 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-#include "plib_spi1.h"
+#include "plib_spi1_master.h"
 
 // *****************************************************************************
 // *****************************************************************************
@@ -56,7 +56,7 @@ SPI_OBJECT spi1Obj;
 #define SPI1_CON_MODE_32_MODE_16            (0 << _SPI1CON_MODE16_POSITION)
 #define SPI1_CON_ENHBUF                     (1 << _SPI1CON_ENHBUF_POSITION)
 #define SPI1_CON_MCLKSEL                    (0 << _SPI1CON_MCLKSEL_POSITION)
-#define SPI1_CON_MSSEN                      (1 << _SPI1CON_MSSEN_POSITION)
+#define SPI1_CON_MSSEN                      (0 << _SPI1CON_MSSEN_POSITION)
 #define SPI1_CON_SMP                        (0 << _SPI1CON_SMP_POSITION)
 
 void SPI1_Initialize ( void )
@@ -92,7 +92,7 @@ void SPI1_Initialize ( void )
     CKE = 1
     MODE<32,16> = 0
     ENHBUF = 1
-    MSSEN = 1
+    MSSEN = 0
     MCLKSEL = 0
     */
     SPI1CONSET = (SPI1_CON_MSSEN | SPI1_CON_MCLKSEL | SPI1_CON_ENHBUF | SPI1_CON_MODE_32_MODE_16 | SPI1_CON_CKE | SPI1_CON_CKP | SPI1_CON_MSTEN | SPI1_CON_SMP);

@@ -45,7 +45,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105)
 
 - Connect micro USB cable to the 'Debug USB' connector(J9) on the board to the computer
-- Install the [EEPROM 4 Click](https://www.mikroe.com/eeprom-4-click) board on to the mikroBUS socket J5 of [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103)
+- Install the [EEPROM 4 Click](https://www.mikroe.com/eeprom-4-click) board on to the mikroBUS socket J5 of [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105)
 
 ## Running the Application
 
