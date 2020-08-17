@@ -38,6 +38,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103)
 
 - Connect mini USB cable to the 'Debug USB' connector(J3) on the board to the computer
+- Use the USB micro-B port J12 to connect the USB Device to the the USB Host PC
 
 ## Running the Application
 
