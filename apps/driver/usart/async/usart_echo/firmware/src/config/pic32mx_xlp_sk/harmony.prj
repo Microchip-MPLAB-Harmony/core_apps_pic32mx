@@ -31,8 +31,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/driver/usart/</LogicalPath>
           <PhysicalPath dnOrder="4">/driver/usart/src/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">06B7B5E69A4CD4434043C3233C5877F0</GeneratedChecksum>
-          <UserChecksum dnOrder="6">06B7B5E69A4CD4434043C3233C5877F0</UserChecksum>
+          <GeneratedChecksum dnOrder="5">5DC671B39D8417F05450DD3C3D080759</GeneratedChecksum>
+          <UserChecksum dnOrder="6">5DC671B39D8417F05450DD3C3D080759</UserChecksum>
         </File>
         <File dnOrder="3">
           <Type dnOrder="0">SOURCE</Type>
@@ -49,8 +49,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">322976BB28859B437B0D6D3B8E2AFE42</GeneratedChecksum>
-          <UserChecksum dnOrder="6">322976BB28859B437B0D6D3B8E2AFE42</UserChecksum>
+          <GeneratedChecksum dnOrder="5">EC410AF32A00CC5E9DF0F879297B47F1</GeneratedChecksum>
+          <UserChecksum dnOrder="6">EC410AF32A00CC5E9DF0F879297B47F1</UserChecksum>
         </File>
         <File dnOrder="5">
           <Type dnOrder="0">SOURCE</Type>
@@ -58,8 +58,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">E9E51CDCB1AF8B8D820151A2448C6449</GeneratedChecksum>
-          <UserChecksum dnOrder="6">E9E51CDCB1AF8B8D820151A2448C6449</UserChecksum>
+          <GeneratedChecksum dnOrder="5">F90F4AC7587147FCDD85F5375DF8AD2F</GeneratedChecksum>
+          <UserChecksum dnOrder="6">F90F4AC7587147FCDD85F5375DF8AD2F</UserChecksum>
         </File>
         <File dnOrder="6">
           <Type dnOrder="0">SOURCE</Type>
@@ -67,8 +67,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">069835E2EA295094E16473A22A14F9ED</GeneratedChecksum>
-          <UserChecksum dnOrder="6">069835E2EA295094E16473A22A14F9ED</UserChecksum>
+          <GeneratedChecksum dnOrder="5">CBFB3A1E9145F3A9EE3BBE137453E39A</GeneratedChecksum>
+          <UserChecksum dnOrder="6">CBFB3A1E9145F3A9EE3BBE137453E39A</UserChecksum>
         </File>
         <File dnOrder="7">
           <Type dnOrder="0">SOURCE</Type>
@@ -94,8 +94,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/peripheral/evic/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/evic/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">6A54D19867A39A1A3DEA51088CB81BC7</GeneratedChecksum>
-          <UserChecksum dnOrder="6">6A54D19867A39A1A3DEA51088CB81BC7</UserChecksum>
+          <GeneratedChecksum dnOrder="5">771347CD30C83B78FBF9FE53CB064311</GeneratedChecksum>
+          <UserChecksum dnOrder="6">771347CD30C83B78FBF9FE53CB064311</UserChecksum>
         </File>
         <File dnOrder="10">
           <Type dnOrder="0">SOURCE</Type>
@@ -103,8 +103,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/peripheral/gpio/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/gpio/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">5771A8069379168194EB98C22F79A6E7</GeneratedChecksum>
-          <UserChecksum dnOrder="6">5771A8069379168194EB98C22F79A6E7</UserChecksum>
+          <GeneratedChecksum dnOrder="5">273AEC6B25266D5F68453656AE38C7D1</GeneratedChecksum>
+          <UserChecksum dnOrder="6">273AEC6B25266D5F68453656AE38C7D1</UserChecksum>
         </File>
         <File dnOrder="11">
           <Type dnOrder="0">SOURCE</Type>
@@ -112,8 +112,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/peripheral/uart/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">22C0DB2F88B56B53546A22B95A499661</GeneratedChecksum>
-          <UserChecksum dnOrder="6">22C0DB2F88B56B53546A22B95A499661</UserChecksum>
+          <GeneratedChecksum dnOrder="5">1A9BA964067902925CB1BF80F5B9F3AC</GeneratedChecksum>
+          <UserChecksum dnOrder="6">1A9BA964067902925CB1BF80F5B9F3AC</UserChecksum>
         </File>
         <File dnOrder="12">
           <Type dnOrder="0">SOURCE</Type>
@@ -148,8 +148,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/stdio/</LogicalPath>
           <PhysicalPath dnOrder="4">/stdio/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">A9F55E7CB78F22D9000CA03DC635973C</GeneratedChecksum>
-          <UserChecksum dnOrder="6">A9F55E7CB78F22D9000CA03DC635973C</UserChecksum>
+          <GeneratedChecksum dnOrder="5">16BE5CCEE5F9AF5909BF3F69B51C7D93</GeneratedChecksum>
+          <UserChecksum dnOrder="6">16BE5CCEE5F9AF5909BF3F69B51C7D93</UserChecksum>
         </File>
         <File dnOrder="16">
           <Type dnOrder="0">HEADER</Type>
@@ -191,8 +191,8 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">device.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">packs/PIC32MX274F256D_DFP/</LogicalPath>
-          <PhysicalPath dnOrder="4">/../../packs/PIC32MX274F256D_DFP/</PhysicalPath>
+          <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/</LogicalPath>
+          <PhysicalPath dnOrder="4">/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">5D5C52527AB1435153DB9B50ADE6B79D</GeneratedChecksum>
           <UserChecksum dnOrder="6">5D5C52527AB1435153DB9B50ADE6B79D</UserChecksum>
         </File>
@@ -220,8 +220,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/driver/usart/</LogicalPath>
           <PhysicalPath dnOrder="4">/driver/usart/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">343C1CF11AA3CAEFC2F0AF07386CDAD0</GeneratedChecksum>
-          <UserChecksum dnOrder="6">343C1CF11AA3CAEFC2F0AF07386CDAD0</UserChecksum>
+          <GeneratedChecksum dnOrder="5">6AF29C60E3BC9BB1F75754A49FBC6473</GeneratedChecksum>
+          <UserChecksum dnOrder="6">6AF29C60E3BC9BB1F75754A49FBC6473</UserChecksum>
         </File>
         <File dnOrder="24">
           <Type dnOrder="0">HEADER</Type>
@@ -229,14 +229,14 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/driver/usart/</LogicalPath>
           <PhysicalPath dnOrder="4">/driver/usart/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">F20C08158BE0F57915039A9DCB7B91FC</GeneratedChecksum>
-          <UserChecksum dnOrder="6">F20C08158BE0F57915039A9DCB7B91FC</UserChecksum>
+          <GeneratedChecksum dnOrder="5">31E2CD6D3BD7800F2FC5E014EBB7F02F</GeneratedChecksum>
+          <UserChecksum dnOrder="6">31E2CD6D3BD7800F2FC5E014EBB7F02F</UserChecksum>
         </File>
         <File dnOrder="25">
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">F0AD88762263B7CB89B02AB4F5876059</GeneratedChecksum>
           <UserChecksum dnOrder="6">F0AD88762263B7CB89B02AB4F5876059</UserChecksum>
@@ -245,7 +245,7 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal_definitions.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
           <GeneratedChecksum dnOrder="5">0AC88C49E4585B606FD5AC6804F0C340</GeneratedChecksum>
           <UserChecksum dnOrder="6">0AC88C49E4585B606FD5AC6804F0C340</UserChecksum>
@@ -254,10 +254,10 @@
           <Type dnOrder="0">HEADER</Type>
           <Name dnOrder="1">osal_impl_basic.h</Name>
           <Security dnOrder="2">NON_SECURE</Security>
-          <LogicalPath dnOrder="3">/osal/</LogicalPath>
+          <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/osal/</LogicalPath>
           <PhysicalPath dnOrder="4">/osal/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">63FBE37825657165B9EA584BF05DBA43</GeneratedChecksum>
-          <UserChecksum dnOrder="6">63FBE37825657165B9EA584BF05DBA43</UserChecksum>
+          <GeneratedChecksum dnOrder="5">B358678B02AC7D3AD6CC80621ECC826D</GeneratedChecksum>
+          <UserChecksum dnOrder="6">B358678B02AC7D3AD6CC80621ECC826D</UserChecksum>
         </File>
         <File dnOrder="28">
           <Type dnOrder="0">HEADER</Type>
@@ -283,8 +283,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/peripheral/gpio/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/gpio/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">80A038753208216B46F54FB4EF1D7215</GeneratedChecksum>
-          <UserChecksum dnOrder="6">80A038753208216B46F54FB4EF1D7215</UserChecksum>
+          <GeneratedChecksum dnOrder="5">9C0A5076C32650BA16169CCEEB2C4EF2</GeneratedChecksum>
+          <UserChecksum dnOrder="6">9C0A5076C32650BA16169CCEEB2C4EF2</UserChecksum>
         </File>
         <File dnOrder="31">
           <Type dnOrder="0">HEADER</Type>
@@ -292,8 +292,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/peripheral/uart/</LogicalPath>
           <PhysicalPath dnOrder="4">/peripheral/uart/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">5ACCAC4CBCEDF1D1568623A77A49A20B</GeneratedChecksum>
-          <UserChecksum dnOrder="6">5ACCAC4CBCEDF1D1568623A77A49A20B</UserChecksum>
+          <GeneratedChecksum dnOrder="5">8DAE87F255A119BC5653E657CCB4AD35</GeneratedChecksum>
+          <UserChecksum dnOrder="6">8DAE87F255A119BC5653E657CCB4AD35</UserChecksum>
         </File>
         <File dnOrder="32">
           <Type dnOrder="0">HEADER</Type>
@@ -382,8 +382,8 @@
           <Security dnOrder="2">NON_SECURE</Security>
           <LogicalPath dnOrder="3">config/pic32mx_xlp_sk/</LogicalPath>
           <PhysicalPath dnOrder="4">/</PhysicalPath>
-          <GeneratedChecksum dnOrder="5">9A7344615980CB9443B6436E41E2155A</GeneratedChecksum>
-          <UserChecksum dnOrder="6">9A7344615980CB9443B6436E41E2155A</UserChecksum>
+          <GeneratedChecksum dnOrder="5">2C8543317B3F067432097AB9BD3E8672</GeneratedChecksum>
+          <UserChecksum dnOrder="6">2C8543317B3F067432097AB9BD3E8672</UserChecksum>
         </File>
         <File dnOrder="42">
           <Type dnOrder="0">HEADER</Type>
@@ -397,9 +397,12 @@
       </Files>
       <Settings dnOrder="1">
         <Setting append="true" category="C32" delimiter=";" dnOrder="0" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;"/>
-        <Setting category="C32-LD" dnOrder="1" key="heap-size" security="NON_SECURE" value="512"/>
-        <Setting category="C32-LD" dnOrder="2" key="no-device-startup-code" security="NON_SECURE" value="true"/>
-        <Setting append="true" category="C32-LD" delimiter=";" dnOrder="3" key="preprocessor-macros" security="NON_SECURE" value=""/>
+        <Setting category="C32" dnOrder="1" key="generate-16-bit-code" security="NON_SECURE" value="false"/>
+        <Setting category="C32-LD" dnOrder="2" key="heap-size" security="NON_SECURE" value="512"/>
+        <Setting category="C32-LD" dnOrder="3" key="no-device-startup-code" security="NON_SECURE" value="true"/>
+        <Setting append="true" category="C32-LD" delimiter=";=" dnOrder="4" key="preprocessor-macros" security="NON_SECURE" value=""/>
+        <Setting append="true" category="C32CPP" delimiter=";" dnOrder="5" key="extra-include-directories" security="NON_SECURE" value="../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;"/>
+        <Setting category="C32CPP" dnOrder="6" key="generate-16-bit-code" security="NON_SECURE" value="false"/>
       </Settings>
     </Manifest>
     <Settings dnOrder="5">
