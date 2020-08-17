@@ -65,12 +65,12 @@ void SPI_2_InterruptHandler( void );
 
 
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
-void __ISR(_SPI_1_VECTOR, ipl1AUTO) SPI_1_Handler (void)
+void __ISR(_SPI_1_VECTOR, ipl1SOFT) SPI_1_Handler (void)
 {
     SPI_1_InterruptHandler();
 }
 
-void __ISR(_SPI_2_VECTOR, ipl1AUTO) SPI_2_Handler (void)
+void __ISR(_SPI_2_VECTOR, ipl1SOFT) SPI_2_Handler (void)
 {
     SPI_2_InterruptHandler();
 }

@@ -61,53 +61,59 @@
 // *****************************************************************************
 // *****************************************************************************
 
+
 /*** Macros for APP_EEPROM2_CS pin ***/
 #define APP_EEPROM2_CS_Set()               (LATGSET = (1<<9))
 #define APP_EEPROM2_CS_Clear()             (LATGCLR = (1<<9))
 #define APP_EEPROM2_CS_Toggle()            (LATGINV= (1<<9))
-#define APP_EEPROM2_CS_Get()               ((PORTG >> 9) & 0x1)
 #define APP_EEPROM2_CS_OutputEnable()      (TRISGCLR = (1<<9))
 #define APP_EEPROM2_CS_InputEnable()       (TRISGSET = (1<<9))
+#define APP_EEPROM2_CS_Get()               ((PORTG >> 9) & 0x1)
 #define APP_EEPROM2_CS_PIN                  GPIO_PIN_RG9
+
 /*** Macros for APP_EEPROM1_HOLD pin ***/
 #define APP_EEPROM1_HOLD_Set()               (LATBSET = (1<<14))
 #define APP_EEPROM1_HOLD_Clear()             (LATBCLR = (1<<14))
 #define APP_EEPROM1_HOLD_Toggle()            (LATBINV= (1<<14))
-#define APP_EEPROM1_HOLD_Get()               ((PORTB >> 14) & 0x1)
 #define APP_EEPROM1_HOLD_OutputEnable()      (TRISBCLR = (1<<14))
 #define APP_EEPROM1_HOLD_InputEnable()       (TRISBSET = (1<<14))
+#define APP_EEPROM1_HOLD_Get()               ((PORTB >> 14) & 0x1)
 #define APP_EEPROM1_HOLD_PIN                  GPIO_PIN_RB14
+
 /*** Macros for APP_EEPROM2_WP pin ***/
 #define APP_EEPROM2_WP_Set()               (LATBSET = (1<<15))
 #define APP_EEPROM2_WP_Clear()             (LATBCLR = (1<<15))
 #define APP_EEPROM2_WP_Toggle()            (LATBINV= (1<<15))
-#define APP_EEPROM2_WP_Get()               ((PORTB >> 15) & 0x1)
 #define APP_EEPROM2_WP_OutputEnable()      (TRISBCLR = (1<<15))
 #define APP_EEPROM2_WP_InputEnable()       (TRISBSET = (1<<15))
+#define APP_EEPROM2_WP_Get()               ((PORTB >> 15) & 0x1)
 #define APP_EEPROM2_WP_PIN                  GPIO_PIN_RB15
+
 /*** Macros for APP_EEPROM2_HOLD pin ***/
 #define APP_EEPROM2_HOLD_Set()               (LATDSET = (1<<8))
 #define APP_EEPROM2_HOLD_Clear()             (LATDCLR = (1<<8))
 #define APP_EEPROM2_HOLD_Toggle()            (LATDINV= (1<<8))
-#define APP_EEPROM2_HOLD_Get()               ((PORTD >> 8) & 0x1)
 #define APP_EEPROM2_HOLD_OutputEnable()      (TRISDCLR = (1<<8))
 #define APP_EEPROM2_HOLD_InputEnable()       (TRISDSET = (1<<8))
+#define APP_EEPROM2_HOLD_Get()               ((PORTD >> 8) & 0x1)
 #define APP_EEPROM2_HOLD_PIN                  GPIO_PIN_RD8
+
 /*** Macros for APP_EEPROM1_CS pin ***/
 #define APP_EEPROM1_CS_Set()               (LATDSET = (1<<4))
 #define APP_EEPROM1_CS_Clear()             (LATDCLR = (1<<4))
 #define APP_EEPROM1_CS_Toggle()            (LATDINV= (1<<4))
-#define APP_EEPROM1_CS_Get()               ((PORTD >> 4) & 0x1)
 #define APP_EEPROM1_CS_OutputEnable()      (TRISDCLR = (1<<4))
 #define APP_EEPROM1_CS_InputEnable()       (TRISDSET = (1<<4))
+#define APP_EEPROM1_CS_Get()               ((PORTD >> 4) & 0x1)
 #define APP_EEPROM1_CS_PIN                  GPIO_PIN_RD4
+
 /*** Macros for APP_EEPROM1_WP pin ***/
 #define APP_EEPROM1_WP_Set()               (LATESET = (1<<3))
 #define APP_EEPROM1_WP_Clear()             (LATECLR = (1<<3))
 #define APP_EEPROM1_WP_Toggle()            (LATEINV= (1<<3))
-#define APP_EEPROM1_WP_Get()               ((PORTE >> 3) & 0x1)
 #define APP_EEPROM1_WP_OutputEnable()      (TRISECLR = (1<<3))
 #define APP_EEPROM1_WP_InputEnable()       (TRISESET = (1<<3))
+#define APP_EEPROM1_WP_Get()               ((PORTE >> 3) & 0x1)
 #define APP_EEPROM1_WP_PIN                  GPIO_PIN_RE3
 
 
@@ -246,42 +252,42 @@ void GPIO_PortOutputEnable(GPIO_PORT port, uint32_t mask);
 
 static inline void GPIO_PinWrite(GPIO_PIN pin, bool value)
 {
-    GPIO_PortWrite(pin>>4, (uint32_t)(0x1) << (pin & 0xF), (uint32_t)(value) << (pin & 0xF));
+    GPIO_PortWrite((GPIO_PORT)(pin>>4), (uint32_t)(0x1) << (pin & 0xF), (uint32_t)(value) << (pin & 0xF));
 }
 
 static inline bool GPIO_PinRead(GPIO_PIN pin)
 {
-    return (bool)(((GPIO_PortRead(pin>>4)) >> (pin & 0xF)) & 0x1);
+    return (bool)(((GPIO_PortRead((GPIO_PORT)(pin>>4))) >> (pin & 0xF)) & 0x1);
 }
 
 static inline bool GPIO_PinLatchRead(GPIO_PIN pin)
 {
-    return (bool)((GPIO_PortLatchRead(pin>>4) >> (pin & 0xF)) & 0x1);
+    return (bool)((GPIO_PortLatchRead((GPIO_PORT)(pin>>4)) >> (pin & 0xF)) & 0x1);
 }
 
 static inline void GPIO_PinToggle(GPIO_PIN pin)
 {
-    GPIO_PortToggle(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortToggle((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinSet(GPIO_PIN pin)
 {
-    GPIO_PortSet(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortSet((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinClear(GPIO_PIN pin)
 {
-    GPIO_PortClear(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortClear((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinInputEnable(GPIO_PIN pin)
 {
-    GPIO_PortInputEnable(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortInputEnable((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 static inline void GPIO_PinOutputEnable(GPIO_PIN pin)
 {
-    GPIO_PortOutputEnable(pin>>4, 0x1 << (pin & 0xF));
+    GPIO_PortOutputEnable((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
 
