@@ -1,21 +1,23 @@
 /*******************************************************************************
-  Interface definition of Core Timer PLIB.
+  SPI PLIB
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_coretimer.h
+    plib_spi1_master.h
 
   Summary:
-    Interface definition of the Core Timer Plib .
+    SPI1 Master PLIB Header File
 
   Description:
-    This file defines the interface for the Core Timer Plib.
+    This file has prototype of all the interfaces provided for particular
+    SPI peripheral.
+
 *******************************************************************************/
 
 /*******************************************************************************
-* Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018-2019 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -37,41 +39,41 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-#ifndef PLIB_CORETIMER_H    // Guards against multiple inclusion
-#define PLIB_CORETIMER_H
+#ifndef PLIB_SPI1_MASTER_H
+#define PLIB_SPI1_MASTER_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#include "device.h"
+#include "plib_spi_master_common.h"
 
-#ifdef __cplusplus // Provide C++ Compatibility
-	extern "C" {
-#endif
+/* Provide C++ Compatibility */
+#ifdef __cplusplus
 
-#define CORE_TIMER_FREQUENCY    48000000
-
-
-typedef void (*CORETIMER_CALLBACK)(uint32_t status, uintptr_t context);
-
-typedef struct
-{
-    CORETIMER_CALLBACK  callback;
-    uintptr_t           context;
-} CORETIMER_OBJECT ;
-
-void CORETIMER_Initialize(void);
-void CORETIMER_CallbackSet ( CORETIMER_CALLBACK callback, uintptr_t context );
-uint32_t CORETIMER_FrequencyGet (void);
-void CORETIMER_Start(void);
-void CORETIMER_Stop(void);
-uint32_t CORETIMER_CounterGet(void);
-void CORETIMER_CompareSet(uint32_t compare);
-
-void CORETIMER_DelayMs (uint32_t delay_ms);
-void CORETIMER_DelayUs (uint32_t delay_us);
-
-
-#ifdef __cplusplus // Provide C++ Compatibility
- }
-#endif
+    extern "C" {
 
 #endif
+
+
+/****************************** SPI1 Interface *********************************/
+
+void SPI1_Initialize ( void );
+
+bool SPI1_WriteRead (void* pTransmitData, size_t txSize, void* pReceiveData, size_t rxSize);
+
+bool SPI1_Write(void* pTransmitData, size_t txSize);
+
+bool SPI1_Read(void* pReceiveData, size_t rxSize);
+
+bool SPI1_TransferSetup (SPI_TRANSFER_SETUP *setup, uint32_t spiSourceClock);
+
+bool SPI1_IsBusy(void);
+
+void SPI1_CallbackRegister(SPI_CALLBACK callback, uintptr_t context);
+
+/* Provide C++ Compatibility */
+#ifdef __cplusplus
+
+    }
+
+#endif
+
+#endif // PLIB_SPI1_MASTER_H
