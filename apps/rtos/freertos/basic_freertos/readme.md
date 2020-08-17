@@ -45,7 +45,7 @@ The following table shows the target hardware for the application projects.
 
 ### Setting up [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004)
 
-- Connect the Debug USB port on the board to the computer using a micro USB cable
+- Connect the Debug USB port on the board to the computer using a mini USB cable
 
 ### Setting up [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105)
 
@@ -62,6 +62,6 @@ Refer to the following table for LED name:
 | Board | LED Name |
 | ----- | -------- |
 |  [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103) | LED1 |
-|  [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004) |  |
+|  [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004) | LED1 |
 |  [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105) | LED1(RED) |
 |||
