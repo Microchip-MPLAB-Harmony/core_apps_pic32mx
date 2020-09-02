@@ -1,3 +1,10 @@
+---
+parent: Harmony 3 driver and system service application examples for PIC32MX family
+title: Time System Service multi-client 
+has_children: false
+has_toc: false
+---
+
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # Time System Service multi-client

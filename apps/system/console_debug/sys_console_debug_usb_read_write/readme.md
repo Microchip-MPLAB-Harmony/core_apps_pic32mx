@@ -1,3 +1,10 @@
+---
+parent: Harmony 3 driver and system service application examples for PIC32MX family
+title: Console Debug System Service using USB 
+has_children: false
+has_toc: false
+---
+
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # Console Debug System Service using USB
@@ -52,7 +59,7 @@ The following table shows the target hardware for the application projects.
     ![select_inf_location](images/select_inf_location.png)
 
 **Note:**
-- As an option, to specify the driver, you may open the device manager and expand the Ports (COM & LPT) tab, and right click on ìUpdate Driver SoftwareÖî
+- As an option, to specify the driver, you may open the device manager and expand the Ports (COM & LPT) tab, and right click on ‚ÄúUpdate Driver Software‚Ä¶‚Äù
 
     ![cdc_d1a](images/cdc_d1a.png)
 

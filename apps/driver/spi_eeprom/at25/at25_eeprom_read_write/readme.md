@@ -1,3 +1,10 @@
+---
+parent: Harmony 3 driver and system service application examples for PIC32MX family
+title: SPI EEPROM AT25 driver - EEPROM Read Write 
+has_children: false
+has_toc: false
+---
+
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
 # SPI EEPROM AT25 driver - EEPROM Read Write
