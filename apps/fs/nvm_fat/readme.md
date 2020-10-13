@@ -54,6 +54,7 @@ The following table shows the target hardware for the application projects.
 |:---------|:---------:|
 | pic32mx470_curiosity.X | [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103) |
 | pic32mx_eth_sk2.X | [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004) |
+| pic32mx_sk.X | [PIC32MX Starter Kit](https://www.microchip.com/Developmenttools/ProductDetails/DM320001) |
 |||
 
 ### Setting up [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103)
@@ -63,6 +64,9 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004)
 
 - Connect the Debug USB port on the board to the computer using a mini USB cable
+
+### Setting up [PIC32MX Starter Kit](https://www.microchip.com/Developmenttools/ProductDetails/DM320001)
+- Connect mini USB cable to the 'Debug USB' connector(J1) on the board to the computer
 
 ## Running the Application
 
@@ -76,4 +80,5 @@ Refer to the following table for switch and LED name:
 | ----- | -------- | --------- |
 |  [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103) | S1 | LED1 |
 |  [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004) | SW1 | LED1 |
+| [PIC32MX Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320001) | SW1 | LED3 |
 ||||
