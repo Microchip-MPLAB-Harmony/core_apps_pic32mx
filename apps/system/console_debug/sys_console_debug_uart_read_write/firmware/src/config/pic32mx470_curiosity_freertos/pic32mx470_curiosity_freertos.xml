@@ -229,81 +229,114 @@
             <Dynamic dnOrder="0" id="core" value="true"/>
           </Values>
         </Boolean>
-        <File dnOrder="45" id="EVIC_INT_ASM">
+        <Combo dnOrder="45" id="EVIC_PRIORITY_1ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="46" id="EVIC_PRIORITY_2ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="47" id="EVIC_PRIORITY_3ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="48" id="EVIC_PRIORITY_4ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="49" id="EVIC_PRIORITY_5ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="50" id="EVIC_PRIORITY_6ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Combo dnOrder="51" id="EVIC_PRIORITY_7ATTRIBUTE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="AUTO"/>
+          </Values>
+        </Combo>
+        <Boolean dnOrder="52" id="EVIC_SRS_ENABLE">
+          <Values dnOrder="0">
+            <Dynamic dnOrder="0" id="core" value="false"/>
+          </Values>
+        </Boolean>
+        <File dnOrder="53" id="INTERRUPTS_ASM">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <File dnOrder="46" id="INTERRUPTS_ASM">
-          <Attributes dnOrder="0">
-            <Boolean dnOrder="0" id="enabled">
-              <Value dnOrder="0">true</Value>
-            </Boolean>
-          </Attributes>
-        </File>
-        <String dnOrder="47" id="KEIL_STACK_HEAP_SIZE">
+        <String dnOrder="54" id="KEIL_STACK_HEAP_SIZE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="0x1200"/>
           </Values>
         </String>
-        <Hex dnOrder="48" id="PMD4_REG_VALUE">
+        <Hex dnOrder="55" id="PMD4_REG_VALUE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="30"/>
           </Values>
         </Hex>
-        <Hex dnOrder="49" id="PMD5_REG_VALUE">
+        <Hex dnOrder="56" id="PMD5_REG_VALUE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="16974622"/>
           </Values>
         </Hex>
-        <Hex dnOrder="50" id="PMD6_REG_VALUE">
+        <Hex dnOrder="57" id="PMD6_REG_VALUE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="65537"/>
           </Values>
         </Hex>
-        <Hex dnOrder="51" id="SYS_PORT_B_ANSEL">
+        <Hex dnOrder="58" id="SYS_PORT_B_ANSEL">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="1036"/>
           </Values>
         </Hex>
-        <Hex dnOrder="52" id="SYS_PORT_B_LAT">
+        <Hex dnOrder="59" id="SYS_PORT_B_LAT">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="1036"/>
           </Values>
         </Hex>
-        <Hex dnOrder="53" id="SYS_PORT_B_TRIS">
+        <Hex dnOrder="60" id="SYS_PORT_B_TRIS">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="1036"/>
           </Values>
         </Hex>
-        <Hex dnOrder="54" id="SYS_PORT_D_CNPU">
+        <Hex dnOrder="61" id="SYS_PORT_D_CNPU">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="64"/>
           </Values>
         </Hex>
-        <Hex dnOrder="55" id="SYS_PORT_D_TRIS">
+        <Hex dnOrder="62" id="SYS_PORT_D_TRIS">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="0"/>
           </Values>
         </Hex>
-        <Hex dnOrder="56" id="SYS_PORT_E_ANSEL">
+        <Hex dnOrder="63" id="SYS_PORT_E_ANSEL">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="208"/>
           </Values>
         </Hex>
-        <Hex dnOrder="57" id="SYS_PORT_E_LAT">
+        <Hex dnOrder="64" id="SYS_PORT_E_LAT">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="0"/>
           </Values>
         </Hex>
-        <Hex dnOrder="58" id="SYS_PORT_E_TRIS">
+        <Hex dnOrder="65" id="SYS_PORT_E_TRIS">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="208"/>
           </Values>
         </Hex>
-        <Combo dnOrder="59" id="SYS_PORT_PPS_INPUT_FUNCTION_0">
+        <Combo dnOrder="66" id="SYS_PORT_PPS_INPUT_FUNCTION_0">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
@@ -313,7 +346,7 @@
             <User dnOrder="0" value="U1RX"/>
           </Values>
         </Combo>
-        <KeyValueSet dnOrder="60" id="SYS_PORT_PPS_INPUT_PIN_0">
+        <KeyValueSet dnOrder="67" id="SYS_PORT_PPS_INPUT_PIN_0">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
@@ -323,7 +356,7 @@
             <User dnOrder="0" value="18"/>
           </Values>
         </KeyValueSet>
-        <KeyValueSet dnOrder="61" id="SYS_PORT_PPS_OUTPUT_FUNCTION_0">
+        <KeyValueSet dnOrder="68" id="SYS_PORT_PPS_OUTPUT_FUNCTION_0">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
@@ -333,7 +366,7 @@
             <User dnOrder="0" value="6"/>
           </Values>
         </KeyValueSet>
-        <Combo dnOrder="62" id="SYS_PORT_PPS_OUTPUT_PIN_0">
+        <Combo dnOrder="69" id="SYS_PORT_PPS_OUTPUT_PIN_0">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
@@ -343,62 +376,62 @@
             <User dnOrder="0" value="RPF0"/>
           </Values>
         </Combo>
-        <Boolean dnOrder="63" id="TIMER_1_INTERRUPT_ENABLE">
+        <Boolean dnOrder="70" id="TIMER_1_INTERRUPT_ENABLE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="FreeRTOS" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="64" id="TIMER_1_INTERRUPT_ENABLE_UPDATE">
+        <Boolean dnOrder="71" id="TIMER_1_INTERRUPT_ENABLE_UPDATE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="false"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="65" id="TMR1_CLOCK_ENABLE">
+        <Boolean dnOrder="72" id="TMR1_CLOCK_ENABLE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="FreeRTOS" value="true"/>
           </Values>
         </Boolean>
-        <Integer dnOrder="66" id="TMR1_CLOCK_FREQUENCY">
+        <Integer dnOrder="73" id="TMR1_CLOCK_FREQUENCY">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="48000000"/>
           </Values>
         </Integer>
-        <Boolean dnOrder="67" id="UART1_CLOCK_ENABLE">
+        <Boolean dnOrder="74" id="UART1_CLOCK_ENABLE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="uart1" value="true"/>
           </Values>
         </Boolean>
-        <Integer dnOrder="68" id="UART1_CLOCK_FREQUENCY">
+        <Integer dnOrder="75" id="UART1_CLOCK_FREQUENCY">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="48000000"/>
           </Values>
         </Integer>
-        <Boolean dnOrder="69" id="UART_1_INTERRUPT_ENABLE">
+        <Boolean dnOrder="76" id="UART_1_INTERRUPT_ENABLE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="uart1" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="70" id="UART_1_INTERRUPT_ENABLE_UPDATE">
+        <Boolean dnOrder="77" id="UART_1_INTERRUPT_ENABLE_UPDATE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="core" value="false"/>
           </Values>
         </Boolean>
-        <String dnOrder="71" id="UART_1_INTERRUPT_HANDLER">
+        <String dnOrder="78" id="UART_1_INTERRUPT_HANDLER">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="uart1" value="UART_1_InterruptHandler"/>
           </Values>
         </String>
-        <Boolean dnOrder="72" id="UART_1_INTERRUPT_HANDLER_LOCK">
+        <Boolean dnOrder="79" id="UART_1_INTERRUPT_HANDLER_LOCK">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="uart1" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="73" id="USE_PPS_INPUT_0">
+        <Boolean dnOrder="80" id="USE_PPS_INPUT_0">
           <Values dnOrder="0">
             <User dnOrder="0" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="74" id="USE_PPS_OUTPUT_0">
+        <Boolean dnOrder="81" id="USE_PPS_OUTPUT_0">
           <Values dnOrder="0">
             <User dnOrder="0" value="true"/>
           </Values>
@@ -423,37 +456,82 @@
             </Boolean>
           </Attributes>
         </File>
-        <Boolean dnOrder="2" id="ENABLE_APP_FILE">
+        <KeyValueSet dnOrder="2" id="COMMON_SYMBOL_CNTR">
+          <Attributes dnOrder="0">
+            <KeyValuePairList dnOrder="0" id="pairs">
+              <Pairs dnOrder="0">
+                <Pair description="TRUE" dnOrder="0" key="ENABLE_DRV_COMMON" value="1"/>
+                <Pair description="TRUE" dnOrder="1" key="ENABLE_SYS_COMMON" value="1"/>
+                <Pair description="FALSE" dnOrder="2" key="ENABLE_SYS_MEDIA" value="0"/>
+                <Pair description="FALSE" dnOrder="3" key="ENABLE_SYS_PORTS" value="0"/>
+                <Pair description="FALSE" dnOrder="4" key="ENABLE_SYS_DMA" value="0"/>
+                <Pair description="FALSE" dnOrder="5" key="ENABLE_SYS_RESET" value="0"/>
+              </Pairs>
+            </KeyValuePairList>
+          </Attributes>
+        </KeyValueSet>
+        <File dnOrder="3" id="CONFIGURATION_H">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="4" id="DRIVER_COMMON">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="5" id="DRIVER_ROOT">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <Boolean dnOrder="6" id="ENABLE_APP_FILE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="HarmonyCore" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="3" id="ENABLE_DRV_COMMON">
-          <Values dnOrder="0">
+        <Boolean dnOrder="7" id="ENABLE_DRV_COMMON">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="readOnly">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+          <Values dnOrder="1">
             <Dynamic dnOrder="0" id="sys_console_0" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="4" id="ENABLE_OSAL">
+        <Boolean dnOrder="8" id="ENABLE_OSAL">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="HarmonyCore" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="5" id="ENABLE_SYS_CACHE">
+        <Boolean dnOrder="9" id="ENABLE_SYS_CACHE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="HarmonyCore" value="false"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="6" id="ENABLE_SYS_COMMON">
-          <Values dnOrder="0">
+        <Boolean dnOrder="10" id="ENABLE_SYS_COMMON">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="readOnly">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+          <Values dnOrder="1">
             <Dynamic dnOrder="0" id="sys_console_0" value="true"/>
           </Values>
         </Boolean>
-        <Boolean dnOrder="7" id="ENABLE_SYS_INT">
+        <Boolean dnOrder="11" id="ENABLE_SYS_INT">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="HarmonyCore" value="true"/>
           </Values>
         </Boolean>
-        <Integer dnOrder="8" id="GEN_APP_RTOS_TASK_0_DELAY">
+        <Integer dnOrder="12" id="GEN_APP_RTOS_TASK_0_DELAY">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
@@ -463,65 +541,128 @@
             <User dnOrder="0" value="10"/>
           </Values>
         </Integer>
-        <Boolean dnOrder="9" id="GEN_APP_RTOS_TASK_0_USE_DELAY">
+        <Boolean dnOrder="13" id="GEN_APP_RTOS_TASK_0_USE_DELAY">
           <Values dnOrder="0">
             <User dnOrder="0" value="true"/>
           </Values>
         </Boolean>
-        <Menu dnOrder="10" id="GEN_APP_RTOS_TASK_CONF_MENU0">
+        <Menu dnOrder="14" id="GEN_APP_RTOS_TASK_CONF_MENU0">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="visible">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </Menu>
-        <File dnOrder="11" id="GEN_APP_TASKS">
+        <Menu dnOrder="15" id="GEN_APP_TASK_MENU">
           <Attributes dnOrder="0">
-            <Boolean dnOrder="0" id="enabled">
-              <Value dnOrder="0">false</Value>
+            <Boolean dnOrder="0" id="visible">
+              <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
-        </File>
-        <File dnOrder="12" id="GEN_RTOS_APP_TASKS">
+        </Menu>
+        <File dnOrder="16" id="INT_DEF">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <File dnOrder="13" id="GEN_RTOS_APP_TASKS_DEF">
+        <File dnOrder="17" id="INT_HEADER">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <File dnOrder="14" id="OSAL_FREERTOS_C">
+        <File dnOrder="18" id="INT_MAPPING">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <File dnOrder="15" id="OSAL_FREERTOS_H">
+        <File dnOrder="19" id="INT_SOURCE">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
               <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <File dnOrder="16" id="OSAL_IMPL_BASIC_H">
+        <File dnOrder="20" id="OSAL_DEFINITIONS_H">
           <Attributes dnOrder="0">
             <Boolean dnOrder="0" id="enabled">
-              <Value dnOrder="0">false</Value>
+              <Value dnOrder="0">true</Value>
             </Boolean>
           </Attributes>
         </File>
-        <Combo dnOrder="17" id="SELECT_RTOS">
+        <File dnOrder="21" id="OSAL_H">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="22" id="OSAL_SYSDEF_H">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <Combo dnOrder="23" id="SELECT_RTOS">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="HarmonyCore" value="FreeRTOS"/>
           </Values>
         </Combo>
+        <File dnOrder="24" id="SYSTEM_COMMON">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="25" id="SYSTEM_MODULE">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="26" id="SYSTEM_ROOT">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="27" id="SYS_DEBUG_DEF_HEADER">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="28" id="SYS_DEBUG_HEADER">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="29" id="TASKS_C">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
+        <File dnOrder="30" id="USER_H">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="enabled">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </File>
       </Symbols>
     </UniqueComponent>
     <GeneratorComponent dnOrder="5" id="sys_console">
@@ -575,6 +716,27 @@
               <Attributes dnOrder="0">
                 <Boolean dnOrder="0" id="enabled">
                   <Value dnOrder="0">true</Value>
+                </Boolean>
+              </Attributes>
+            </File>
+            <File dnOrder="7" id="SYS_CONSOLE_USB_CDC_SOURCE">
+              <Attributes dnOrder="0">
+                <Boolean dnOrder="0" id="enabled">
+                  <Value dnOrder="0">false</Value>
+                </Boolean>
+              </Attributes>
+            </File>
+            <File dnOrder="8" id="SYS_CONSOLE_USB_DEFINITIONS_HEADER">
+              <Attributes dnOrder="0">
+                <Boolean dnOrder="0" id="enabled">
+                  <Value dnOrder="0">false</Value>
+                </Boolean>
+              </Attributes>
+            </File>
+            <File dnOrder="9" id="SYS_CONSOLE_USB_HEADER">
+              <Attributes dnOrder="0">
+                <Boolean dnOrder="0" id="enabled">
+                  <Value dnOrder="0">false</Value>
                 </Boolean>
               </Attributes>
             </File>
@@ -645,27 +807,54 @@
           </Attributes>
         </File>
         <Boolean dnOrder="4" id="UART_RING_BUFFER_ENABLE">
-          <Values dnOrder="0">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="readOnly">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+          <Values dnOrder="1">
             <Dynamic dnOrder="0" id="uart1" value="true"/>
           </Values>
         </Boolean>
-        <File dnOrder="5" id="UART_SOURCE">
+        <Integer dnOrder="5" id="UART_RX_RING_BUFFER_SIZE">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="visible">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+        </Integer>
+        <File dnOrder="6" id="UART_SOURCE">
           <Attributes dnOrder="0">
             <String dnOrder="0" id="source">
               <Value dnOrder="0">../peripheral/uart_00734/templates/plib_uart_ring_buffer.c.ftl</Value>
             </String>
           </Attributes>
         </File>
-        <Integer dnOrder="6" id="UART_TX_RING_BUFFER_SIZE">
-          <Values dnOrder="0">
+        <Integer dnOrder="7" id="UART_TX_RING_BUFFER_SIZE">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="visible">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+          <Values dnOrder="1">
             <User dnOrder="0" value="512"/>
           </Values>
         </Integer>
-        <Hex dnOrder="7" id="UMODE_VALUE">
+        <Hex dnOrder="8" id="UMODE_VALUE">
           <Values dnOrder="0">
             <Dynamic dnOrder="0" id="uart1" value="0"/>
           </Values>
         </Hex>
+        <Boolean dnOrder="9" id="USART_INTERRUPT_MODE">
+          <Attributes dnOrder="0">
+            <Boolean dnOrder="0" id="readOnly">
+              <Value dnOrder="0">true</Value>
+            </Boolean>
+          </Attributes>
+          <Values dnOrder="1">
+            <Dynamic dnOrder="0" id="uart1" value="true"/>
+          </Values>
+        </Boolean>
       </Symbols>
       <Attachments dnOrder="1">
         <DirectCapability dnOrder="0" id="UART1_UART">
