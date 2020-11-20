@@ -8,6 +8,20 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 driver and system service application examples for PIC32MX family  v3.0.2
+
+### New Features
+- Added discover.microchip.com metadata
+
+### Bug fixes
+- Same as v3.0.0
+
+### Known Issues
+- Same as v3.0.0
+
+### Development Tools
+- Same as v3.0.0
+
 ## Harmony 3 driver and system service application examples for PIC32MX family  v3.0.1
 
 - Updated apps/fs/sdspi_fat application for pic32mx470_curiosity_freertos configuration
