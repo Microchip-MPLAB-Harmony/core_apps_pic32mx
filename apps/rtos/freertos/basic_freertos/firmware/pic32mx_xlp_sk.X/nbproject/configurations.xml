@@ -24,6 +24,10 @@
             <logicalFolder name="f2" displayName="gpio" projectFiles="true">
               <itemPath>../src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="f4" displayName="uart" projectFiles="true">
+              <itemPath>../src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart_common.h</itemPath>
+              <itemPath>../src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart1.h</itemPath>
+            </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f1" displayName="system" projectFiles="true">
             <logicalFolder name="f1" displayName="debug" projectFiles="true">
@@ -36,6 +40,7 @@
           <itemPath>../src/config/pic32mx_xlp_sk/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/user.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/configuration.h</itemPath>
+          <itemPath>../src/config/pic32mx_xlp_sk/interrupts.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
@@ -68,20 +73,35 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/app.h</itemPath>
-      <itemPath>../src/app1.h</itemPath>
-      <itemPath>../src/app2.h</itemPath>
+      <itemPath>../src/task1.h</itemPath>
+      <itemPath>../src/task2.h</itemPath>
+      <itemPath>../src/task3.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="pic32mx_xlp_sk.mhc" projectFiles="true">
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/BSP_PIC32MX274_XLP_Starter_Kit.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/FreeRTOS.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/HarmonyCore.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/project.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/settings.yml</itemPath>
+        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/uart1.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mx_xlp_sk/harmony.prj</itemPath>
-      <itemPath>../../../../../../../mhc/../core_apps_pic32mx/apps/rtos/freertos/basic_freertos/firmware/src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.xml</itemPath>
+      <itemPath>../src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_xlp_sk" projectFiles="true">
+          <itemPath>../src/config/pic32mx_xlp_sk/p32MX274F256D.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -103,6 +123,9 @@
             </logicalFolder>
             <logicalFolder name="f2" displayName="gpio" projectFiles="true">
               <itemPath>../src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="uart" projectFiles="true">
+              <itemPath>../src/config/pic32mx_xlp_sk/peripheral/uart/plib_uart1.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="f1" displayName="stdio" projectFiles="true">
@@ -139,9 +162,9 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/app.c</itemPath>
-      <itemPath>../src/app1.c</itemPath>
-      <itemPath>../src/app2.c</itemPath>
+      <itemPath>../src/task1.c</itemPath>
+      <itemPath>../src/task2.c</itemPath>
+      <itemPath>../src/task3.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -198,7 +221,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -225,9 +248,9 @@
         <property key="exclude-floating-point-library" value="false"/>
         <property key="expand-macros" value="false"/>
         <property key="extra-include-directories-for-assembler"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx_xlp_sk"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx_xlp_sk;"/>
         <property key="extra-include-directories-for-preprocessor"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx_xlp_sk"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx_xlp_sk;"/>
         <property key="false-conditionals" value="false"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
@@ -296,7 +319,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

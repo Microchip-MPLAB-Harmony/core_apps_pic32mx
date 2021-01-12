@@ -55,9 +55,9 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "osal/osal.h"
-#include "app.h"
-#include "app1.h"
-#include "app2.h"
+#include "app_task1.h"
+#include "app_task2.h"
+#include "app_task3.h"
 
 
 
@@ -68,6 +68,9 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* CPU clock frequency */
+#define CPU_CLOCK_FREQUENCY 80000000
 
 // *****************************************************************************
 // *****************************************************************************

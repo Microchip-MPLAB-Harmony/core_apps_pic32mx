@@ -5,7 +5,7 @@
     Microchip Technology Inc.
 
   File Name:
-    app.c
+    app_task3.c
 
   Summary:
     This file contains the source code for the MPLAB Harmony application.
@@ -21,40 +21,14 @@
     files.
  *******************************************************************************/
 
-// DOM-IGNORE-BEGIN
-/*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
-*
-* Subject to your compliance with these terms, you may use Microchip software
-* and any derivatives exclusively with Microchip products. It is your
-* responsibility to comply with third party license terms applicable to your
-* use of third party software (including open source software) that may
-* accompany Microchip software.
-*
-* THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER
-* EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED
-* WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A
-* PARTICULAR PURPOSE.
-*
-* IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
-* INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
-* WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
-* BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE
-* FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
-* ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
-* THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
- *******************************************************************************/
-// DOM-IGNORE-END
-
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "app.h"
-
+#include "app_task3.h"
+#include "definitions.h"
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
@@ -71,15 +45,13 @@
     This structure holds the application's data.
 
   Remarks:
-    This structure should be initialized by the APP_Initialize function.
+    This structure should be initialized by the APP_TASK3_Initialize function.
 
     Application strings and buffers are be defined outside this structure.
 */
 
-APP_DATA appData;
-
-/* The queue used by both tasks. */
-QueueHandle_t xQueue;
+APP_TASK3_DATA app_task3Data;
+static SemaphoreHandle_t switchPressSemaphore;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -87,8 +59,18 @@ QueueHandle_t xQueue;
 // *****************************************************************************
 // *****************************************************************************
 
-/* TODO:  Add any necessary callback functions.
-*/
+static void SwitchPress_Handler( CN_PIN cnPin, uintptr_t context)
+{
+    BaseType_t xHigherPriorityTaskWoken;
+
+    /* Unblock the task by releasing the semaphore. */
+    xSemaphoreGiveFromISR( switchPressSemaphore, &xHigherPriorityTaskWoken );
+
+    /* If xHigherPriorityTaskWoken was set to true you
+    we should yield */
+
+    portEND_SWITCHING_ISR( xHigherPriorityTaskWoken );
+}
 
 // *****************************************************************************
 // *****************************************************************************
@@ -109,62 +91,50 @@ QueueHandle_t xQueue;
 
 /*******************************************************************************
   Function:
-    void APP_Initialize ( void )
+    void APP_TASK3_Initialize ( void )
 
   Remarks:
-    See prototype in app.h.
+    See prototype in app_task3.h.
  */
 
-void APP_Initialize ( void )
+void APP_TASK3_Initialize ( void )
 {
-    /* Create the queue. */
-    xQueue = xQueueCreate( QUEUE_LENGTH, sizeof( unsigned long ) );
-
-    appData.ulValueToSend1 = 100UL;
-    appData.ulValueToSend2 = 1000UL;
-
     /* Place the App state machine in its initial state. */
-    appData.state = APP_STATE_INIT;
+    app_task3Data.state = APP_TASK3_STATE_INIT;
 
-
-
-    /* TODO: Initialize your application's state machine and other
-     * parameters.
-     */
+    GPIO_PinInterruptCallbackRegister(CN19_PIN, SwitchPress_Handler, (uintptr_t)NULL);
+    GPIO_PinInterruptEnable(CN19_PIN);
 }
 
 
 /******************************************************************************
   Function:
-    void APP_Tasks ( void )
+    void APP_TASK3_Tasks ( void )
 
   Remarks:
-    See prototype in app.h.
+    This task blocks on switch press. It unblocks when switch is pressed/released, toggles LED and
+    again blocks on switch press event.
  */
 
-void APP_Tasks ( void )
+void APP_TASK3_Tasks ( void )
 {
+    bool status = false;
+    
+    switchPressSemaphore = xSemaphoreCreateBinary();
 
-   /* Send to the queue - causing the queue receive APP2_Tasks to unblock and
-    * toggle the LED.  0 is used as the block time so the sending operation
-    * will not block - it shouldn't need to block as the queue should always
-    * be empty at this point in the code.
-    */
-    xQueueSend( xQueue, &appData.ulValueToSend1, 0U );
+    if (switchPressSemaphore != NULL)
+    {
+        status = true;
+    }
 
-   /* Send to the queue - causing the queue receive APP1_Tasks to unblock and
-    * toggle the LED.  0 is used as the block time so the sending operation
-    * will not block - it shouldn't need to block as the queue should always
-    * be empty at this point in the code.
-    */
-    xQueueSend( xQueue, &appData.ulValueToSend2, 0U );
-
-   /* Place this task in the blocked state until it is time to run again.
-    * The block time is specified in ticks, the constant used converts ticks
-    * to ms.  While in the Blocked state this task will not consume any CPU
-    * time.
-    */
-    vTaskDelay(QUEUE_SEND_FREQUENCY_MS );
+    while (status == true)
+    {
+        /* Block until user presses the switch */
+        if( xSemaphoreTake( switchPressSemaphore, portMAX_DELAY ) == pdTRUE )
+        {
+            LED3_Toggle();
+        }
+    }
 }
 
 

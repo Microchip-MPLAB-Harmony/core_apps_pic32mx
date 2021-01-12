@@ -90,10 +90,6 @@
 #define LED1_Get() ((PORTE >> 4) & 0x1)
 #define LED1_On() (LATESET = (1<<4))
 #define LED1_Off() (LATECLR = (1<<4))
-/*** SWITCH Macros for SWITCH1 ***/
-#define SWITCH1_Get() ((PORTD >> 6) & 0x1)
-#define SWITCH1_STATE_PRESSED 0
-#define SWITCH1_STATE_RELEASED 1
 
 
 

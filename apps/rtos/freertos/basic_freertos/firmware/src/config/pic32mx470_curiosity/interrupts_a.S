@@ -52,4 +52,66 @@
 #include <xc.h>
 #include "ISR_Support.h"
 
+   .extern  UART_1_Handler
+
+   .section .vector_31,code, keep
+   .equ     __vector_dispatch_31, IntVectorUART_1_Handler
+   .global  __vector_dispatch_31
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  IntVectorUART_1_Handler
+
+IntVectorUART_1_Handler:
+    la    $26,  _UART_1_Handler
+    jr    $26
+    nop
+    .end    IntVectorUART_1_Handler
+
+   .section .UART_1_Handler_vector_text, code, keep
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  _UART_1_Handler
+
+_UART_1_Handler:
+    portSAVE_CONTEXT
+    la    s6,  UART_1_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end    _UART_1_Handler
+   .extern  CHANGE_NOTICE_Handler
+
+   .section .vector_33,code, keep
+   .equ     __vector_dispatch_33, IntVectorCHANGE_NOTICE_Handler
+   .global  __vector_dispatch_33
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  IntVectorCHANGE_NOTICE_Handler
+
+IntVectorCHANGE_NOTICE_Handler:
+    la    $26,  _CHANGE_NOTICE_Handler
+    jr    $26
+    nop
+    .end    IntVectorCHANGE_NOTICE_Handler
+
+   .section .CHANGE_NOTICE_Handler_vector_text, code, keep
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  _CHANGE_NOTICE_Handler
+
+_CHANGE_NOTICE_Handler:
+    portSAVE_CONTEXT
+    la    s6,  CHANGE_NOTICE_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end    _CHANGE_NOTICE_Handler
 

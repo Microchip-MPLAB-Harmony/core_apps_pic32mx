@@ -62,6 +62,10 @@
 // *****************************************************************************
 
 
+/*** Macros for SWITCH3 pin ***/
+#define SWITCH3_Get()               ((PORTD >> 13) & 0x1)
+#define SWITCH3_PIN                  GPIO_PIN_RD13
+
 
 // *****************************************************************************
 /* GPIO Port
@@ -226,6 +230,7 @@ typedef enum
   CN21_PIN = 1 << 21,
 }CN_PIN;
 
+typedef  void (*GPIO_PIN_CALLBACK) ( CN_PIN cnPin, uintptr_t context);
 
 void GPIO_Initialize(void);
 
@@ -250,6 +255,35 @@ void GPIO_PortToggle(GPIO_PORT port, uint32_t mask);
 void GPIO_PortInputEnable(GPIO_PORT port, uint32_t mask);
 
 void GPIO_PortOutputEnable(GPIO_PORT port, uint32_t mask);
+
+void GPIO_PinInterruptEnable(CN_PIN cnPin);
+
+void GPIO_PinInterruptDisable(CN_PIN cnPin);
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Local Data types and Prototypes
+// *****************************************************************************
+// *****************************************************************************
+
+typedef struct {
+
+    /* CN Pin number */
+    CN_PIN                  cnPin;
+
+    /* Corresponding GPIO pin name */
+    GPIO_PIN                gpioPin;
+
+    /* previous port pin value, need to be stored to check if it has changed later */
+    bool                    prevPinValue;
+
+    /* Callback for event on target pin*/
+    GPIO_PIN_CALLBACK       callback;
+
+    /* Callback Context */
+    uintptr_t               context;
+
+} GPIO_PIN_CALLBACK_OBJ;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -297,6 +331,11 @@ static inline void GPIO_PinOutputEnable(GPIO_PIN pin)
     GPIO_PortOutputEnable((GPIO_PORT)(pin>>4), 0x1 << (pin & 0xF));
 }
 
+bool GPIO_PinInterruptCallbackRegister(
+    CN_PIN cnPin,
+    const   GPIO_PIN_CALLBACK callBack,
+    uintptr_t context
+);
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility

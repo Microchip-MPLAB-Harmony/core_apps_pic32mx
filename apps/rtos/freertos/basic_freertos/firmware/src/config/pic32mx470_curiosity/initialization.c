@@ -144,6 +144,7 @@
 
 void SYS_Initialize ( void* data )
 {
+
     /* Start out with interrupts disabled before configuring any modules */
     __builtin_disable_interrupts();
 
@@ -166,13 +167,16 @@ void SYS_Initialize ( void* data )
 	GPIO_Initialize();
 
 	BSP_Initialize();
+	UART1_Initialize();
 
 
 
 
-    APP_Initialize();
-    APP1_Initialize();
-    APP2_Initialize();
+
+    TASK1_Initialize();
+    TASK2_Initialize();
+    TASK3_Initialize();
+    TASK4_Initialize();
 
 
     EVIC_Initialize();

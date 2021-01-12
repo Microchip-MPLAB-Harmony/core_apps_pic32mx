@@ -25,17 +25,13 @@
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="system" projectFiles="true">
-            <logicalFolder name="f1" displayName="debug" projectFiles="true">
-              <itemPath>../src/config/pic32mx_eth_sk2/system/debug/sys_debug.h</itemPath>
-            </logicalFolder>
-          </logicalFolder>
           <itemPath>../src/config/pic32mx_eth_sk2/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/definitions.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/device.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/user.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/configuration.h</itemPath>
+          <itemPath>../src/config/pic32mx_eth_sk2/interrupts.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
@@ -68,20 +64,34 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <itemPath>../src/app.h</itemPath>
-      <itemPath>../src/app1.h</itemPath>
-      <itemPath>../src/app2.h</itemPath>
+      <itemPath>../src/app_task1.h</itemPath>
+      <itemPath>../src/app_task2.h</itemPath>
+      <itemPath>../src/app_task3.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="pic32mx_eth_sk2.mhc" projectFiles="true">
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/BSP_PIC32MX_Ethernet_Starter_Kit_II.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/FreeRTOS.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/HarmonyCore.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/project.yml</itemPath>
+        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mx_eth_sk2/harmony.prj</itemPath>
-      <itemPath>../../../../../../../mhc/../core_apps_pic32mx/apps/rtos/freertos/basic_freertos/firmware/src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.xml</itemPath>
+      <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
+          <itemPath>../src/config/pic32mx_eth_sk2/p32MX795F512L.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -139,9 +149,9 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/app.c</itemPath>
-      <itemPath>../src/app1.c</itemPath>
-      <itemPath>../src/app2.c</itemPath>
+      <itemPath>../src/app_task1.c</itemPath>
+      <itemPath>../src/app_task2.c</itemPath>
+      <itemPath>../src/app_task3.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -155,7 +165,7 @@
         <targetDevice>PIC32MX795F512L</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PKOBSKDEPlatformTool</platformTool>
+        <platformTool>ICD3PlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.41</languageToolchainVersion>
         <platform>3</platform>
@@ -198,7 +208,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -296,7 +306,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -326,6 +336,86 @@
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
+      <ICD3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CAN1" value="true"/>
+        <property key="CAN2" value="true"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="I2C3" value="true"/>
+        <property key="I2C4" value="true"/>
+        <property key="I2C5" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI 1" value="true"/>
+        <property key="SPI 2" value="true"/>
+        <property key="SPI 3" value="true"/>
+        <property key="SPI 4" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="UART4" value="true"/>
+        <property key="UART5" value="true"/>
+        <property key="UART6" value="true"/>
+        <property key="USB" value="true"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="false"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="1d000000-1d07ffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value=""/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </ICD3PlatformTool>
       <PICkit3PlatformTool>
         <property key="ADC 1" value="true"/>
         <property key="AutoSelectMemRanges" value="auto"/>

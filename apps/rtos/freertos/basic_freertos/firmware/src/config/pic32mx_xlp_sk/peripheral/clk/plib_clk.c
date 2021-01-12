@@ -85,14 +85,15 @@
 void CLK_Initialize( void )
 {
 
-    /* Default clock setting is used, hence no code is generated */
     /* Code for fuse settings can be found in "initialization.c" */
+    
+
 
     /* Peripheral Module Disable Configuration */
     PMD1 = 0x101101;
     PMD2 = 0x7;
     PMD3 = 0x1f001f;
     PMD4 = 0xfffffffe;
-    PMD5 = 0x1030303;
+    PMD5 = 0x1030302;
     PMD6 = 0xfffffffd;
 }

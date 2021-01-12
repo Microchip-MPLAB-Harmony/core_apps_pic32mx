@@ -142,6 +142,7 @@
 
 void SYS_Initialize ( void* data )
 {
+
     /* Start out with interrupts disabled before configuring any modules */
     __builtin_disable_interrupts();
 
@@ -170,9 +171,9 @@ void SYS_Initialize ( void* data )
 
 
 
-    APP_Initialize();
-    APP1_Initialize();
-    APP2_Initialize();
+    APP_TASK1_Initialize();
+    APP_TASK2_Initialize();
+    APP_TASK3_Initialize();
 
 
     EVIC_Initialize();

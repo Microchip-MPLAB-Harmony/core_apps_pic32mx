@@ -52,4 +52,35 @@
 #include <xc.h>
 #include "ISR_Support.h"
 
+   .extern  CHANGE_NOTICE_Handler
+
+   .section .vector_26,code, keep
+   .equ     __vector_dispatch_26, IntVectorCHANGE_NOTICE_Handler
+   .global  __vector_dispatch_26
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  IntVectorCHANGE_NOTICE_Handler
+
+IntVectorCHANGE_NOTICE_Handler:
+    la    $26,  _CHANGE_NOTICE_Handler
+    jr    $26
+    nop
+    .end    IntVectorCHANGE_NOTICE_Handler
+
+   .section .CHANGE_NOTICE_Handler_vector_text, code, keep
+   .set     nomicromips
+   .set     noreorder
+   .set     nomips16
+   .set     noat
+   .ent  _CHANGE_NOTICE_Handler
+
+_CHANGE_NOTICE_Handler:
+    portSAVE_CONTEXT
+    la    s6,  CHANGE_NOTICE_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end    _CHANGE_NOTICE_Handler
 

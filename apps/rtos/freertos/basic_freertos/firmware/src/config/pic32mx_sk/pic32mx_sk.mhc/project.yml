@@ -8,21 +8,21 @@ files:
   userChecksum: F58DB2348A0FCE945652B285010E5F8A
 - generatedChecksum: null
   logicalPath: ''
-  name: app.c
+  name: app_task1.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
-  name: app1.c
+  name: app_task2.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
-  name: app2.c
+  name: app_task3.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
@@ -69,27 +69,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 972E955D94A63BA89BF6ABD6AADB1023
-- generatedChecksum: BE0A19DA09BC8DC06C4ED8BF63AEBB9B
+- generatedChecksum: ECD871BDAC8E8BD248905AA365E36961
   logicalPath: config\pic32mx_sk
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BE0A19DA09BC8DC06C4ED8BF63AEBB9B
-- generatedChecksum: 21AC72888CC2AFF8195C6ACBD940F642
+  userChecksum: ECD871BDAC8E8BD248905AA365E36961
+- generatedChecksum: 16ACFEFEBC368CDC621C811C1CECC2D0
   logicalPath: config\pic32mx_sk
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 21AC72888CC2AFF8195C6ACBD940F642
-- generatedChecksum: 2335C329F2EAF94F702818F1429DB49A
+  userChecksum: 16ACFEFEBC368CDC621C811C1CECC2D0
+- generatedChecksum: 693AEEDF3C1FF2CE5CF729C79598B97B
   logicalPath: config\pic32mx_sk
   name: interrupts_a.S
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 2335C329F2EAF94F702818F1429DB49A
+  userChecksum: 693AEEDF3C1FF2CE5CF729C79598B97B
 - generatedChecksum: 3FEE521CEF14928AE38E7FA9BF6D75E6
   logicalPath: FreeRTOS\Source
   name: list.c
@@ -104,34 +104,34 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: 13F747CBE45AD5A7C4DF007FEA796CC9
+- generatedChecksum: 8FDD6248506F28B32C4F5FD9AA0D9C6F
   logicalPath: config\pic32mx_sk\osal
   name: osal_freertos.c
   physicalPath: osal
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 13F747CBE45AD5A7C4DF007FEA796CC9
-- generatedChecksum: 9854678C3A3E4E9544EC7450ACBAE52A
+  userChecksum: 8FDD6248506F28B32C4F5FD9AA0D9C6F
+- generatedChecksum: 6902DD0021DA94F42DE165233780733C
   logicalPath: config\pic32mx_sk\peripheral\clk
   name: plib_clk.c
-  physicalPath: \peripheral\clk
+  physicalPath: peripheral\clk
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9854678C3A3E4E9544EC7450ACBAE52A
-- generatedChecksum: 9573245AA1016A26B9522406787F6F58
+  userChecksum: 6902DD0021DA94F42DE165233780733C
+- generatedChecksum: B9075C50D6E5312528847AA1098C60AD
   logicalPath: config\pic32mx_sk\peripheral\evic
   name: plib_evic.c
-  physicalPath: \peripheral\evic
+  physicalPath: peripheral\evic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9573245AA1016A26B9522406787F6F58
-- generatedChecksum: 78A177A29C2783D974A8670949C03300
+  userChecksum: B9075C50D6E5312528847AA1098C60AD
+- generatedChecksum: 746C5D1A8EA389A9153D9BF7DC357EC5
   logicalPath: config\pic32mx_sk\peripheral\gpio
   name: plib_gpio.c
-  physicalPath: \peripheral\gpio
+  physicalPath: peripheral\gpio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 78A177A29C2783D974A8670949C03300
+  userChecksum: 746C5D1A8EA389A9153D9BF7DC357EC5
 - generatedChecksum: E57AF2580EA0FD297CA3B4730328A18A
   logicalPath: FreeRTOS\Source\portable\MPLAB\PIC32MX
   name: port.c
@@ -160,13 +160,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: D6CF30BDCE1A813D9ACF3905EBD6A871
-- generatedChecksum: C934DFF084488BE913D41107FF6E0415
+- generatedChecksum: 1EA354F619D88CE9E45777B37794818B
   logicalPath: config\pic32mx_sk
   name: tasks.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C934DFF084488BE913D41107FF6E0415
+  userChecksum: 1EA354F619D88CE9E45777B37794818B
 - generatedChecksum: F1B86F6E1527FD59A8713B67564F2898
   logicalPath: FreeRTOS\Source
   name: timers.c
@@ -174,13 +174,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F1B86F6E1527FD59A8713B67564F2898
-- generatedChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
+- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
   logicalPath: config\pic32mx_sk\stdio
   name: xc32_monitor.c
-  physicalPath: \stdio
+  physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 16BE5CCEE5F9AF5909BF3F69B51C7D93
+  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
 - generatedChecksum: AF3A8D8AA610E7DFD3E38DDAC5E42074
   logicalPath: FreeRTOS\Source\include
   name: FreeRTOS.h
@@ -204,32 +204,32 @@ files:
   userChecksum: CEF74FD3B70DA42045EB71BC81B5FACF
 - generatedChecksum: null
   logicalPath: ''
-  name: app.h
+  name: app_task1.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
-  name: app1.h
+  name: app_task2.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
-  name: app2.h
+  name: app_task3.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: 91DEF69BECBD431E7EDDC04D3B113000
+- generatedChecksum: FD4B83330ACFE1EA60FE03AB81871D8E
   logicalPath: config\pic32mx_sk\bsp
   name: bsp.h
   physicalPath: bsp
   security: NON_SECURE
   type: HEADER
-  userChecksum: 91DEF69BECBD431E7EDDC04D3B113000
+  userChecksum: FD4B83330ACFE1EA60FE03AB81871D8E
 - generatedChecksum: 76016C9804D6DE17B74C92D82294562E
   logicalPath: config\pic32mx_sk
   name: configuration.h
@@ -244,13 +244,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 48B661D8C967C6BC397001F10FB43D1D
-- generatedChecksum: FBAD2A02A20BD5A207C7966FA9E8BC23
+- generatedChecksum: 921EB20C1615481E98FE8A0014CCD51D
   logicalPath: config\pic32mx_sk
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: FBAD2A02A20BD5A207C7966FA9E8BC23
+  userChecksum: 921EB20C1615481E98FE8A0014CCD51D
 - generatedChecksum: 1EA4EDD5EA90F43EC407DE32441159A9
   logicalPath: FreeRTOS\Source\include
   name: deprecated_definitions.h
@@ -258,13 +258,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 1EA4EDD5EA90F43EC407DE32441159A9
-- generatedChecksum: 5D5C52527AB1435153DB9B50ADE6B79D
+- generatedChecksum: E189C26B2269F8DE46033CCD0621958D
   logicalPath: config\pic32mx_sk
   name: device.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5D5C52527AB1435153DB9B50ADE6B79D
+  userChecksum: E189C26B2269F8DE46033CCD0621958D
 - generatedChecksum: B1D1D455E111FA70C46AD40562D78CE2
   logicalPath: FreeRTOS\Source\include
   name: event_groups.h
@@ -272,6 +272,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: B1D1D455E111FA70C46AD40562D78CE2
+- generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
+  logicalPath: config\pic32mx_sk
+  name: interrupts.h
+  physicalPath: ''
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 4CF4A86296482D5331331BA301C20BB2
 - generatedChecksum: FE17D325A06479D956285C5438994B83
   logicalPath: FreeRTOS\Source\include
   name: list.h
@@ -314,34 +321,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 167A43EFF8A31441EBF85AC77958A30B
-- generatedChecksum: EDB1F623D39C14DC72E68558DB41B57B
+- generatedChecksum: 9D6F205ECFDB2028C5CF766B52B5B7B2
   logicalPath: config\pic32mx_sk\osal
   name: osal_freertos.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
-  userChecksum: EDB1F623D39C14DC72E68558DB41B57B
+  userChecksum: 9D6F205ECFDB2028C5CF766B52B5B7B2
 - generatedChecksum: 7066CC390335CF75126E2A50C46E3BDD
   logicalPath: config\pic32mx_sk\peripheral\clk
   name: plib_clk.h
-  physicalPath: \peripheral\clk
+  physicalPath: peripheral\clk
   security: NON_SECURE
   type: HEADER
   userChecksum: 7066CC390335CF75126E2A50C46E3BDD
-- generatedChecksum: F443860EB4D37FBF486C176F7DDAC101
+- generatedChecksum: 08CAE57066302D12E2A32EE07E935AFE
   logicalPath: config\pic32mx_sk\peripheral\evic
   name: plib_evic.h
-  physicalPath: \peripheral\evic
+  physicalPath: peripheral\evic
   security: NON_SECURE
   type: HEADER
-  userChecksum: F443860EB4D37FBF486C176F7DDAC101
-- generatedChecksum: B9AB932B9BA0D0B8E4731B0752B3F9C5
+  userChecksum: 08CAE57066302D12E2A32EE07E935AFE
+- generatedChecksum: F033C692E7E4F6CB1B4710B9C3AA2316
   logicalPath: config\pic32mx_sk\peripheral\gpio
   name: plib_gpio.h
-  physicalPath: \peripheral\gpio
+  physicalPath: peripheral\gpio
   security: NON_SECURE
   type: HEADER
-  userChecksum: B9AB932B9BA0D0B8E4731B0752B3F9C5
+  userChecksum: F033C692E7E4F6CB1B4710B9C3AA2316
 - generatedChecksum: 5A686FF678CBFBB4A1FEB86B66DCEC98
   logicalPath: FreeRTOS\Source\include
   name: portable.h
@@ -412,20 +419,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 2C8543317B3F067432097AB9BD3E8672
-- generatedChecksum: 4B3C3EF8A318908A22B78500515C3288
+- generatedChecksum: null
   logicalPath: config\pic32mx_sk
   name: user.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4B3C3EF8A318908A22B78500515C3288
-- generatedChecksum: 133C9651E2D22B4E46B149A3252D80D3
+  userChecksum: null
+- generatedChecksum: 03BA4A3160331DF66B4CCB623F8ED7FD
   logicalPath: config\pic32mx_sk
   name: p32MX360F512L.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: 133C9651E2D22B4E46B149A3252D80D3
+  userChecksum: 03BA4A3160331DF66B4CCB623F8ED7FD
 format_version: v1.0
 libraries: []
 settings:

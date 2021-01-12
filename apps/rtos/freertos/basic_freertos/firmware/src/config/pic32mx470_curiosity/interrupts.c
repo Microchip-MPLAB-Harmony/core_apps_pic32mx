@@ -50,7 +50,9 @@
 // *****************************************************************************
 
 #include "configuration.h"
+#include "interrupts.h"
 #include "definitions.h"
+
 
 // *****************************************************************************
 // *****************************************************************************
@@ -59,11 +61,23 @@
 // *****************************************************************************
 
 
+void UART_1_InterruptHandler( void );
+void CHANGE_NOTICE_InterruptHandler( void );
 
 
 
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
 
+
+void UART_1_Handler (void)
+{
+    UART_1_InterruptHandler();
+}
+
+void CHANGE_NOTICE_Handler (void)
+{
+    CHANGE_NOTICE_InterruptHandler();
+}
 
 
 

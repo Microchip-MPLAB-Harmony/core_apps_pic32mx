@@ -151,8 +151,6 @@ void SYS_Initialize ( void* data )
     /* Set the SRAM wait states to zero */
     BMXCONbits.BMXWSDRM = 0;
 
-    /* Configure Debug Data Port */
-    DDPCONbits.JTAGEN = 0;
 
 
 
@@ -163,9 +161,9 @@ void SYS_Initialize ( void* data )
 
 
 
-    APP_Initialize();
-    APP1_Initialize();
-    APP2_Initialize();
+    APP_TASK1_Initialize();
+    APP_TASK2_Initialize();
+    APP_TASK3_Initialize();
 
 
     EVIC_Initialize();

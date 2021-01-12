@@ -5,7 +5,7 @@
     Microchip Technology Inc.
 
   File Name:
-    app1.c
+    task1.c
 
   Summary:
     This file contains the source code for the MPLAB Harmony application.
@@ -21,40 +21,15 @@
     files.
  *******************************************************************************/
 
-// DOM-IGNORE-BEGIN
-/*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
-*
-* Subject to your compliance with these terms, you may use Microchip software
-* and any derivatives exclusively with Microchip products. It is your
-* responsibility to comply with third party license terms applicable to your
-* use of third party software (including open source software) that may
-* accompany Microchip software.
-*
-* THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER
-* EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED
-* WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A
-* PARTICULAR PURPOSE.
-*
-* IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
-* INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
-* WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
-* BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE
-* FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
-* ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
-* THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
- *******************************************************************************/
-// DOM-IGNORE-END
-
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "app1.h"
-#include "queue.h"
+#include "task1.h"
+#include "definitions.h"
+#include <string.h>
 
 // *****************************************************************************
 // *****************************************************************************
@@ -72,13 +47,15 @@
     This structure holds the application's data.
 
   Remarks:
-    This structure should be initialized by the APP1_Initialize function.
+    This structure should be initialized by the TASK1_Initialize function.
 
     Application strings and buffers are be defined outside this structure.
 */
 
-APP1_DATA app1Data;
-extern QueueHandle_t xQueue;
+TASK1_DATA task1Data;
+
+/* Mutex used to protect the shared resource - UART */
+SemaphoreHandle_t uartMutexLock;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -108,52 +85,59 @@ extern QueueHandle_t xQueue;
 
 /*******************************************************************************
   Function:
-    void APP1_Initialize ( void )
+    void TASK1_Initialize ( void )
 
   Remarks:
-    See prototype in app1.h.
+    See prototype in task1.h.
  */
 
-void APP1_Initialize ( void )
+void TASK1_Initialize ( void )
 {
-    /* Place the App1 state machine in its initial state. */
-    app1Data.state = APP1_STATE_INIT;
+    /* Place the App state machine in its initial state. */
+    task1Data.state = TASK1_STATE_INIT;
 
+    /* Create a mutex type semaphore. */
+    uartMutexLock = xSemaphoreCreateMutex();
 
-
-    /* TODO: Initialize your application's state machine and other
-     * parameters.
-     */
+    if( uartMutexLock == NULL)
+    {
+        /* There was insufficient FreeRTOS heap available for the semaphore to
+        be created successfully. */
+        UART1_Write((uint8_t*)"Could not create mutex lock\r\n", strlen("Could not create mutex lock\r\n"));
+    }
 }
-
 
 /******************************************************************************
   Function:
-    void APP1_Tasks ( void )
+    void TASK1_Tasks ( void )
 
   Remarks:
-    See prototype in app1.h.
+    See prototype in task1.h.
  */
 
-void APP1_Tasks ( void )
+void TASK1_Tasks ( void )
 {
-    unsigned long ulReceivedValue = 0;
+    TickType_t timeNow;
 
-    /* Wait until something arrives in the queue - this task will block
-     * indefinitely provided INCLUDE_vTaskSuspend is set to 1 in
-     * FreeRTOSConfig.h.
-     */
-    xQueueReceive( xQueue, &ulReceivedValue, portMAX_DELAY );
-
-    /* To get here something must have been received from the queue, but
-     * is it the expected value?  If it is, toggle the LED.
-     */
-    if( ulReceivedValue == 1000UL )
+    while (1)
     {
-        LED_TOGGLE();
-        vTaskDelay((TickType_t)ulReceivedValue);
-    }
+        /* Task1 is running (<-) now */
+        xSemaphoreTake(uartMutexLock, portMAX_DELAY);
+        UART1_Write((uint8_t*)"Tsk1-P1 <-\r\n", 12);
+        xSemaphoreGive(uartMutexLock);
 
+        /* Work done by task1 for 100 ticks */
+        timeNow = xTaskGetTickCount();
+        while ((xTaskGetTickCount() - timeNow) < 100);
+
+        /* Task1 is exiting (->) now */
+        xSemaphoreTake(uartMutexLock, portMAX_DELAY);
+        UART1_Write((uint8_t*)"Tsk1-P1 ->\r\n", 12);
+        xSemaphoreGive(uartMutexLock);
+
+        /* Let idle task run for some time*/
+        vTaskDelay(10 / portTICK_PERIOD_MS );
+    }
 }
 
 
