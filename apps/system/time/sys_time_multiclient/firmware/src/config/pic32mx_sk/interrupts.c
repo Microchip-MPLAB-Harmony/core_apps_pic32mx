@@ -1,32 +1,26 @@
 /*******************************************************************************
-  SYS CLK Static Functions for Clock System Service
+ System Interrupts File
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_clk.c
+    interrupt.c
 
   Summary:
-    SYS CLK static function implementations for the Clock System Service.
+    Interrupt vectors mapping
 
   Description:
-    The Clock System Service provides a simple interface to manage the
-    oscillators on Microchip microcontrollers. This file defines the static
-    implementation for the Clock System Service.
+    This file maps all the interrupt vectors to their corresponding
+    implementations. If a particular module interrupt is used, then its ISR
+    definition can be found in corresponding PLIB source file. If a module
+    interrupt is not used, then its ISR implementation is mapped to dummy
+    handler.
+ *******************************************************************************/
 
-  Remarks:
-    Static functions incorporate all system clock configuration settings as
-    determined by the user via the Microchip Harmony Configurator GUI.
-    It provides static version of the routines, eliminating the need for an
-    object ID or object handle.
-
-    Static single-open interfaces also eliminate the need for the open handle.
-
-*******************************************************************************/
-
+// DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -46,49 +40,40 @@
 * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
-*******************************************************************************/
+ *******************************************************************************/
+// DOM-IGNORE-END
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: Include Files
+// Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "device.h"
-#include "plib_clk.h"
+#include "configuration.h"
+#include "interrupts.h"
+#include "definitions.h"
+
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: File Scope Functions
+// Section: System Interrupt Vector Functions
 // *****************************************************************************
 // *****************************************************************************
 
-// *****************************************************************************
-/* Function:
-    void CLK_Initialize( void )
 
-  Summary:
-    Initializes hardware and internal data structure of the System Clock.
+void CORE_TIMER_InterruptHandler( void );
 
-  Description:
-    This function initializes the hardware and internal data structure of System
-    Clock Service.
 
-  Remarks:
-    This is configuration values for the static version of the Clock System
-    Service module is determined by the user via the MHC GUI.
 
-    The objective is to eliminate the user's need to be knowledgeable in the
-    function of the 'configuration bits' to configure the system oscillators.
-*/
-
-void CLK_Initialize( void )
+/* All the handlers are defined here.  Each will call its PLIB-specific function. */
+void __ISR(_CORE_TIMER_VECTOR, ipl1SOFT) CORE_TIMER_Handler (void)
 {
-
-    /* Code for fuse settings can be found in "initialization.c" */
-    
-
-    /* Wait for PLL to be locked */
-    while(!OSCCONbits.LOCK);
-
+    CORE_TIMER_InterruptHandler();
 }
+
+
+
+
+/*******************************************************************************
+ End of File
+*/
