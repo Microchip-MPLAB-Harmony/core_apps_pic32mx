@@ -125,15 +125,15 @@ void TASK4_Tasks ( void )
     bool status = false;
     TickType_t timeNow;
     
-    GPIO_PinInterruptCallbackRegister(SWITCH1_PIN, SwitchPress_Handler, (uintptr_t)NULL);
-    GPIO_PinInterruptEnable(SWITCH1_PIN);
-
     switchPressSemaphore = xSemaphoreCreateBinary();
 
     if (switchPressSemaphore != NULL)
     {
         status = true;
     }
+
+    GPIO_PinInterruptCallbackRegister(SWITCH1_PIN, SwitchPress_Handler, (uintptr_t)NULL);
+    GPIO_PinInterruptEnable(SWITCH1_PIN);
 
     while (status == true)
     {
