@@ -6,27 +6,27 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F58DB2348A0FCE945652B285010E5F8A
-- generatedChecksum: 0488C68201D778EAC4EB6A731DD9AB7F
+- generatedChecksum: null
   logicalPath: ''
   name: app_task1.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0488C68201D778EAC4EB6A731DD9AB7F
-- generatedChecksum: BE8B1075AADE30787352CCAF8BAF75F4
+  userChecksum: null
+- generatedChecksum: null
   logicalPath: ''
   name: app_task2.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BE8B1075AADE30787352CCAF8BAF75F4
-- generatedChecksum: 17F16C4B2C2D7FBE4A39715A0424A067
+  userChecksum: null
+- generatedChecksum: null
   logicalPath: ''
   name: app_task3.c
   physicalPath: ..\..
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 17F16C4B2C2D7FBE4A39715A0424A067
+  userChecksum: null
 - generatedChecksum: 64D0F9C57F1452BD074A574237B811D7
   logicalPath: config\pic32mx_eth_sk2\bsp
   name: bsp.c
@@ -202,27 +202,27 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CEF74FD3B70DA42045EB71BC81B5FACF
-- generatedChecksum: 6D7C0B6F01F4DF9B8A616AF7437DABA2
+- generatedChecksum: null
   logicalPath: ''
   name: app_task1.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6D7C0B6F01F4DF9B8A616AF7437DABA2
-- generatedChecksum: C4A0026699E9D6F179A15934B8890FBC
+  userChecksum: null
+- generatedChecksum: null
   logicalPath: ''
   name: app_task2.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
-  userChecksum: C4A0026699E9D6F179A15934B8890FBC
-- generatedChecksum: E5F1945E4328AA17D390443D80D64D99
+  userChecksum: null
+- generatedChecksum: null
   logicalPath: ''
   name: app_task3.h
   physicalPath: ..\..
   security: NON_SECURE
   type: HEADER
-  userChecksum: E5F1945E4328AA17D390443D80D64D99
+  userChecksum: null
 - generatedChecksum: FD4B83330ACFE1EA60FE03AB81871D8E
   logicalPath: config\pic32mx_eth_sk2\bsp
   name: bsp.h
@@ -426,13 +426,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: A90134082F7F31B38D7549653261E547
+- generatedChecksum: 27954F44000DB58CD56D0372E7A00395
   logicalPath: config\pic32mx_eth_sk2
   name: p32MX795F512L.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: A90134082F7F31B38D7549653261E547
+  userChecksum: 27954F44000DB58CD56D0372E7A00395
 format_version: v1.0
 libraries: []
 settings:

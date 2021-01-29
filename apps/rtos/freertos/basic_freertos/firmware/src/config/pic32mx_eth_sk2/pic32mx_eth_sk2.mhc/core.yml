@@ -291,55 +291,64 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: 'true'}
+  - type: File
+    attributes: {id: EVIC_INT_ASM}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_1ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_2ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_3ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_4ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_5ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_6ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SOFT}
+        attributes: {id: core, value: AUTO}
   - type: Combo
     attributes: {id: EVIC_PRIORITY_7ATTRIBUTE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: SRS}
+        attributes: {id: core, value: AUTO}
   - type: Integer
     attributes: {id: EVIC_PRIORITY_FOR_SHADOW_SET}
     children:
