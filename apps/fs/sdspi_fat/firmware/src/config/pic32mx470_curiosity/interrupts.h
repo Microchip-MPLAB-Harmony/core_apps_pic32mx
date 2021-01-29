@@ -5,17 +5,13 @@
     Microchip Technology Inc.
 
   File Name:
-    interrupt.c
+    interrupt.h
 
   Summary:
     Interrupt vectors mapping
 
   Description:
-    This file maps all the interrupt vectors to their corresponding
-    implementations. If a particular module interrupt is used, then its ISR
-    definition can be found in corresponding PLIB source file. If a module
-    interrupt is not used, then its ISR implementation is mapped to dummy
-    handler.
+    This file contains declarations of device vectors used by Harmony 3
  *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
@@ -43,55 +39,23 @@
  *******************************************************************************/
 // DOM-IGNORE-END
 
+#ifndef INTERRUPTS_H
+#define INTERRUPTS_H
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
-#include "configuration.h"
-#include "interrupts.h"
-#include "definitions.h"
+#include <stdint.h>
 
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: System Interrupt Vector Functions
+// Section: Handler Routines
 // *****************************************************************************
 // *****************************************************************************
 
 
-void CORE_TIMER_InterruptHandler( void );
-void SPI_1_InterruptHandler( void );
-void DMA_0_InterruptHandler( void );
-void DMA_1_InterruptHandler( void );
 
-
-
-/* All the handlers are defined here.  Each will call its PLIB-specific function. */
-void __ISR(_CORE_TIMER_VECTOR, ipl1SOFT) CORE_TIMER_Handler (void)
-{
-    CORE_TIMER_InterruptHandler();
-}
-
-void __ISR(_SPI_1_VECTOR, ipl1SOFT) SPI_1_Handler (void)
-{
-    SPI_1_InterruptHandler();
-}
-
-void __ISR(_DMA_0_VECTOR, ipl1SOFT) DMA_0_Handler (void)
-{
-    DMA_0_InterruptHandler();
-}
-
-void __ISR(_DMA_1_VECTOR, ipl1SOFT) DMA_1_Handler (void)
-{
-    DMA_1_InterruptHandler();
-}
-
-
-
-
-/*******************************************************************************
- End of File
-*/
+#endif // INTERRUPTS_H
