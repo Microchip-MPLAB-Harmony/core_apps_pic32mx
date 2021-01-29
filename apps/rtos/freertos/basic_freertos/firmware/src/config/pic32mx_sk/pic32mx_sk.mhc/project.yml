@@ -426,13 +426,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: 03BA4A3160331DF66B4CCB623F8ED7FD
+- generatedChecksum: D3313458AC706756FC68F2CE1408ECFF
   logicalPath: config\pic32mx_sk
   name: p32MX360F512L.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: 03BA4A3160331DF66B4CCB623F8ED7FD
+  userChecksum: D3313458AC706756FC68F2CE1408ECFF
 format_version: v1.0
 libraries: []
 settings:
