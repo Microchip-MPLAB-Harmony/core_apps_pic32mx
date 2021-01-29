@@ -1,14 +1,14 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configurationDescriptor version="65">
-  <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
-      <logicalFolder name="f1" displayName="config" projectFiles="true">
-        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
-          <logicalFolder name="f2" displayName="bsp" projectFiles="true">
+  <logicalFolder displayName="root" name="root" projectFiles="true">
+    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
+          <logicalFolder displayName="bsp" name="f1" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/bsp/bsp.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="driver" projectFiles="true">
-            <logicalFolder name="f1" displayName="memory" projectFiles="true">
+          <logicalFolder displayName="driver" name="f2" projectFiles="true">
+            <logicalFolder displayName="memory" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory_definitions.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory_nvm.h</itemPath>
@@ -17,36 +17,36 @@
             <itemPath>../src/config/pic32mx_eth_sk2/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/driver/driver_common.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="f5" displayName="osal" projectFiles="true">
+          <logicalFolder displayName="osal" name="f3" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal_definitions.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal_impl_basic.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="f4" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+          <logicalFolder displayName="peripheral" name="f4" projectFiles="true">
+            <logicalFolder displayName="clk" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="evic" projectFiles="true">
+            <logicalFolder displayName="evic" name="f2" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="gpio" projectFiles="true">
+            <logicalFolder displayName="gpio" name="f3" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f4" displayName="nvm" projectFiles="true">
+            <logicalFolder displayName="nvm" name="f4" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f3" displayName="system" projectFiles="true">
-            <logicalFolder name="f3" displayName="debug" projectFiles="true">
+          <logicalFolder displayName="system" name="f5" projectFiles="true">
+            <logicalFolder displayName="debug" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/debug/sys_debug.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="fs" projectFiles="true">
-              <logicalFolder name="f1" displayName="fat_fs" projectFiles="true">
-                <logicalFolder name="f1" displayName="file_system" projectFiles="true">
+            <logicalFolder displayName="fs" name="f2" projectFiles="true">
+              <logicalFolder displayName="fat_fs" name="f1" projectFiles="true">
+                <logicalFolder displayName="file_system" name="f1" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.h</itemPath>
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffconf.h</itemPath>
                 </logicalFolder>
-                <logicalFolder name="f2" displayName="hardware_access" projectFiles="true">
+                <logicalFolder displayName="hardware_access" name="f2" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -56,7 +56,7 @@
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager_local.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/sys_fs_fat_interface.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="int" projectFiles="true">
+            <logicalFolder displayName="int" name="f3" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/sys_int.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/sys_int_mapping.h</itemPath>
             </logicalFolder>
@@ -70,56 +70,63 @@
           <itemPath>../src/config/pic32mx_eth_sk2/device.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/user.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/configuration.h</itemPath>
+          <itemPath>../src/config/pic32mx_eth_sk2/interrupts.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/nvm_disk_images.h</itemPath>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_eth_sk2/harmony.prj</itemPath>
-      <itemPath>../../../../../../mhc/../core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.xml</itemPath>
+      <itemPath>../../../../../../core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.xml</itemPath>
+      <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
-    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
+    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
+          <itemPath>../src/config/pic32mx_eth_sk2/p32MX795F512L.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
-      <logicalFolder name="f1" displayName="config" projectFiles="true">
-        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
-          <logicalFolder name="f2" displayName="bsp" projectFiles="true">
+    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
+          <logicalFolder displayName="bsp" name="f1" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/bsp/bsp.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="driver" projectFiles="true">
-            <logicalFolder name="f1" displayName="memory" projectFiles="true">
+          <logicalFolder displayName="driver" name="f2" projectFiles="true">
+            <logicalFolder displayName="memory" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_nvm.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f5" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="f1" displayName="clk" projectFiles="true">
+          <logicalFolder displayName="peripheral" name="f3" projectFiles="true">
+            <logicalFolder displayName="clk" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="evic" projectFiles="true">
+            <logicalFolder displayName="evic" name="f2" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="gpio" projectFiles="true">
+            <logicalFolder displayName="gpio" name="f3" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f4" displayName="nvm" projectFiles="true">
+            <logicalFolder displayName="nvm" name="f4" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f4" displayName="stdio" projectFiles="true">
+          <logicalFolder displayName="stdio" name="f4" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f3" displayName="system" projectFiles="true">
-            <logicalFolder name="f1" displayName="fs" projectFiles="true">
-              <logicalFolder name="f1" displayName="fat_fs" projectFiles="true">
-                <logicalFolder name="f1" displayName="file_system" projectFiles="true">
+          <logicalFolder displayName="system" name="f5" projectFiles="true">
+            <logicalFolder displayName="fs" name="f1" projectFiles="true">
+              <logicalFolder displayName="fat_fs" name="f1" projectFiles="true">
+                <logicalFolder displayName="file_system" name="f1" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.c</itemPath>
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffunicode.c</itemPath>
                 </logicalFolder>
-                <logicalFolder name="f2" displayName="hardware_access" projectFiles="true">
+                <logicalFolder displayName="hardware_access" name="f2" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -127,7 +134,7 @@
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_fat_interface.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="int" projectFiles="true">
+            <logicalFolder displayName="int" name="f2" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/src/sys_int.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -195,7 +202,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access;../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP;;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -291,7 +298,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access;../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/pic32mx_eth_sk2;../src/packs/PIC32MX795F512L_DFP;;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
