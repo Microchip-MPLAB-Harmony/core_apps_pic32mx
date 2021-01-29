@@ -447,13 +447,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: B5F47976A7C4FCA48A55D10AF6CEF6F6
+- generatedChecksum: 5046F8F763354AC64495163961A56997
   logicalPath: config\pic32mx_xlp_sk
   name: p32MX274F256D.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: B5F47976A7C4FCA48A55D10AF6CEF6F6
+  userChecksum: 5046F8F763354AC64495163961A56997
 format_version: v1.0
 libraries: []
 settings:
