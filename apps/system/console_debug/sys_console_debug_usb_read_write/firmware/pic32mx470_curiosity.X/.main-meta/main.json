@@ -4,18 +4,18 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.core_apps_pic32mx_system_console_debug_sys_console_debug_usb_read_write_pic32mx470_curiosity",
-		"version": "3.0.2",
+		"version": "3.1.0",
 		"displayName": "Console Debug System Service using USB Example for PIC32MX Family",
 		"projectName": "sys_console_debug_usb_read_write_pic32mx470_curiosity",
 		"shortDescription": "This example application demonstrates the USB based console and debug system service.",
 		"ide": {
 			"name": "MPLABX",
-			"semverRange": ">=5.40.0"
+			"semverRange": ">=5.45.0"
 		},
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=2.40.0"
+				"semverRange": ">=2.50.0"
 			}
 		],
 		"dfp": {
@@ -24,7 +24,7 @@
 		},
 		"configurator": {
 			"name": "MHC",
-			"semverRange": ">=3.5.1"
+			"semverRange": ">=3.7.0"
 		},
 		"device": {
 			"metaDataVersion": "1.0.0",
@@ -39,10 +39,13 @@
 		"author": "Microchip",
 		"subcategories": [
 			[
-				"Development Kit", "Curiosity PIC32MX470 Development Board"
+				"Development Kit",
+				"Curiosity PIC32MX470 Development Board"
 			],
 			[
-				"Harmony", "System Services", "CONSOLE_DEBUG"
+				"Harmony",
+				"System Services",
+				"CONSOLE_DEBUG"
 			]
 		],
 		"peripherals": [
