@@ -133,7 +133,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.4.245"/>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.5.259"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

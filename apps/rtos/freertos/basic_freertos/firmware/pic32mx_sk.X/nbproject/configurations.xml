@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <configurationDescriptor version="65">
   <logicalFolder displayName="root" name="root" projectFiles="true">
     <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
@@ -163,7 +163,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.3.231"/>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.5.259"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
