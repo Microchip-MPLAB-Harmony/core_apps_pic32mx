@@ -49,7 +49,6 @@
 // *****************************************************************************
 
 #include "configuration.h"
-#include "system/dma/sys_dma.h"
 #include "driver/sdspi/drv_sdspi.h"
 #include "osal/osal.h"
 
@@ -164,8 +163,8 @@ typedef enum
 /* SD Card Driver read task Status. */
 typedef enum
 {
-	/* Open the SPI Driver instance */
-	DRV_SDSPI_TASK_OPEN_SPI,
+    /* Open the SPI Driver instance */
+    DRV_SDSPI_TASK_OPEN_SPI,
 
     /* Initial state of the task, check for SD card attach/detach */
     DRV_SDSPI_TASK_START_POLLING_TIMER,
@@ -680,10 +679,10 @@ typedef struct
     /* Flag to indicate if the device is Standard Speed or High Speed */
     uint8_t                             sdHcHost;
 
-	/* SPI Driver Instance used by the SDSPI driver */
-	uint32_t							spiDrvIndex;
-	
-	DRV_HANDLE							spiDrvHandle;
+    /* SPI Driver Instance used by the SDSPI driver */
+    uint32_t                            spiDrvIndex;
+
+    DRV_HANDLE                          spiDrvHandle;
 
     SYS_PORT_PIN                        chipSelectPin;
 

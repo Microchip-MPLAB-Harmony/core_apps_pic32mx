@@ -234,6 +234,11 @@ static bool _DRV_SDSPI_CommandSend(
     uint32_t nBytes = DRV_SDSPI_PACKET_SIZE;
     uint32_t ncrTries = _DRV_SDSPI_COMMAND_RESPONSE_TRIES;
 
+    if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+    {
+        return isSuccess;
+    }
+
     /* Frame the command */
     dObj->cmdRespBuffer[0] = (gDrvSDSPICmdTable[command].commandCode | DRV_SDSPI_TRANSMIT_SET);
     /* SD Card expects argument in big-endian format */
@@ -253,6 +258,7 @@ static bool _DRV_SDSPI_CommandSend(
     /* Send the command bytes */
     if (_DRV_SDSPI_SPIWrite(dObj, (void*)dObj->cmdRespBuffer, nBytes) == false)
     {
+        _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
         return isSuccess;
     }
 
@@ -261,6 +267,7 @@ static bool _DRV_SDSPI_CommandSend(
     {
         if (_DRV_SDSPI_SPIRead(dObj, (void*)dObj->cmdRespBuffer, 1) == false)
         {
+            _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
             return isSuccess;
         }
         else if (dObj->cmdRespBuffer[0] != 0xFF)
@@ -271,6 +278,7 @@ static bool _DRV_SDSPI_CommandSend(
 
     if (dObj->cmdRespBuffer[0] == 0xFF)
     {
+        _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
         return isSuccess;
     }
 
@@ -285,6 +293,7 @@ static bool _DRV_SDSPI_CommandSend(
          */
         if (_DRV_SDSPI_CmdResponseTimerStart(dObj, _DRV_SDSPI_R1B_RESP_TIMEOUT) == false)
         {
+            _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
             return isSuccess;
         }
         else
@@ -293,6 +302,7 @@ static bool _DRV_SDSPI_CommandSend(
             {
                 if (_DRV_SDSPI_SPIRead(dObj, (void*)dObj->cmdRespBuffer, 1) == false)
                 {
+                    _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
                     return isSuccess;
                 }
             } while ((dObj->cmdRespTmrExpired == false) && (dObj->cmdRespBuffer[0] != 0x00));
@@ -302,6 +312,7 @@ static bool _DRV_SDSPI_CommandSend(
             /* Return failure if the card is busy even after waiting for 100ms */
             if (dObj->cmdRespBuffer[0] == 0x00)
             {
+                _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
                 return isSuccess;
             }
         }
@@ -317,6 +328,7 @@ static bool _DRV_SDSPI_CommandSend(
         * before it can process the next command */
         if (_DRV_SDSPI_SPIRead(dObj, (void*)&dObj->cmdRespBuffer[0], (nBytes + 1)) == false)
         {
+            _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
             return isSuccess;
         }
 
@@ -328,6 +340,8 @@ static bool _DRV_SDSPI_CommandSend(
     }
 
     isSuccess = true;
+
+    _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
 
     return isSuccess;
 }
@@ -494,6 +508,10 @@ static bool _DRV_SDSPI_ReadCSD(DRV_SDSPI_OBJ* const dObj)
 {
     bool isSuccess = false;
 
+    if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+    {
+        return isSuccess;
+    }
     if (_DRV_SDSPI_CommandSend(dObj, DRV_SDSPI_SEND_CSD, 0x00) == true)
     {
         /* Data token(1) + CSD(16) + CRC(2) + Dummy(1) = 20 Bytes */
@@ -505,6 +523,7 @@ static bool _DRV_SDSPI_ReadCSD(DRV_SDSPI_OBJ* const dObj)
             isSuccess = true;
         }
     }
+    _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
     return isSuccess;
 }
 
@@ -512,6 +531,10 @@ static bool _DRV_SDSPI_ReadCID(DRV_SDSPI_OBJ* const dObj)
 {
     bool isSuccess = false;
 
+    if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+    {
+        return isSuccess;
+    }
     if (_DRV_SDSPI_CommandSend(dObj, DRV_SDSPI_SEND_CID, 0x00) == true)
     {
         /* Data token(1) + CID(16) + CRC(2) + Dummy(1) = 20 Bytes */
@@ -521,6 +544,7 @@ static bool _DRV_SDSPI_ReadCID(DRV_SDSPI_OBJ* const dObj)
             isSuccess = true;
         }
     }
+    _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
     return isSuccess;
 }
 
@@ -928,9 +952,15 @@ static bool _DRV_SDSPI_SetupXfer (
             return isSuccess;
     }
 
+    if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+    {
+        return isSuccess;
+    }
+
     /* Block other clients/threads from accessing the SD Card */
     if (OSAL_MUTEX_Lock(&dObj->transferMutex, OSAL_WAIT_FOREVER ) != OSAL_RESULT_TRUE)
     {
+        _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
         return isSuccess;
     }
 
@@ -977,6 +1007,8 @@ static bool _DRV_SDSPI_SetupXfer (
     }
 
     OSAL_MUTEX_Unlock(&dObj->transferMutex);
+
+    _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
 
     return isSuccess;
 }
@@ -1240,14 +1272,14 @@ static void _DRV_SDSPI_AttachDetachTasks ( SYS_MODULE_OBJ object )
 
     switch ( dObj->taskState )
     {
-		case DRV_SDSPI_TASK_OPEN_SPI:
-			/* Open the SPI driver */			
-			dObj->spiDrvHandle = DRV_SPI_Open(dObj->spiDrvIndex, DRV_IO_INTENT_READWRITE);
-			if (dObj->spiDrvHandle != DRV_HANDLE_INVALID)
-			{
-				dObj->taskState = DRV_SDSPI_TASK_START_POLLING_TIMER;
-			}			
-			break;
+        case DRV_SDSPI_TASK_OPEN_SPI:
+            /* Open the SPI driver */
+            dObj->spiDrvHandle = DRV_SPI_Open(dObj->spiDrvIndex, DRV_IO_INTENT_READWRITE);
+            if (dObj->spiDrvHandle != DRV_HANDLE_INVALID)
+            {
+                dObj->taskState = DRV_SDSPI_TASK_START_POLLING_TIMER;
+            }
+            break;
         case DRV_SDSPI_TASK_START_POLLING_TIMER:
             if (_DRV_SDSPI_CardDetectPollingTimerStart(dObj, dObj->pollingIntervalMs) == true)
             {
@@ -1261,7 +1293,16 @@ static void _DRV_SDSPI_AttachDetachTasks ( SYS_MODULE_OBJ object )
             {
                 dObj->cardPollingTimerExpired = false;
                 dObj->taskState = DRV_SDSPI_TASK_START_POLLING_TIMER;
+
+                if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+                {
+                    return;
+                }
+
                 dObj->isAttached = _DRV_SDSPI_MediaCommandDetect (object);
+
+                _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
+
                 if (dObj->isAttachedLastStatus != dObj->isAttached)
                 {
                     dObj->isAttachedLastStatus = dObj->isAttached;
@@ -1282,8 +1323,15 @@ static void _DRV_SDSPI_AttachDetachTasks ( SYS_MODULE_OBJ object )
             break;
 
         case DRV_SDSPI_TASK_MEDIA_INIT:
+            if (_DRV_SDSPI_SPIExclusiveAccess(dObj, true) == false)
+            {
+                return;
+            }
+
             /* Update the card details to the internal data structure */
             _DRV_SDSPI_MediaInitialize (object);
+
+            _DRV_SDSPI_SPIExclusiveAccess(dObj, false);
 
             /* Once the initialization is complete, move to the next stage */
             if (dObj->mediaInitState == DRV_SDSPI_INIT_SD_INIT_DONE)
@@ -1402,7 +1450,7 @@ SYS_MODULE_OBJ DRV_SDSPI_Initialize(
     dObj->isAttachedLastStatus  = DRV_SDSPI_IS_DETACHED;
     dObj->mediaState            = DRV_SDSPI_IS_DETACHED;
 
-	dObj->taskState             = DRV_SDSPI_TASK_OPEN_SPI;
+    dObj->taskState             = DRV_SDSPI_TASK_OPEN_SPI;
     dObj->cmdDetectState        = DRV_SDSPI_CMD_DETECT_START_INIT;
     dObj->mediaInitState        = DRV_SDSPI_INIT_SPI;
     dObj->spiTransferStatus     = DRV_SDSPI_SPI_TRANSFER_STATUS_COMPLETE;

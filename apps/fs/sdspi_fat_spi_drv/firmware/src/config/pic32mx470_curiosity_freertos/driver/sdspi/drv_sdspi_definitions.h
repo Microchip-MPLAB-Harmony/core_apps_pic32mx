@@ -50,7 +50,6 @@
 // *****************************************************************************
 
 #include "system/ports/sys_ports.h"
-#include "system/dma/sys_dma.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
