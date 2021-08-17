@@ -233,6 +233,7 @@ static bool _DRV_SDSPI_CommandSend(
     uint32_t nBytes = DRV_SDSPI_PACKET_SIZE;
     uint32_t ncrTries = _DRV_SDSPI_COMMAND_RESPONSE_TRIES;
 
+
     /* Frame the command */
     dObj->cmdRespBuffer[0] = (gDrvSDSPICmdTable[command].commandCode | DRV_SDSPI_TRANSMIT_SET);
     /* SD Card expects argument in big-endian format */
@@ -327,6 +328,7 @@ static bool _DRV_SDSPI_CommandSend(
     }
 
     isSuccess = true;
+
 
     return isSuccess;
 }
@@ -927,6 +929,7 @@ static bool _DRV_SDSPI_SetupXfer (
             return isSuccess;
     }
 
+
     /* Block other clients/threads from accessing the SD Card */
     if (OSAL_MUTEX_Lock(&dObj->transferMutex, OSAL_WAIT_FOREVER ) != OSAL_RESULT_TRUE)
     {
@@ -976,6 +979,7 @@ static bool _DRV_SDSPI_SetupXfer (
     }
 
     OSAL_MUTEX_Unlock(&dObj->transferMutex);
+
 
     return isSuccess;
 }
@@ -1254,7 +1258,11 @@ static void _DRV_SDSPI_AttachDetachTasks ( SYS_MODULE_OBJ object )
             {
                 dObj->cardPollingTimerExpired = false;
                 dObj->taskState = DRV_SDSPI_TASK_START_POLLING_TIMER;
+
+
                 dObj->isAttached = _DRV_SDSPI_MediaCommandDetect (object);
+
+
                 if (dObj->isAttachedLastStatus != dObj->isAttached)
                 {
                     dObj->isAttachedLastStatus = dObj->isAttached;
@@ -1275,8 +1283,10 @@ static void _DRV_SDSPI_AttachDetachTasks ( SYS_MODULE_OBJ object )
             break;
 
         case DRV_SDSPI_TASK_MEDIA_INIT:
+
             /* Update the card details to the internal data structure */
             _DRV_SDSPI_MediaInitialize (object);
+
 
             /* Once the initialization is complete, move to the next stage */
             if (dObj->mediaInitState == DRV_SDSPI_INIT_SD_INIT_DONE)

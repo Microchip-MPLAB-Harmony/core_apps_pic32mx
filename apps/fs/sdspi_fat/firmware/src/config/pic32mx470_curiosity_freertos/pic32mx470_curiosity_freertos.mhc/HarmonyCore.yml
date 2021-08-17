@@ -41,11 +41,47 @@ children:
           - type: Pair
             attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_PORTS}
           - type: Pair
-            attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_DMA}
+            attributes: {description: 'FALSE', value: '1', key: ENABLE_SYS_DMA}
           - type: Pair
             attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_RESET}
   - type: File
     attributes: {id: CONFIGURATION_H}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: DMA_DEF}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: DMA_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: DMA_MAPPING}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: DMA_SOURCE}
     children:
     - type: Attributes
       children:

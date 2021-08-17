@@ -942,7 +942,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: FreeRTOS, value: 'true'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: EVIC_4_ENABLE_GENERATE}
     children:
