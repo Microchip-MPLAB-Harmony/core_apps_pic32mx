@@ -30,6 +30,28 @@ children:
         attributes: {id: name}
         children:
         - {type: Value, value: app_usart_echo.h}
+  - type: KeyValueSet
+    attributes: {id: COMMON_SYMBOL_CNTR}
+    children:
+    - type: Attributes
+      children:
+      - type: KeyValuePairList
+        attributes: {id: pairs}
+        children:
+        - type: Pairs
+          children:
+          - type: Pair
+            attributes: {description: 'FALSE', value: '0', key: ENABLE_DRV_COMMON}
+          - type: Pair
+            attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_COMMON}
+          - type: Pair
+            attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_MEDIA}
+          - type: Pair
+            attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_PORTS}
+          - type: Pair
+            attributes: {description: 'FALSE', value: '1', key: ENABLE_SYS_DMA}
+          - type: Pair
+            attributes: {description: 'FALSE', value: '0', key: ENABLE_SYS_RESET}
   - type: File
     attributes: {id: CONFIGURATION_H}
     children:
