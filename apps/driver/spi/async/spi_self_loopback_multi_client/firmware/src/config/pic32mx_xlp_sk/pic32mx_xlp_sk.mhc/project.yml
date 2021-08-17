@@ -2,61 +2,61 @@ files:
 - generatedChecksum: null
   logicalPath: ''
   name: app_client1.c
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
   name: app_client2.c
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
   name: app_monitor.c
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: 9662EF06B67604709759AAE6CC4EE131
-  logicalPath: config\pic32mx_xlp_sk\bsp
+  logicalPath: config/pic32mx_xlp_sk/bsp
   name: bsp.c
   physicalPath: bsp
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9662EF06B67604709759AAE6CC4EE131
-- generatedChecksum: 536E07CE671B6A44C441D33328FAE434
-  logicalPath: config\pic32mx_xlp_sk\driver\spi
+- generatedChecksum: 890E05474D29F90F100611796316EE68
+  logicalPath: config/pic32mx_xlp_sk/driver/spi
   name: drv_spi.c
-  physicalPath: driver\spi\src
+  physicalPath: driver/spi/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 536E07CE671B6A44C441D33328FAE434
-- generatedChecksum: 9FADE1C7F9878091CC940DA770DEE4F1
-  logicalPath: config\pic32mx_xlp_sk\driver\spi
+  userChecksum: 890E05474D29F90F100611796316EE68
+- generatedChecksum: 2F93CCFAEB36B18AC3E3FB791041CDDB
+  logicalPath: config/pic32mx_xlp_sk/driver/spi
   name: drv_spi_local.h
-  physicalPath: driver\spi\src
+  physicalPath: driver/spi/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 9FADE1C7F9878091CC940DA770DEE4F1
-- generatedChecksum: EC410AF32A00CC5E9DF0F879297B47F1
-  logicalPath: config\pic32mx_xlp_sk
+  userChecksum: 2F93CCFAEB36B18AC3E3FB791041CDDB
+- generatedChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
+  logicalPath: config/pic32mx_xlp_sk
   name: exceptions.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: EC410AF32A00CC5E9DF0F879297B47F1
-- generatedChecksum: 5BD329E511C16079C12C5CCC7C95F75D
-  logicalPath: config\pic32mx_xlp_sk
+  userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
+- generatedChecksum: B4B34D7E075E902B2084D4F9918A9FF7
+  logicalPath: config/pic32mx_xlp_sk
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 5BD329E511C16079C12C5CCC7C95F75D
+  userChecksum: B4B34D7E075E902B2084D4F9918A9FF7
 - generatedChecksum: 52CEF89AC4A0C97EA46CD6ADCBA2730F
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
@@ -65,61 +65,61 @@ files:
 - generatedChecksum: null
   logicalPath: ''
   name: main.c
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: SOURCE
   userChecksum: null
 - generatedChecksum: 8F34DA39D8590140C8A89DDE478E9BE1
-  logicalPath: config\pic32mx_xlp_sk\peripheral\clk
+  logicalPath: config/pic32mx_xlp_sk/peripheral/clk
   name: plib_clk.c
-  physicalPath: peripheral\clk
+  physicalPath: peripheral/clk
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8F34DA39D8590140C8A89DDE478E9BE1
 - generatedChecksum: AE234D6498AE107B44695D48EF30B937
-  logicalPath: config\pic32mx_xlp_sk\peripheral\evic
+  logicalPath: config/pic32mx_xlp_sk/peripheral/evic
   name: plib_evic.c
-  physicalPath: peripheral\evic
+  physicalPath: peripheral/evic
   security: NON_SECURE
   type: SOURCE
   userChecksum: AE234D6498AE107B44695D48EF30B937
-- generatedChecksum: 4364989F88469929D7EF1CB6ED545044
-  logicalPath: config\pic32mx_xlp_sk\peripheral\gpio
+- generatedChecksum: FC194AEE6A1266CA1A0432ABDF43BF9E
+  logicalPath: config/pic32mx_xlp_sk/peripheral/gpio
   name: plib_gpio.c
-  physicalPath: peripheral\gpio
+  physicalPath: peripheral/gpio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 4364989F88469929D7EF1CB6ED545044
-- generatedChecksum: 708FE09FE573B29EE444AEFFEE95BE99
-  logicalPath: config\pic32mx_xlp_sk\peripheral\spi\spi_master
+  userChecksum: FC194AEE6A1266CA1A0432ABDF43BF9E
+- generatedChecksum: 6925E1D4BB12E3CB705609100718B3D5
+  logicalPath: config/pic32mx_xlp_sk/peripheral/spi/spi_master
   name: plib_spi1_master.c
-  physicalPath: peripheral\spi\spi_master
+  physicalPath: peripheral/spi/spi_master
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 708FE09FE573B29EE444AEFFEE95BE99
+  userChecksum: 6925E1D4BB12E3CB705609100718B3D5
 - generatedChecksum: 0A6893369C4DA0EE7906866EB6E1D310
-  logicalPath: config\pic32mx_xlp_sk\system\dma
+  logicalPath: config/pic32mx_xlp_sk/system/dma
   name: sys_dma.c
-  physicalPath: system\dma
+  physicalPath: system/dma
   security: NON_SECURE
   type: SOURCE
   userChecksum: 0A6893369C4DA0EE7906866EB6E1D310
 - generatedChecksum: C95CE0ABB86E6B11CF77E8891D294510
-  logicalPath: config\pic32mx_xlp_sk\system\int
+  logicalPath: config/pic32mx_xlp_sk/system/int
   name: sys_int.c
-  physicalPath: system\int\src
+  physicalPath: system/int/src
   security: NON_SECURE
   type: SOURCE
   userChecksum: C95CE0ABB86E6B11CF77E8891D294510
 - generatedChecksum: 3D1188A56A53707189B4A7E2C933D3B6
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: tasks.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
   userChecksum: 3D1188A56A53707189B4A7E2C933D3B6
 - generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
-  logicalPath: config\pic32mx_xlp_sk\stdio
+  logicalPath: config/pic32mx_xlp_sk/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
@@ -128,234 +128,234 @@ files:
 - generatedChecksum: null
   logicalPath: ''
   name: app_client1.h
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
   name: app_client2.h
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
 - generatedChecksum: null
   logicalPath: ''
   name: app_monitor.h
-  physicalPath: ..\..
+  physicalPath: ../..
   security: NON_SECURE
   type: HEADER
   userChecksum: null
 - generatedChecksum: F983D30A0C60FE07237B620E7F0A3C11
-  logicalPath: config\pic32mx_xlp_sk\bsp
+  logicalPath: config/pic32mx_xlp_sk/bsp
   name: bsp.h
   physicalPath: bsp
   security: NON_SECURE
   type: HEADER
   userChecksum: F983D30A0C60FE07237B620E7F0A3C11
-- generatedChecksum: 4A01529CC1539367B276FFEA5C82628D
-  logicalPath: config\pic32mx_xlp_sk
+- generatedChecksum: 3B2866AD34240EF3A999FE75DC77A5FF
+  logicalPath: config/pic32mx_xlp_sk
   name: configuration.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4A01529CC1539367B276FFEA5C82628D
+  userChecksum: 3B2866AD34240EF3A999FE75DC77A5FF
 - generatedChecksum: 25F51C068C3FD3401A6B23504267DCBB
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: definitions.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
   userChecksum: 25F51C068C3FD3401A6B23504267DCBB
 - generatedChecksum: E189C26B2269F8DE46033CCD0621958D
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: device.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
   userChecksum: E189C26B2269F8DE46033CCD0621958D
 - generatedChecksum: 1D2094DFA60F847FFD4E8153B6E78027
-  logicalPath: config\pic32mx_xlp_sk\driver
+  logicalPath: config/pic32mx_xlp_sk/driver
   name: driver.h
   physicalPath: driver
   security: NON_SECURE
   type: HEADER
   userChecksum: 1D2094DFA60F847FFD4E8153B6E78027
 - generatedChecksum: CC7DFCC51CD25171A3E400E18969354F
-  logicalPath: config\pic32mx_xlp_sk\driver
+  logicalPath: config/pic32mx_xlp_sk/driver
   name: driver_common.h
   physicalPath: driver
   security: NON_SECURE
   type: HEADER
   userChecksum: CC7DFCC51CD25171A3E400E18969354F
-- generatedChecksum: 53AD078A2F507226A6BDA2DBFEA03430
-  logicalPath: config\pic32mx_xlp_sk\driver\spi
+- generatedChecksum: F454D5E0E6162B53958549B1D524C549
+  logicalPath: config/pic32mx_xlp_sk/driver/spi
   name: drv_spi.h
-  physicalPath: driver\spi
+  physicalPath: driver/spi
   security: NON_SECURE
   type: HEADER
-  userChecksum: 53AD078A2F507226A6BDA2DBFEA03430
-- generatedChecksum: E2CB59CF36535862BE10D0969882502A
-  logicalPath: config\pic32mx_xlp_sk\driver\spi
+  userChecksum: F454D5E0E6162B53958549B1D524C549
+- generatedChecksum: 8CBE7ECA7AD929CFB98585C2CE50C169
+  logicalPath: config/pic32mx_xlp_sk/driver/spi
   name: drv_spi_definitions.h
-  physicalPath: driver\spi
+  physicalPath: driver/spi
   security: NON_SECURE
   type: HEADER
-  userChecksum: E2CB59CF36535862BE10D0969882502A
+  userChecksum: 8CBE7ECA7AD929CFB98585C2CE50C169
 - generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
   userChecksum: 4CF4A86296482D5331331BA301C20BB2
 - generatedChecksum: F0AD88762263B7CB89B02AB4F5876059
-  logicalPath: config\pic32mx_xlp_sk\osal
+  logicalPath: config/pic32mx_xlp_sk/osal
   name: osal.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
   userChecksum: F0AD88762263B7CB89B02AB4F5876059
 - generatedChecksum: 0AC88C49E4585B606FD5AC6804F0C340
-  logicalPath: config\pic32mx_xlp_sk\osal
+  logicalPath: config/pic32mx_xlp_sk/osal
   name: osal_definitions.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
   userChecksum: 0AC88C49E4585B606FD5AC6804F0C340
 - generatedChecksum: B040122CCA94A0636810D6F15F13B751
-  logicalPath: config\pic32mx_xlp_sk\osal
+  logicalPath: config/pic32mx_xlp_sk/osal
   name: osal_impl_basic.h
   physicalPath: osal
   security: NON_SECURE
   type: HEADER
   userChecksum: B040122CCA94A0636810D6F15F13B751
 - generatedChecksum: 7066CC390335CF75126E2A50C46E3BDD
-  logicalPath: config\pic32mx_xlp_sk\peripheral\clk
+  logicalPath: config/pic32mx_xlp_sk/peripheral/clk
   name: plib_clk.h
-  physicalPath: peripheral\clk
+  physicalPath: peripheral/clk
   security: NON_SECURE
   type: HEADER
   userChecksum: 7066CC390335CF75126E2A50C46E3BDD
 - generatedChecksum: 3BE6DA6B5D6D8605EC41BCB0DF5C8C7A
-  logicalPath: config\pic32mx_xlp_sk\peripheral\evic
+  logicalPath: config/pic32mx_xlp_sk/peripheral/evic
   name: plib_evic.h
-  physicalPath: peripheral\evic
+  physicalPath: peripheral/evic
   security: NON_SECURE
   type: HEADER
   userChecksum: 3BE6DA6B5D6D8605EC41BCB0DF5C8C7A
 - generatedChecksum: C503CC6289D94600B53B9FB23E6FAA50
-  logicalPath: config\pic32mx_xlp_sk\peripheral\gpio
+  logicalPath: config/pic32mx_xlp_sk/peripheral/gpio
   name: plib_gpio.h
-  physicalPath: peripheral\gpio
+  physicalPath: peripheral/gpio
   security: NON_SECURE
   type: HEADER
   userChecksum: C503CC6289D94600B53B9FB23E6FAA50
-- generatedChecksum: 8B538ED26B7B1F9177E6F490AAE66B57
-  logicalPath: config\pic32mx_xlp_sk\peripheral\spi\spi_master
+- generatedChecksum: A9C21E81CB403E638EEB811A7780088B
+  logicalPath: config/pic32mx_xlp_sk/peripheral/spi/spi_master
   name: plib_spi1_master.h
-  physicalPath: peripheral\spi\spi_master
+  physicalPath: peripheral/spi/spi_master
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8B538ED26B7B1F9177E6F490AAE66B57
+  userChecksum: A9C21E81CB403E638EEB811A7780088B
 - generatedChecksum: CFA758C8B7258190473EF7C60C4BA4E9
-  logicalPath: config\pic32mx_xlp_sk\peripheral\spi\spi_master
+  logicalPath: config/pic32mx_xlp_sk/peripheral/spi/spi_master
   name: plib_spi_master_common.h
-  physicalPath: peripheral\spi\spi_master
+  physicalPath: peripheral/spi/spi_master
   security: NON_SECURE
   type: HEADER
   userChecksum: CFA758C8B7258190473EF7C60C4BA4E9
 - generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
-  logicalPath: config\pic32mx_xlp_sk\system\debug
+  logicalPath: config/pic32mx_xlp_sk/system/debug
   name: sys_debug.h
-  physicalPath: system\debug
+  physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
   userChecksum: 6972608768DDBE6E37A2D81B83DF490B
-- generatedChecksum: C2DA38DFCE9FE1F73F3CBB86AF829F03
-  logicalPath: config\pic32mx_xlp_sk\system\dma
+- generatedChecksum: C6D4E4697C914BC63255859D937D2F36
+  logicalPath: config/pic32mx_xlp_sk/system/dma
   name: sys_dma.h
-  physicalPath: system\dma
+  physicalPath: system/dma
   security: NON_SECURE
   type: HEADER
-  userChecksum: C2DA38DFCE9FE1F73F3CBB86AF829F03
+  userChecksum: C6D4E4697C914BC63255859D937D2F36
 - generatedChecksum: 42E557EFE638D7A736FB88AA84F085F1
-  logicalPath: config\pic32mx_xlp_sk\system\dma
+  logicalPath: config/pic32mx_xlp_sk/system/dma
   name: sys_dma_mapping.h
-  physicalPath: system\dma
+  physicalPath: system/dma
   security: NON_SECURE
   type: HEADER
   userChecksum: 42E557EFE638D7A736FB88AA84F085F1
 - generatedChecksum: 47330C2D8F204B2B69F8A86240A564B6
-  logicalPath: config\pic32mx_xlp_sk\system\int
+  logicalPath: config/pic32mx_xlp_sk/system/int
   name: sys_int.h
-  physicalPath: system\int
+  physicalPath: system/int
   security: NON_SECURE
   type: HEADER
   userChecksum: 47330C2D8F204B2B69F8A86240A564B6
 - generatedChecksum: FC7B55936A09E0CA1395AE4DFB1A188F
-  logicalPath: config\pic32mx_xlp_sk\system\int
+  logicalPath: config/pic32mx_xlp_sk/system/int
   name: sys_int_mapping.h
-  physicalPath: system\int
+  physicalPath: system/int
   security: NON_SECURE
   type: HEADER
   userChecksum: FC7B55936A09E0CA1395AE4DFB1A188F
 - generatedChecksum: D39B51E2B129416684B2E301665551F1
-  logicalPath: config\pic32mx_xlp_sk\system\ports
+  logicalPath: config/pic32mx_xlp_sk/system/ports
   name: sys_ports.h
-  physicalPath: system\ports
+  physicalPath: system/ports
   security: NON_SECURE
   type: HEADER
   userChecksum: D39B51E2B129416684B2E301665551F1
 - generatedChecksum: BC6E1661BF4CAC21B70F5F56A0D7BBDB
-  logicalPath: config\pic32mx_xlp_sk\system\ports
+  logicalPath: config/pic32mx_xlp_sk/system/ports
   name: sys_ports_mapping.h
-  physicalPath: system\ports
+  physicalPath: system/ports
   security: NON_SECURE
   type: HEADER
   userChecksum: BC6E1661BF4CAC21B70F5F56A0D7BBDB
 - generatedChecksum: BE95B4F134C5C929787B9DA6FDBF3501
-  logicalPath: config\pic32mx_xlp_sk\system
+  logicalPath: config/pic32mx_xlp_sk/system
   name: system.h
   physicalPath: system
   security: NON_SECURE
   type: HEADER
   userChecksum: BE95B4F134C5C929787B9DA6FDBF3501
 - generatedChecksum: C3F5136D520DAC4416512EBFCCA023C3
-  logicalPath: config\pic32mx_xlp_sk\system
+  logicalPath: config/pic32mx_xlp_sk/system
   name: system_common.h
   physicalPath: system
   security: NON_SECURE
   type: HEADER
   userChecksum: C3F5136D520DAC4416512EBFCCA023C3
 - generatedChecksum: 1C75A8A6B60598A2FD0D533F57839B72
-  logicalPath: config\pic32mx_xlp_sk\system
+  logicalPath: config/pic32mx_xlp_sk/system
   name: system_module.h
   physicalPath: system
   security: NON_SECURE
   type: HEADER
   userChecksum: 1C75A8A6B60598A2FD0D533F57839B72
-- generatedChecksum: 2C8543317B3F067432097AB9BD3E8672
-  logicalPath: config\pic32mx_xlp_sk
+- generatedChecksum: 7DC91D6D376C98802C9C2990432DE9B7
+  logicalPath: config/pic32mx_xlp_sk
   name: toolchain_specifics.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2C8543317B3F067432097AB9BD3E8672
+  userChecksum: 7DC91D6D376C98802C9C2990432DE9B7
 - generatedChecksum: null
-  logicalPath: config\pic32mx_xlp_sk
+  logicalPath: config/pic32mx_xlp_sk
   name: user.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: 5046F8F763354AC64495163961A56997
-  logicalPath: config\pic32mx_xlp_sk
+- generatedChecksum: CF99597DFF6AD85206D19812D9D7793C
+  logicalPath: config/pic32mx_xlp_sk
   name: p32MX274F256D.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: 5046F8F763354AC64495163961A56997
+  userChecksum: CF99597DFF6AD85206D19812D9D7793C
 format_version: v1.0
 libraries: []
 settings:
@@ -364,7 +364,7 @@ settings:
   delimiter: ;
   key: extra-include-directories
   security: NON_SECURE
-  value: ../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;
+  value: ../src;../src/config/pic32mx_xlp_sk;
 - append: false
   category: C32
   delimiter: ''
@@ -394,7 +394,7 @@ settings:
   delimiter: ;
   key: extra-include-directories
   security: NON_SECURE
-  value: ../src;../src/config/pic32mx_xlp_sk;../src/packs/PIC32MX274F256D_DFP;
+  value: ../src;../src/config/pic32mx_xlp_sk;
 - append: false
   category: C32CPP
   delimiter: ''
