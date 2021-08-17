@@ -85,6 +85,12 @@ children:
   - type: Boolean
     attributes: {id: ENABLE_SYS_COMMON}
     children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: readOnly}
+        children:
+        - {type: Value, value: 'true'}
     - type: Values
       children:
       - type: Dynamic
@@ -169,6 +175,15 @@ children:
         children:
         - {type: Value, value: 'true'}
   - type: File
+    attributes: {id: OSAL_IMPL_BASIC_H}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
     attributes: {id: OSAL_SYSDEF_H}
     children:
     - type: Attributes
@@ -204,6 +219,24 @@ children:
         - {type: Value, value: 'true'}
   - type: File
     attributes: {id: SYSTEM_ROOT}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: SYS_DEBUG_DEF_HEADER}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'true'}
+  - type: File
+    attributes: {id: SYS_DEBUG_HEADER}
     children:
     - type: Attributes
       children:
