@@ -1,4 +1,4 @@
-<config configName="pic32mx_xlp_sk" projectName="at25_eeprom_read_write_pic32mx_xlp_sk" configVersion="1.1" device="PIC32MX274F256D" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx_xlp_sk" projectName="at25_eeprom_read_write_pic32mx_xlp_sk" configVersion="1.1" device="PIC32MX274F256D" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1598,11 +1598,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\initialization.c</file>
-         <hash>e63855b608fef64efdacfa826c576ec0c76a9f0f2d01e7c0d142e21694b93e23</hash>
+         <hash>1b68964cc9cd0a4b3807b6806c56af6db2de4c1c3198fa91b17923885c0ebed7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\bsp\bsp.c</file>
@@ -1622,7 +1622,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\system\system_common.h</file>
@@ -1686,7 +1686,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\driver\at25\drv_at25.h</file>
-         <hash>b52ad29789fe27bc88da18988bc1279ecba158a8257b8b3f1cbe0375bbdbd445</hash>
+         <hash>b936bd977d5641ab5f41b493bb7975b07652ceb0f365ea6ce8506b4a0a478d9e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\driver\driver.h</file>
