@@ -212,12 +212,18 @@ static DRV_SPI_CLIENT_OBJ * _DRV_SPI_DriverHandleValidate(DRV_HANDLE handle)
 
 static DRV_SPI_TRANSFER_OBJ* _DRV_SPI_FreeTransferObjGet(DRV_SPI_CLIENT_OBJ* clientObj)
 {
-    uint32_t index;
+	static uint32_t lastUsedIndex = 0;
+	uint32_t i;
+	uint32_t index;
     DRV_SPI_OBJ* dObj = (DRV_SPI_OBJ* )&gDrvSPIObj[clientObj->drvIndex];
     DRV_SPI_TRANSFER_OBJ* pTransferObj = (DRV_SPI_TRANSFER_OBJ*)dObj->transferObjPool;
 
-    for (index = 0; index < dObj->transferObjPoolSize; index++)
+    for (i = 0, index = lastUsedIndex; i < dObj->transferObjPoolSize; i++, index++)
     {
+		if (index >= dObj->transferObjPoolSize)
+		{
+			index = 0;
+		}
         if (pTransferObj[index].inUse == false)
         {
             pTransferObj[index].inUse = true;
@@ -231,6 +237,8 @@ static DRV_SPI_TRANSFER_OBJ* _DRV_SPI_FreeTransferObjGet(DRV_SPI_CLIENT_OBJ* cli
 
             /* Update the token for next time */
             dObj->spiTokenCount = _DRV_SPI_UPDATE_TOKEN(dObj->spiTokenCount);
+			
+			lastUsedIndex = index + 1;
 
             return &pTransferObj[index];
         }
@@ -919,7 +927,12 @@ void DRV_SPI_WriteReadTransferAdd (
         transferObj->event          = DRV_SPI_TRANSFER_EVENT_PENDING;
         transferObj->clientHandle   = handle;
 
-        if (clientObj->setup.dataBits != DRV_SPI_DATA_BITS_8)
+		if (clientObj->setup.dataBits == DRV_SPI_DATA_BITS_8)
+		{
+			transferObj->txSize = txSize;
+            transferObj->rxSize = rxSize;
+		}
+        else if (clientObj->setup.dataBits <= DRV_SPI_DATA_BITS_16)
         {
             /* Both SPI and DMA PLIB expect size to be in terms of bytes */
             transferObj->txSize = txSize << 1;
@@ -927,8 +940,9 @@ void DRV_SPI_WriteReadTransferAdd (
         }
         else
         {
-            transferObj->txSize = txSize;
-            transferObj->rxSize = rxSize;
+            /* Both SPI and DMA PLIB expect size to be in terms of bytes */
+            transferObj->txSize = txSize << 2;
+            transferObj->rxSize = rxSize << 2;
         }
 
         /* Update the unique transfer handle in output parameter.This handle can
@@ -998,7 +1012,7 @@ DRV_SPI_TRANSFER_EVENT DRV_SPI_TransferStatusGet(const DRV_SPI_TRANSFER_HANDLE t
     }
     else if(transferHandle != dObj->transferObjPool[transferIndex].transferHandle)
     {
-        SYS_DEBUG_MESSAGE(SYS_ERROR_ERROR, "Transfer Handle Expired");
+        //SYS_DEBUG_MESSAGE(SYS_ERROR_ERROR, "Transfer Handle Expired");
         return DRV_SPI_TRANSFER_EVENT_HANDLE_EXPIRED;
     }
     else
