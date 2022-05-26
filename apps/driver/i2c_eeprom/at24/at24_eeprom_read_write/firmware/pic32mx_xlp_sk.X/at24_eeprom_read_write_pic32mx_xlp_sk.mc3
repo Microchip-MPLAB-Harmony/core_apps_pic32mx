@@ -1,4 +1,4 @@
-<config configName="pic32mx_xlp_sk" projectName="at24_eeprom_read_write_pic32mx_xlp_sk" configVersion="1.1" device="PIC32MX274F256D" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx_xlp_sk" projectName="at24_eeprom_read_write_pic32mx_xlp_sk" configVersion="1.1" device="PIC32MX274F256D" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1304,19 +1304,19 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\initialization.c</file>
-         <hash>31a238ded896a98623245cd7a9978d6eaebfbb73e478c6a2ce8b1cc9743d3af8</hash>
+         <hash>0142ca21d7b7a3fe94f2fbbccba41f44e14155ec5dab73e0b664f3338e71ddc4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\peripheral\i2c\master\plib_i2c1_master.c</file>
-         <hash>97716fd13aae7d7be8c349394c75f92e293f51c6cf8b6d447bb6c4fa559acb4c</hash>
+         <hash>30c631956f1501bcf83aae88f12227b46326684d4003c2b32f310bb030792484</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\peripheral\i2c\master\plib_i2c1_master.h</file>
-         <hash>2a6da809d8d6dd3766b6427c4e07a843080dc2d5be2730442661263609044065</hash>
+         <hash>fe1705d5a4367c2fb58afad568326a01c5771d0ac94cf8657427f37046856082</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\driver\at24\src\drv_at24_local.h</file>
@@ -1336,7 +1336,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\system\system_common.h</file>
@@ -1344,7 +1344,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\driver\at24\drv_at24.h</file>
-         <hash>d196ace03fda5297da04dae9b9299030ba7b968062efa8ff0819cb3174546e77</hash>
+         <hash>3618378bcfa10a02409e8539a657e81e885cecbfa73c5f62161b481b993015b2</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_xlp_sk\system\int\src\sys_int.c</file>

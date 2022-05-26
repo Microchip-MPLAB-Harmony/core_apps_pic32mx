@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: D6ACE0794C145767B452424BAE64B5BF
+- generatedChecksum: 3CA231B10AEE12C4E188FAC59628625C
   logicalPath: config/pic32mx_xlp_sk
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: D6ACE0794C145767B452424BAE64B5BF
+  userChecksum: 3CA231B10AEE12C4E188FAC59628625C
 - generatedChecksum: 4B8DEFC81B7CDDEAFC01CAF0CEAC9130
   logicalPath: config/pic32mx_xlp_sk
   name: interrupts.c
@@ -76,13 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 54755D7AE537C13713CF170A245FBE17
-- generatedChecksum: BF2C59D299DCAE2D244260850E43E82F
+- generatedChecksum: 904FBD49D58F20AF1D201A4852E707B6
   logicalPath: config/pic32mx_xlp_sk/peripheral/i2c/master
   name: plib_i2c1_master.c
   physicalPath: peripheral/i2c/master
   security: NON_SECURE
   type: SOURCE
-  userChecksum: BF2C59D299DCAE2D244260850E43E82F
+  userChecksum: 904FBD49D58F20AF1D201A4852E707B6
 - generatedChecksum: C95CE0ABB86E6B11CF77E8891D294510
   logicalPath: config/pic32mx_xlp_sk/system/int
   name: sys_int.c
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DE51BB8F6FDBC39FB049CB2A14E56B25
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx_xlp_sk/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app.h
@@ -153,13 +153,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CC7DFCC51CD25171A3E400E18969354F
-- generatedChecksum: F68EFAED22D62906295F2E60D6B32E3B
+- generatedChecksum: A7B41F0DCBA3BF04DE32A9704DFB6C89
   logicalPath: config/pic32mx_xlp_sk/driver/at24
   name: drv_at24.h
   physicalPath: driver/at24
   security: NON_SECURE
   type: HEADER
-  userChecksum: F68EFAED22D62906295F2E60D6B32E3B
+  userChecksum: A7B41F0DCBA3BF04DE32A9704DFB6C89
 - generatedChecksum: 99C180836F8E45B3A9E30FB846B930CC
   logicalPath: config/pic32mx_xlp_sk/driver/at24
   name: drv_at24_definitions.h
@@ -216,13 +216,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9C0A5076C32650BA16169CCEEB2C4EF2
-- generatedChecksum: 407D8CE5F0C091BCEBB78967FECBE53E
+- generatedChecksum: 62FBC878743DB699BADD3CF9BC5D10AD
   logicalPath: config/pic32mx_xlp_sk/peripheral/i2c/master
   name: plib_i2c1_master.h
   physicalPath: peripheral/i2c/master
   security: NON_SECURE
   type: HEADER
-  userChecksum: 407D8CE5F0C091BCEBB78967FECBE53E
+  userChecksum: 62FBC878743DB699BADD3CF9BC5D10AD
 - generatedChecksum: B963C6FE44292A1C4A14C3BA5BE95AEE
   logicalPath: config/pic32mx_xlp_sk/peripheral/i2c/master
   name: plib_i2c_master_common.h
@@ -230,13 +230,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: B963C6FE44292A1C4A14C3BA5BE95AEE
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx_xlp_sk/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: 47330C2D8F204B2B69F8A86240A564B6
   logicalPath: config/pic32mx_xlp_sk/system/int
   name: sys_int.h
