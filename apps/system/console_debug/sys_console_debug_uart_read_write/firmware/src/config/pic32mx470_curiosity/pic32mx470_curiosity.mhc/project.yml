@@ -20,13 +20,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: 8A1916B7B18A6744FCE0C2C6F7E0245C
+- generatedChecksum: BB56DD42E6E0469282ADAF71C16065E3
   logicalPath: config/pic32mx470_curiosity
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8A1916B7B18A6744FCE0C2C6F7E0245C
+  userChecksum: BB56DD42E6E0469282ADAF71C16065E3
 - generatedChecksum: A07722F4CCC78487AA451429B00B25F7
   logicalPath: config/pic32mx470_curiosity
   name: interrupts.c
@@ -62,13 +62,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: B28A9AFEA09755C5BC2D64135E2F9A17
-- generatedChecksum: 835482DAB98F858AF0B1978F2DA1482E
+- generatedChecksum: 23A30C84C58B9C079149D3CD78391D68
   logicalPath: config/pic32mx470_curiosity/peripheral/uart
   name: plib_uart1.c
   physicalPath: peripheral/uart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 835482DAB98F858AF0B1978F2DA1482E
+  userChecksum: 23A30C84C58B9C079149D3CD78391D68
 - generatedChecksum: 20C22A19D5DC74DEBFC4CCCA83B6F603
   logicalPath: config/pic32mx470_curiosity/system/console
   name: sys_console.c
@@ -132,13 +132,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DE51BB8F6FDBC39FB049CB2A14E56B25
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx470_curiosity/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app.h
@@ -237,13 +237,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 3034BE358F7BD4B7B31FE392CCBDA3D6
-- generatedChecksum: E1124D987C677DE15615D40B3A3FFECD
+- generatedChecksum: 7E7789CBB60779C7FAB227D04EC2B42F
   logicalPath: config/pic32mx470_curiosity/peripheral/uart
   name: plib_uart1.h
   physicalPath: peripheral/uart
   security: NON_SECURE
   type: HEADER
-  userChecksum: E1124D987C677DE15615D40B3A3FFECD
+  userChecksum: 7E7789CBB60779C7FAB227D04EC2B42F
 - generatedChecksum: 91611515A95D92B82B7F4064C16D122B
   logicalPath: config/pic32mx470_curiosity/peripheral/uart
   name: plib_uart_common.h
@@ -251,20 +251,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 91611515A95D92B82B7F4064C16D122B
-- generatedChecksum: 91CB36F6EC29DAA7C584282A875E5CBA
+- generatedChecksum: 3AE819DFC5376F6E9AD0427596F24644
   logicalPath: config/pic32mx470_curiosity/system/console
   name: sys_console.h
   physicalPath: system/console
   security: NON_SECURE
   type: HEADER
-  userChecksum: 91CB36F6EC29DAA7C584282A875E5CBA
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: 3AE819DFC5376F6E9AD0427596F24644
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx470_curiosity/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: 47330C2D8F204B2B69F8A86240A564B6
   logicalPath: config/pic32mx470_curiosity/system/int
   name: sys_int.h
