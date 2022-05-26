@@ -1,4 +1,4 @@
-<config configName="pic32mx_sk" projectName="sys_time_multiclient_pic32mx_sk" configVersion="1.1" device="PIC32MX360F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx_sk" projectName="sys_time_multiclient_pic32mx_sk" configVersion="1.1" device="PIC32MX360F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1092,7 +1092,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\definitions.h</file>
-         <hash>dc65175cb83810ae57d7e640b91760a34580980daa993cd007a61c9f2bec27c0</hash>
+         <hash>962a2b79391d962ad57835c37ee96f3a79e6d4922d8442ead1eb930bc9079a00</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\peripheral\clk\plib_clk.h</file>
@@ -1116,7 +1116,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\exceptions.c</file>
@@ -1148,11 +1148,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\initialization.c</file>
-         <hash>47df51fa692f8031498d4f76cfcd6102515bdf31a3447f4d6a5c14b1d767aea2</hash>
+         <hash>d008b0fa49335a19f717f79ef9db5b98c9690997d041915a4fd64d88761dad3e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_sk\peripheral\coretimer\plib_coretimer.h</file>
@@ -1187,6 +1187,10 @@
          <hash>bae64db3060daff6f6bb6b82a65cf0dbd6cc580f385e9267f5b065091d04fdd8</hash>
       </entry>
       <entry>
+         <file>..\src\config\pic32mx_sk\system\time\src\sys_time_local.h</file>
+         <hash>d3ef06b59d9a89efe9e8eb54fcf3b75120d56156cc21f6847ca4f9e902eb7c9d</hash>
+      </entry>
+      <entry>
          <file>..\src\config\pic32mx_sk\system\system_module.h</file>
          <hash>981fac23277aa77f682e7a9a28d436f892006cd5b4c7f23f50941b6d9a30e740</hash>
       </entry>
@@ -1195,12 +1199,8 @@
          <hash>ff706bb4bde7b62a65b603efea8bab8b5a7d9a1a2c1cb2a9e981d68bbf20f764</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mx_sk\system\time\src\sys_time_local.h</file>
-         <hash>a761ad68ce0cbac8c326bd17e54cc01d10324ed8d5e120ef092856a21604b6a2</hash>
-      </entry>
-      <entry>
          <file>..\src\config\pic32mx_sk\system\time\src\sys_time.c</file>
-         <hash>ddec1a83e32b63552ae72f884dc849e376b60d411669554f7ec492fff180662f</hash>
+         <hash>4c2c39bc061655a06d6da7bd1f448c4de26a181e5710d74b4391923fb37ddadb</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
