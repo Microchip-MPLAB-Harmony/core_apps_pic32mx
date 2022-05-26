@@ -1,4 +1,4 @@
-<config configName="pic32mx470_curiosity" projectName="async_spi_multi_instance_pic32mx470_curiosity" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx470_curiosity" projectName="async_spi_multi_instance_pic32mx470_curiosity" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -39,7 +39,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -2618,7 +2618,7 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\config\pic32mx470_curiosity\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi2_master.h</file>
@@ -2678,7 +2678,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\initialization.c</file>
-         <hash>77f161ba8142613a281b2e126b28416fae653d3ea50bc4a8a74a0b3988419cc3</hash>
+         <hash>fc20a8a7dc59d3cf1c865509454080cfd4ced979eb8b872c3ca6a27c88e4a476</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\osal\osal.h</file>
@@ -2694,11 +2694,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\driver\spi\src\drv_spi.c</file>
-         <hash>de2b4a6948d74a1e54d288ad5808e2457298c91d97420be5334ac2ede46b9598</hash>
+         <hash>4dc38baff274ad82a807212ec783bafeb674f725fee0e9c90f823037a1e6c08c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\osal\osal_impl_basic.h</file>
@@ -2714,7 +2714,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\driver\spi\drv_spi_definitions.h</file>
-         <hash>adf812acf0aa56dac0f803a4755e018a49f659571109670cfe0d3b20087acdd1</hash>
+         <hash>4af3642c3b9f007bb5b461a3d3c8c348efc6e69875439594c4b67d7a7751212d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\tasks.c</file>
@@ -2782,7 +2782,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\driver\spi\drv_spi.h</file>
-         <hash>dfd0f628815dc935e8594112dc1a2acb17e9e2c50bf847744e1d54398768b274</hash>
+         <hash>aed15b9971d20ddad5624af0d417eccb3d9acf31326b0d9ededffabb34c3ed15</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity\system\int\sys_int_mapping.h</file>

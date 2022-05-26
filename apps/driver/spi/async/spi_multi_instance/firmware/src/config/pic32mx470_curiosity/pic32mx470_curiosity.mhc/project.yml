@@ -27,13 +27,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 8E6E4893125920C25696936C33DBF3E4
-- generatedChecksum: 890E05474D29F90F100611796316EE68
+- generatedChecksum: 32359ACE9D29A979647B4129C100B26B
   logicalPath: config/pic32mx470_curiosity/driver/spi
   name: drv_spi.c
   physicalPath: driver/spi/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 890E05474D29F90F100611796316EE68
+  userChecksum: 32359ACE9D29A979647B4129C100B26B
 - generatedChecksum: 2F93CCFAEB36B18AC3E3FB791041CDDB
   logicalPath: config/pic32mx470_curiosity/driver/spi
   name: drv_spi_local.h
@@ -48,13 +48,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: F83232CD85C731FCDFEA94209C0FFB9D
+- generatedChecksum: 3471936761FFD9F41D69572763766134
   logicalPath: config/pic32mx470_curiosity
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: F83232CD85C731FCDFEA94209C0FFB9D
+  userChecksum: 3471936761FFD9F41D69572763766134
 - generatedChecksum: 1CD9EA4E44FAABEB7EAE7E7A996F6CCC
   logicalPath: config/pic32mx470_curiosity
   name: interrupts.c
@@ -125,13 +125,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 85D6A1B6C90A7A981D38778C7D20F7E5
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx470_curiosity/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app_instance1.h
@@ -195,20 +195,20 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CC7DFCC51CD25171A3E400E18969354F
-- generatedChecksum: F454D5E0E6162B53958549B1D524C549
+- generatedChecksum: 9F75B6689BFA73CB5D96A71849B200F5
   logicalPath: config/pic32mx470_curiosity/driver/spi
   name: drv_spi.h
   physicalPath: driver/spi
   security: NON_SECURE
   type: HEADER
-  userChecksum: F454D5E0E6162B53958549B1D524C549
-- generatedChecksum: 8CBE7ECA7AD929CFB98585C2CE50C169
+  userChecksum: 9F75B6689BFA73CB5D96A71849B200F5
+- generatedChecksum: 05A15437D96080BB0A84D3102EB2137C
   logicalPath: config/pic32mx470_curiosity/driver/spi
   name: drv_spi_definitions.h
   physicalPath: driver/spi
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8CBE7ECA7AD929CFB98585C2CE50C169
+  userChecksum: 05A15437D96080BB0A84D3102EB2137C
 - generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
   logicalPath: config/pic32mx470_curiosity
   name: interrupts.h
@@ -279,13 +279,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CFA758C8B7258190473EF7C60C4BA4E9
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx470_curiosity/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: C6D4E4697C914BC63255859D937D2F36
   logicalPath: config/pic32mx470_curiosity/system/dma
   name: sys_dma.h
