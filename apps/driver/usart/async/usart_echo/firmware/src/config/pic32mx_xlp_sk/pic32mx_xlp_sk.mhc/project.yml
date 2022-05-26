@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: 0F04EA2A37DF302B3C7627210AE8DF2E
+- generatedChecksum: A8DC6DD8393D2E3DAD12AAE437122918
   logicalPath: config/pic32mx_xlp_sk
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 0F04EA2A37DF302B3C7627210AE8DF2E
+  userChecksum: A8DC6DD8393D2E3DAD12AAE437122918
 - generatedChecksum: A07722F4CCC78487AA451429B00B25F7
   logicalPath: config/pic32mx_xlp_sk
   name: interrupts.c
@@ -76,13 +76,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: F5C986C038B0FB0AD8A9FC060413322C
-- generatedChecksum: CA105D9590167AE387D7FA00EAED7E63
+- generatedChecksum: D3561BCB09CEE583F9CD2E8EB19DF490
   logicalPath: config/pic32mx_xlp_sk/peripheral/uart
   name: plib_uart1.c
   physicalPath: peripheral/uart
   security: NON_SECURE
   type: SOURCE
-  userChecksum: CA105D9590167AE387D7FA00EAED7E63
+  userChecksum: D3561BCB09CEE583F9CD2E8EB19DF490
 - generatedChecksum: 0A6893369C4DA0EE7906866EB6E1D310
   logicalPath: config/pic32mx_xlp_sk/system/dma
   name: sys_dma.c
@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DE51BB8F6FDBC39FB049CB2A14E56B25
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx_xlp_sk/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app.h
@@ -160,13 +160,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CC7DFCC51CD25171A3E400E18969354F
-- generatedChecksum: 6AF29C60E3BC9BB1F75754A49FBC6473
+- generatedChecksum: 32A69D3A36D95B996CA22CB89C5907DB
   logicalPath: config/pic32mx_xlp_sk/driver/usart
   name: drv_usart.h
   physicalPath: driver/usart
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6AF29C60E3BC9BB1F75754A49FBC6473
+  userChecksum: 32A69D3A36D95B996CA22CB89C5907DB
 - generatedChecksum: 6A33BD761891FC1DA0DA3D6899CD645F
   logicalPath: config/pic32mx_xlp_sk/driver/usart
   name: drv_usart_definitions.h
@@ -223,13 +223,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 9C0A5076C32650BA16169CCEEB2C4EF2
-- generatedChecksum: 8DAE87F255A119BC5653E657CCB4AD35
+- generatedChecksum: E8EE36B043BD54CFF975FD251198EF5B
   logicalPath: config/pic32mx_xlp_sk/peripheral/uart
   name: plib_uart1.h
   physicalPath: peripheral/uart
   security: NON_SECURE
   type: HEADER
-  userChecksum: 8DAE87F255A119BC5653E657CCB4AD35
+  userChecksum: E8EE36B043BD54CFF975FD251198EF5B
 - generatedChecksum: 67EEAF539A53B6B8FD7B600ACCB3F3CA
   logicalPath: config/pic32mx_xlp_sk/peripheral/uart
   name: plib_uart_common.h
@@ -237,13 +237,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 67EEAF539A53B6B8FD7B600ACCB3F3CA
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx_xlp_sk/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: C6D4E4697C914BC63255859D937D2F36
   logicalPath: config/pic32mx_xlp_sk/system/dma
   name: sys_dma.h
