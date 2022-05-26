@@ -1,4 +1,4 @@
-<config configName="pic32mx470_curiosity_freertos" projectName="sync_i2c_eeprom_pic32mx470_curiosity_freertos" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx470_curiosity_freertos" projectName="sync_i2c_eeprom_pic32mx470_curiosity_freertos" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -35,7 +35,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1659,7 +1659,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>2bdfb8e3c1a76a5ccacb1b7815ca9acb63d1ba1f1bd29e5a75757d5e186c5056</hash>
+         <hash>85a11a834d04120402087ac61190566f893480e9d6c8fe903218330dc4ea7d30</hash>
       </entry>
       <entry>
          <file>..\src\app_i2c_eeprom.h</file>
@@ -1671,15 +1671,15 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>0d16405e621a2c4b003b5f0324b9713cd4865364133df6f742f482a6b2dbc773</hash>
+         <hash>dae8ab1093eed0eebd86eef7f4e777e3d249d98b75528ff3841d41ce1c8f3fa6</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>0607fcca1927ba782a29a3814481d69db3569e6e53a68ebf2c01f5598a3af2b8</hash>
+         <hash>43bd2a4bf5d6495e04c8409187d8f31dfaee58d8f94d7e3a4fd9830e5d7e68dc</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\FreeRTOSConfig.h</file>
-         <hash>11d1503218a6ccf400f5a5f93d951740fa4e4501d8fa1bcf75b27b9597d5721f</hash>
+         <hash>70ece13d80e738557c2cbf01f0156180c251947062e72cb874bdf505594bfd9e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\gpio\plib_gpio.c</file>
@@ -1687,7 +1687,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\driver\i2c\src\drv_i2c.c</file>
-         <hash>582e01364b63a273f8adb666318ad1087ac69e504e236d769320b01939de4b3a</hash>
+         <hash>be0e47aab2bf2959f4a67a286ddb0191c9a4f1a17aa6431094130d84ed241e70</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\exceptions.c</file>
@@ -1695,19 +1695,19 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\driver\i2c\drv_i2c.h</file>
-         <hash>c17a0a4f6904f2226706c71821a1dac31171a701181677c9bb512049e20b71a2</hash>
+         <hash>1add02b0380f67be5dc9707f01b290af08eccc0957775327f44a8c1afc823410</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>f9b239f168976f7b167e054fa72616826f55ae4d74d76b87c9e70b2df079363f</hash>
+         <hash>f288a68b8559a1913dd663136711f7adcaf8b3430627d7102978be4d808a02eb</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>b9b2ff28a0c80fa21443690bb28de64c8b9451cccd57e484de0bcf02fc367575</hash>
+         <hash>6bc571df5182f06bcafe5280fdf762bbba2bf1dbb7867ae3721ce2d7e3e51dae</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>cfd11f78d92b398e8347f2b55dc1e79dffce83f63f7e570c6fc821334681ad12</hash>
+         <hash>2bf5b5f5d83684c1e6d90e5bd17da9de41d38ed61ec0410f94595ff343f89174</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\toolchain_specifics.h</file>
@@ -1719,11 +1719,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\initialization.c</file>
-         <hash>20cbdbbd1b9b9bcb92622027d269aca7beee21162f914c7f0a41aac879456473</hash>
+         <hash>90e4fe1bd9a534acb85acb9ca083c302e80e7c0bbd6dcbb9fbdbba97987f15c8</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>8df4c5eec7eb30262f09b7c47fc2eb0534a27721293b0d260a3398846494f9ac</hash>
+         <hash>b6da8ad0cb09303c87eb634679b97f56001c14f45acd1378103504699a95cad4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\bsp\bsp.h</file>
@@ -1731,7 +1731,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>8cb1eabe18f130b2b8980e880847f773fb12a4071c763d26c51624223b32a3a4</hash>
+         <hash>f97f4e54a7511e5aea34f583061c628bf718b1024af6ec4cff55cb50365305da</hash>
       </entry>
       <entry>
          <file>..\src\app_i2c_eeprom.c</file>
@@ -1739,11 +1739,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>a72063c3977fad098a87a5430e04e9fc5b892d703e01fbe09ea907f67aacf20e</hash>
+         <hash>82542c835466f2abd0eeb2988a0bcecf3d6a14c9dd87ad4a7ca325b15afbce95</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>e31cd1c9c280c919a92edc28885e9bebce589d4cfab71cefab832a73683200fb</hash>
+         <hash>4566d5abfceea128a553ecf2bbb22b9d7c9c8a1d3c1f02f9091182b5290d02fc</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\configuration.h</file>
@@ -1755,7 +1755,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>39795c8dded505f24f53646ecd8192251851c74f366d2a5b0aae3fbfa68c191b</hash>
+         <hash>c95eb0d549ff1c20edebfec41d73584b5a20d21df20a724084200954b9e8d252</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\evic\plib_evic.c</file>
@@ -1767,11 +1767,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>e735517f308fad5dd77d03b6858c16bdbc937bb9d0754735849fc7799ebe2b59</hash>
+         <hash>21fe8dd565f9610e1ff4a6bf7bebbd16842af13d3d2294f1dc67ad279fb01d22</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>6d8eb84e5171bce4d5cde80abc575ebd7d81ac007b7733f34d5032bac93f1748</hash>
+         <hash>d03a08079e678cc6e6a1e2105684ab0082d190bbb731f6807d75e1aca260e98f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\interrupts.h</file>
@@ -1779,7 +1779,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\i2c\master\plib_i2c1_master.h</file>
-         <hash>2a6da809d8d6dd3766b6427c4e07a843080dc2d5be2730442661263609044065</hash>
+         <hash>fe1705d5a4367c2fb58afad568326a01c5771d0ac94cf8657427f37046856082</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\clk\plib_clk.h</file>
@@ -1787,11 +1787,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\i2c\master\plib_i2c1_master.c</file>
-         <hash>86aee0a6e0b73e947077df7e58140719363632b96b4a80bddd80eaff73dd7344</hash>
+         <hash>f18c54027e50a3d66c50c3916ec8b07eb9dabca06f28c88c0b9082c7d94c2c00</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>7d1d30b6c9ae34bebb26b14402f78a59a35ae826f460a1ad28534c9590b32151</hash>
+         <hash>06b5b66a9b98ad4998c82d353c0108b9db1a846951b8865cbdeeef90c5bbe2fe</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\interrupts.c</file>
@@ -1799,7 +1799,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>3fafd21399ef619a55b2f8112750d750685c8ae1cb458363d21ee37a105ac6e7</hash>
+         <hash>783d9a41c90817eec55d9317475cc2663a785fc9a955c06d3207fcee6e0ec080</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\clk\plib_clk.c</file>
@@ -1819,19 +1819,19 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>399814721d9735e91d74ca07be3974edb20639acb46a6792230ff9f61f67b353</hash>
+         <hash>292c78c91dbf63a6aa028f381b1dd548d549949f4fb9fcfd97f949569e013d76</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>b7a81501c3f4ff9537df5c9a5e0231f37638cdc8324965ae10064128fded840f</hash>
+         <hash>c8d9b7a52d092f37b4c3b821806bd6e8a30dbcc600960f9aed2b2f10f965c09f</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>504a77558f13b66fd1eec5adf4d81e274f0b54c12880424833c24f577be0800a</hash>
+         <hash>0f5a90e8303d9aa2a9c897d6b90da50df21776c6bde7bf8c792cacffa3048c8d</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\port.c</file>
-         <hash>f67c39a4ff778d09d52d48f7426082be52d6274109320e3357e3aa5767983add</hash>
+         <hash>43afc0568b8a0d41d2b74dee99d79056afc9be0c7932ff81e61fd3aeb741d3be</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\driver\driver_common.h</file>
@@ -1851,7 +1851,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>3b9cbd64db721c4317544700fff4e42ac68d989f71b7d610b31087bb19175839</hash>
+         <hash>a73c0b319370116d5981d5dacbabad3a775f85ae540ef70b4ced1c99c9ac6cd5</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\i2c\master\plib_i2c_master_common.h</file>
@@ -1859,11 +1859,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\ISR_Support.h</file>
-         <hash>97266128ba592406b8aa9dbf7acdebaae8faedecca7a6fec05035118c8ace82f</hash>
+         <hash>6e2cc9adf24a6dea8b624297c8710c044586537c341404c47b946c5fd24a1343</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>06a153c1ce111213af32dfc8797bd2e5c7819e264dfa338b4049f058dc1edb11</hash>
+         <hash>4452e3b0e6446b74c7d010d308072ba0a35c1f92bcf3882a54bf3796a72517aa</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\system\system_common.h</file>
@@ -1875,19 +1875,19 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>c1fc47acdb79efb0fb8a0fb8a169ae4423fdc3a6d820b2f81d49e8e077c1ed48</hash>
+         <hash>0f7a750669b24c41af51482eb76c867a1ed11c14dd4877d07433db3953d9a792</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>39d58a203f1b67fdb1099293914a2af9722d223586cfc5ff06e230e047919dea</hash>
+         <hash>ff7a2139380ad0e2695bbc0d068db7a3b7e54ec41387b4c77acbe1aaa2921b7c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\interrupts_a.S</file>
@@ -1895,11 +1895,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\freertos_hooks.c</file>
-         <hash>9ad70cf61f23e435987222ef070cf0b4b099d56f1e8b13fcf9d69723c064bd16</hash>
+         <hash>1c31f7febed38afbcb09d11b002c5dddda98c7ed7aba9ff8f8e32b8c5f288a47</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\port_asm.S</file>
-         <hash>c13e3bdc04a6be309ee5ff3bb1b893c93ae848fd57bbc740707578231ea485cd</hash>
+         <hash>a97b42904519ee820220d2bdc4c5e5f39ef352553c1bbd6ba43dcb0262111d37</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\osal\osal_freertos.h</file>
@@ -1907,7 +1907,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>4376714fecad0f72dc4c8b45236591a7e0ffe24dd018382f56e8b0dfc2230b28</hash>
+         <hash>a62731cd211dd9caf70958b229d4a3a607ef12e6fbfec573a0d089f21c45f34f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\system\int\src\sys_int.c</file>
@@ -1915,7 +1915,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\portmacro.h</file>
-         <hash>abe947b110955e23017744d0314ee35d2ec00386d7e48f26a1955162bc8a4f3c</hash>
+         <hash>cd1b255254966879d9ec4dec641f2d8de87dde2ef6a5c251e16c192f7d9176a3</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -1927,11 +1927,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>382f8a7a0e00240fb69911dff8d8515248beb9dadfe77c22c4e5544f49cc76eb</hash>
+         <hash>1947473678873963f3193497280d907f59a5936f92df6395327f7ca684cb1aa6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\driver\i2c\drv_i2c_definitions.h</file>
-         <hash>5adcdc0b5c4923735f64d0b2fabfbfa10629acbba3cb692eee1b6d90567784b8</hash>
+         <hash>ce994a96a3ec4e507b5a3fb9663b7bafb31ca0e43791fba475c1d5a06f09c28d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\osal\osal_freertos.c</file>
