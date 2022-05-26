@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: 069214D7287384A60A1C2BAC27714377
+- generatedChecksum: 1176E5397EE8E5F93D0CDFF1AF27F9FF
   logicalPath: config/pic32mx470_curiosity
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 069214D7287384A60A1C2BAC27714377
+  userChecksum: 1176E5397EE8E5F93D0CDFF1AF27F9FF
 - generatedChecksum: 52CEF89AC4A0C97EA46CD6ADCBA2730F
   logicalPath: config/pic32mx470_curiosity
   name: interrupts.c
@@ -97,13 +97,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: DE51BB8F6FDBC39FB049CB2A14E56B25
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx470_curiosity/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app.h
@@ -153,13 +153,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CC7DFCC51CD25171A3E400E18969354F
-- generatedChecksum: D88B31F2549366FA45428169AED5AA1B
+- generatedChecksum: 9A245E1F309B38923B1E95B8A76BC954
   logicalPath: config/pic32mx470_curiosity/driver/at25
   name: drv_at25.h
   physicalPath: driver/at25
   security: NON_SECURE
   type: HEADER
-  userChecksum: D88B31F2549366FA45428169AED5AA1B
+  userChecksum: 9A245E1F309B38923B1E95B8A76BC954
 - generatedChecksum: 3A5673768ECF05CBFC6F33D688186538
   logicalPath: config/pic32mx470_curiosity/driver/at25
   name: drv_at25_definitions.h
@@ -230,13 +230,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: CFA758C8B7258190473EF7C60C4BA4E9
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx470_curiosity/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: 47330C2D8F204B2B69F8A86240A564B6
   logicalPath: config/pic32mx470_curiosity/system/int
   name: sys_int.h
