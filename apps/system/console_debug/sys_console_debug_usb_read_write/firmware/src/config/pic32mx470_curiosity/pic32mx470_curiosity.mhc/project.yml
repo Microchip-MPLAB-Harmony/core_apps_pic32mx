@@ -20,13 +20,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: E8A25523C8CDDC97F3FD108E97BF4A9F
-- generatedChecksum: E65E55268349D2945F1AC4144D0327CC
+- generatedChecksum: 77A61E825804B2CA96FC95734161DDE6
   logicalPath: config/pic32mx470_curiosity/driver/usb/usbfs/src
   name: drv_usbfs_device.c
   physicalPath: driver/usb/usbfs/src
   security: NON_SECURE
   type: SOURCE
-  userChecksum: E65E55268349D2945F1AC4144D0327CC
+  userChecksum: 77A61E825804B2CA96FC95734161DDE6
 - generatedChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
   logicalPath: config/pic32mx470_curiosity
   name: exceptions.c
@@ -34,13 +34,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 4BBDE3B7B0DAEE2CA5A8F519001D5BFF
-- generatedChecksum: 3A48FD36A4F0493517370A7B6BCDAE53
+- generatedChecksum: F78863B944315F725A36C89E3884B8CE
   logicalPath: config/pic32mx470_curiosity
   name: initialization.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3A48FD36A4F0493517370A7B6BCDAE53
+  userChecksum: F78863B944315F725A36C89E3884B8CE
 - generatedChecksum: 29686C7E8A81693191ED4A174A746C71
   logicalPath: config/pic32mx470_curiosity
   name: interrupts.c
@@ -132,13 +132,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: C95CE0ABB86E6B11CF77E8891D294510
-- generatedChecksum: B20E6826CB06BB9DF727A6DE24CF0723
+- generatedChecksum: F709B7B999A505C41BA59D25A4136A63
   logicalPath: config/pic32mx470_curiosity
   name: tasks.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: B20E6826CB06BB9DF727A6DE24CF0723
+  userChecksum: F709B7B999A505C41BA59D25A4136A63
 - generatedChecksum: BCCEF5B801FFD0CF22D0B454D2F25F1F
   logicalPath: config/pic32mx470_curiosity/usb/src
   name: usb_device.c
@@ -167,13 +167,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 98B7CEBEA5EDB2E2B7F679E80FEF4CCB
-- generatedChecksum: 7806B30ECAE0D18D08CD583D8775530D
+- generatedChecksum: 71352EF41F6688AD8408E42970B50B66
   logicalPath: config/pic32mx470_curiosity/stdio
   name: xc32_monitor.c
   physicalPath: stdio
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 7806B30ECAE0D18D08CD583D8775530D
+  userChecksum: 71352EF41F6688AD8408E42970B50B66
 - generatedChecksum: null
   logicalPath: ''
   name: app.h
@@ -307,34 +307,34 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 3034BE358F7BD4B7B31FE392CCBDA3D6
-- generatedChecksum: 3224466D03D8DDF1B5307028B2E5583F
+- generatedChecksum: 7AFFC4178335897ED9D5804CAB531BCF
   logicalPath: config/pic32mx470_curiosity/driver/usb/usbfs/src
   name: plib_usbfs.h
   physicalPath: driver/usb/usbfs/src
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3224466D03D8DDF1B5307028B2E5583F
-- generatedChecksum: 3822D4C43CB11882404ECB2B28DD61EA
+  userChecksum: 7AFFC4178335897ED9D5804CAB531BCF
+- generatedChecksum: 9B4B2B2E7722D50697564E6D6E4F9E04
   logicalPath: config/pic32mx470_curiosity/driver/usb/usbfs/src
   name: plib_usbfs_header.h
   physicalPath: driver/usb/usbfs/src
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3822D4C43CB11882404ECB2B28DD61EA
-- generatedChecksum: 91CB36F6EC29DAA7C584282A875E5CBA
+  userChecksum: 9B4B2B2E7722D50697564E6D6E4F9E04
+- generatedChecksum: 3AE819DFC5376F6E9AD0427596F24644
   logicalPath: config/pic32mx470_curiosity/system/console
   name: sys_console.h
   physicalPath: system/console
   security: NON_SECURE
   type: HEADER
-  userChecksum: 91CB36F6EC29DAA7C584282A875E5CBA
-- generatedChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: 3AE819DFC5376F6E9AD0427596F24644
+- generatedChecksum: FADDA086C6C4E8FD7EBCE117438767A6
   logicalPath: config/pic32mx470_curiosity/system/debug
   name: sys_debug.h
   physicalPath: system/debug
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6972608768DDBE6E37A2D81B83DF490B
+  userChecksum: FADDA086C6C4E8FD7EBCE117438767A6
 - generatedChecksum: 47330C2D8F204B2B69F8A86240A564B6
   logicalPath: config/pic32mx470_curiosity/system/int
   name: sys_int.h
@@ -1210,13 +1210,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 6C4A6859DB16EA8C046F995C6B6C1C6F
-- generatedChecksum: F127C67A3E33E5788C0F057F648EE57C
+- generatedChecksum: 6EB8F9F4A43B9BC2C7A58585AC679650
   logicalPath: config/pic32mx470_curiosity/usb
   name: usb_host.h
   physicalPath: usb
   security: NON_SECURE
   type: HEADER
-  userChecksum: F127C67A3E33E5788C0F057F648EE57C
+  userChecksum: 6EB8F9F4A43B9BC2C7A58585AC679650
 - generatedChecksum: 6EBC5E4D06FC96A02ADF3B7416957DD6
   logicalPath: config/pic32mx470_curiosity/usb
   name: usb_host_client_driver.h

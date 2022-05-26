@@ -97,7 +97,7 @@ extern "C" {
 
 #define SYS_CONSOLE_DEVICE_MAX_INSTANCES   			2
 #define SYS_CONSOLE_UART_MAX_INSTANCES 	   			0
-#define SYS_CONSOLE_USB_CDC_MAX_INSTANCES 	   		2
+#define SYS_CONSOLE_USB_CDC_MAX_INSTANCES 	   		4
 #define SYS_CONSOLE_PRINT_BUFFER_SIZE        		200
 
 #define SYS_CONSOLE_USB_CDC_READ_WRITE_BUFFER_SIZE 	64
@@ -136,10 +136,6 @@ extern "C" {
 
 /* EP0 size in bytes */
 #define USB_DEVICE_EP0_BUFFER_SIZE                          64
-
-
-
-
 
 
 /* Maximum instances of CDC function driver */
