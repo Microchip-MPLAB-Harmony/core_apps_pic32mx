@@ -1,4 +1,4 @@
-<config configName="pic32mx_eth_sk2" projectName="sys_time_multiclient_pic32mx_eth_sk2" configVersion="1.1" device="PIC32MX795F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.2.4">
+<config configName="pic32mx_eth_sk2" projectName="sys_time_multiclient_pic32mx_eth_sk2" configVersion="1.1" device="PIC32MX795F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -35,7 +35,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1708,19 +1708,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_BRGH_MODE_COMMENT"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
-  &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_BRGH_MODE_COMMENT&quot;&gt;
-    &lt;Attributes dnOrder=&quot;0&quot;&gt;
-      &lt;String dnOrder=&quot;0&quot; id=&quot;text&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;***&amp;amp;#160;High&amp;amp;#160;Speed&amp;amp;#160;mode&amp;amp;#160;4x&amp;amp;#160;baud&amp;amp;#160;clock&amp;amp;#160;enabled&amp;amp;#160;(BRGH&amp;amp;#160;=&amp;amp;#160;1)&amp;amp;#160;***&lt;/Value&gt;
-      &lt;/String&gt;
-    &lt;/Attributes&gt;
-  &lt;/uart2&gt;
-&lt;/uart2&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="uart2" name="UART_CLOCK_FREQ"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;uart2&gt;
   &lt;uart2 dnOrder=&quot;0&quot; id=&quot;UART_CLOCK_FREQ&quot;&gt;
@@ -1839,16 +1826,16 @@
          <hash>95f85ed420907afcd5b4d9fbac78f98c61fa943ffac2c86b7124fa75da774271</hash>
       </entry>
       <entry>
+         <file>..\src\config\pic32mx_eth_sk2\system\time\src\sys_time.c</file>
+         <hash>4c2c39bc061655a06d6da7bd1f448c4de26a181e5710d74b4391923fb37ddadb</hash>
+      </entry>
+      <entry>
          <file>..\src\config\pic32mx_eth_sk2\user.h</file>
          <hash>451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mx_eth_sk2\system\time\src\sys_time.c</file>
-         <hash>ddec1a83e32b63552ae72f884dc849e376b60d411669554f7ec492fff180662f</hash>
-      </entry>
-      <entry>
          <file>..\src\config\pic32mx_eth_sk2\definitions.h</file>
-         <hash>37da5c1abdf16c79feafbd4bf38a502c82f69cc9fffae36e1c652db64dd9ad77</hash>
+         <hash>1d841d2c757b7a2423cee9fc5ff55b694a1d3275d0a9c5d9f2764f9764393392</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\evic\plib_evic.c</file>
@@ -1864,11 +1851,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\uart\plib_uart2.h</file>
-         <hash>41213a3e4992a0229b01b800b97aaa4c60cee862026b0f687b77a2e3de0c6ae5</hash>
+         <hash>90f0937c814b47f860e2957bddef1dedd0c690c1532c4b8fd4cbede8a1a4b5de</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\system\time\src\sys_time_local.h</file>
-         <hash>a761ad68ce0cbac8c326bd17e54cc01d10324ed8d5e120ef092856a21604b6a2</hash>
+         <hash>d3ef06b59d9a89efe9e8eb54fcf3b75120d56156cc21f6847ca4f9e902eb7c9d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\bsp\bsp.c</file>
@@ -1880,11 +1867,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\uart\plib_uart2.c</file>
-         <hash>d3a78172a8a5849124d8876aaa53a5dc25d1fbc820fd583d63049806156ef183</hash>
+         <hash>7306815a348beb5271b4519bcd081f18e086d2ead99a57e53a7116b9f09ede2d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\system\system_common.h</file>
@@ -1896,7 +1883,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\stdio\xc32_monitor.c</file>
-         <hash>1957d0040510756cd6a999d6f160cb685fee9aa800c832cfb8f5570b11b3e22b</hash>
+         <hash>02b7c5343c9797c6ffb7d442e0b10098bcfb84deb476c7ceacf79787713ebeca</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\system\int\sys_int_mapping.h</file>
@@ -1940,7 +1927,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\initialization.c</file>
-         <hash>2726f1b78801c45eace0c42b1ee5ab2a16effe43d0b3f04ffc08cfe43803e67c</hash>
+         <hash>9aaa0fe66a86908a4522f004af894ff310ed8c884d5fd56291c3198534e7eaad</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\osal\osal_impl_basic.h</file>
