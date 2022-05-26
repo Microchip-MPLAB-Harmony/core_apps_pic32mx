@@ -62,12 +62,12 @@
 #include "peripheral/dmac/plib_dmac.h"
 #include "peripheral/spi/spi_master/plib_spi1_master.h"
 #include "driver/sdspi/drv_sdspi.h"
+#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "system/time/sys_time.h"
 #include "app.h"
 
 
