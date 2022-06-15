@@ -1,5 +1,21 @@
-<config configName="pic32mx470_curiosity_freertos" projectName="sync_spi_multi_instance_pic32mx470_curiosity_freertos" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
-   <usedPackages class="java.util.ArrayList"/>
+<config configName="pic32mx470_curiosity_freertos" projectName="sync_spi_multi_instance_pic32mx470_curiosity_freertos" configVersion="1.1" device="PIC32MX470F512H" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.4">
+   <usedPackages class="java.util.ArrayList">
+      <package packageName="CMSIS-FreeRTOS" version="unknown" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="bsp" version="unknown" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="core" version="unknown" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="csp" version="unknown" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="dev_packs" version="unknown" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+   </usedPackages>
    <usedClasses class="java.util.TreeMap">
       <entry>
          <string>BSP_PIC32MX470_Curiosity_Development_Board</string>
@@ -43,7 +59,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.2-a"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -67,6 +83,17 @@
   &lt;FreeRTOS dnOrder=&quot;0&quot; id=&quot;FREERTOS_PERIPHERAL_CLOCK_HZ&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;FreeRTOS&quot; value=&quot;48000000&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/FreeRTOS&gt;
+&lt;/FreeRTOS&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="FreeRTOS" name="SET_RTOS"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;FreeRTOS&gt;
+  &lt;FreeRTOS dnOrder=&quot;0&quot; id=&quot;SET_RTOS&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;FreeRTOS&quot; value=&quot;FreeRTOS&quot;/&gt;
     &lt;/Values&gt;
   &lt;/FreeRTOS&gt;
 &lt;/FreeRTOS&gt;
@@ -869,7 +896,8 @@
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="core" name="!@#harmonyUserData"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;UserData&gt;
   &lt;UserData dnOrder=&quot;0&quot;&gt;
-    &lt;ComponentGraph dnOrder=&quot;0&quot; id=&quot;__ROOTVIEW&quot;&gt;
+    &lt;GraphSettings canvasHeight=&quot;400&quot; canvasWidth=&quot;400&quot; dnOrder=&quot;0&quot;/&gt;
+    &lt;ComponentGraph dnOrder=&quot;1&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_PIC32MX470_Curiosity_Development_Board&quot; x=&quot;72&quot; y=&quot;59&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;FreeRTOS&quot; x=&quot;21&quot; y=&quot;352&quot;/&gt;
@@ -881,7 +909,6 @@
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;spi2&quot; x=&quot;44&quot; y=&quot;265&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
-    &lt;GraphSettings canvasHeight=&quot;400&quot; canvasWidth=&quot;400&quot; dnOrder=&quot;1&quot;/&gt;
   &lt;/UserData&gt;
 &lt;/UserData&gt;
 </value>
@@ -4080,7 +4107,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\configuration.h</file>
-         <hash>39ba973c5aee80daa6fa6de19227525fab68d73594ab7bfede0f898c7675db09</hash>
+         <hash>e4737391c8275523fa145cc7f64da538f14013ebf33fa5beaa93653dcd0ff261</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\driver\spi\src\drv_spi_local.h</file>
@@ -4284,7 +4311,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx470_curiosity_freertos\peripheral\dmac\plib_dmac.c</file>
-         <hash>c76793e74baa7943432e831a4a1995c3e2f84a18160bee7de7dee2337e7a1e5a</hash>
+         <hash>255120471c33a076494fd07d9d18c3b9843ee9808a8aa9566e78fefc87872672</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\portmacro.h</file>

@@ -5,9 +5,9 @@ frameworkPath: ../../../../../..
 processor: PIC32MX470F512H
 projectName: ''
 settings:
-  PackageFilter: bsp;core;csp;
+  PackageFilter: bootloader;bsp;cec173x_soteria_lib;core;crypto;csp;Devices;dev_packs;harmony-services;net;quick_docs;usb
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\PIC32MX_DFP\1.0.49\atdf\PIC32MX470F512H.atdf
+  DFPPath: .\dev_packs\Microchip\PIC32MX_DFP\1.5.259\atdf\PIC32MX470F512H.atdf

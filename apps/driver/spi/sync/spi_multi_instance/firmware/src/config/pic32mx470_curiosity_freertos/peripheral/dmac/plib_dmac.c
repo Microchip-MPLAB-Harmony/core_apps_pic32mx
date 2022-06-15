@@ -221,16 +221,16 @@ void DMAC_Initialize(void)
     /* DMA channel 0 configuration */
     /* CHPRI = 0, CHAEN= 0, CHCHN= 0, CHCHNS= 0x0, CHAED= 0 */
     DCH0CON = 0x0;
-    /* CHSIRQ = 55, SIRQEN = 1 */
-    DCH0ECON = 0x3710;
+    /* CHSIRQ = 37, SIRQEN = 1 */
+    DCH0ECON = 0x2510;
     /* CHBCIE = 1, CHTAIE=1, CHERIE=1, CHSHIE= 0, CHDHIE= 0 */
     DCH0INT = 0xb0000;
 
     /* DMA channel 1 configuration */
     /* CHPRI = 0, CHAEN= 0, CHCHN= 0, CHCHNS= 0x0, CHAED= 0 */
     DCH1CON = 0x0;
-    /* CHSIRQ = 54, SIRQEN = 1 */
-    DCH1ECON = 0x3610;
+    /* CHSIRQ = 36, SIRQEN = 1 */
+    DCH1ECON = 0x2410;
     /* CHBCIE = 1, CHTAIE=1, CHERIE=1, CHSHIE= 0, CHDHIE= 0 */
     DCH1INT = 0xb0000;
 
