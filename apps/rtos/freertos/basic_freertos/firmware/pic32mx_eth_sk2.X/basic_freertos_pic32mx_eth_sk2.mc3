@@ -1,4 +1,4 @@
-<config configName="pic32mx_eth_sk2" projectName="basic_freertos_pic32mx_eth_sk2" configVersion="1.1" device="PIC32MX795F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="pic32mx_eth_sk2" projectName="basic_freertos_pic32mx_eth_sk2" configVersion="1.1" device="PIC32MX795F512L" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -23,7 +23,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1535,19 +1535,19 @@
    <generatedFileHashHistoryMap class="java.util.HashMap">
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\gpio\plib_gpio.c</file>
-         <hash>51787cf53d43a021fdc2d3895886a0f022380eb54eeb691909f501114d0ff0e0</hash>
+         <hash>3ff566a5399f70fd8f7e40ef2b25fe20f67d2ceac3f6f83e61cfd868ccfe3800</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\gpio\plib_gpio.h</file>
-         <hash>02e509a63345805de43125e0347b8dabbaa8c6deafe8f593a97f0d44530e4edb</hash>
+         <hash>e90844bcce37008d258ab8f59efe077a72b4a61f63d61ddd12574a8fea9592e5</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>85a11a834d04120402087ac61190566f893480e9d6c8fe903218330dc4ea7d30</hash>
+         <hash>45f2245c914ed25ab26a1ea78ddd4ac74cb6522e1b26ac5c44b614ca4c8cee99</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>dae8ab1093eed0eebd86eef7f4e777e3d249d98b75528ff3841d41ce1c8f3fa6</hash>
+         <hash>24962ef361f396aaa5e6e33776eeeddaf2fb251c87b6fe50602acc56c537b093</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\p32MX795F512L.ld</file>
@@ -1555,11 +1555,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>43bd2a4bf5d6495e04c8409187d8f31dfaee58d8f94d7e3a4fd9830e5d7e68dc</hash>
+         <hash>b876d839460197d94d0f95fb93c6aeb457f6fc572d32258480fed7d4de686b6b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\exceptions.c</file>
-         <hash>95f85ed420907afcd5b4d9fbac78f98c61fa943ffac2c86b7124fa75da774271</hash>
+         <hash>7c1b9a2e42598d51c643984260a4b0d966a18f1ad97cc90d166aa9a4311ab6af</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\user.h</file>
@@ -1567,31 +1567,31 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>f288a68b8559a1913dd663136711f7adcaf8b3430627d7102978be4d808a02eb</hash>
+         <hash>dc572f54391c0407fc25db360d912fca9118cddae7bd2e3099eb13f18804e5a9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\freertos_hooks.c</file>
-         <hash>1c31f7febed38afbcb09d11b002c5dddda98c7ed7aba9ff8f8e32b8c5f288a47</hash>
+         <hash>3062db4f47d59d8ff5654c75b8f3d09cb07ce6c85fd6dfdc1b48536ac865a526</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>6bc571df5182f06bcafe5280fdf762bbba2bf1dbb7867ae3721ce2d7e3e51dae</hash>
+         <hash>c624e8cdfc07844d4cf35382f3cc908c872375c7a3048482bdc110bda88cc4f2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>2bf5b5f5d83684c1e6d90e5bd17da9de41d38ed61ec0410f94595ff343f89174</hash>
+         <hash>ee0f596a54137e26ca806ebf067c4c6219a61348f1cbae8861a43d2d4891e1f9</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>b6da8ad0cb09303c87eb634679b97f56001c14f45acd1378103504699a95cad4</hash>
+         <hash>cf52c15fa26a8d4f82b55909b75ebfe2aab25468ba7780748912ddead9812b4e</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>f97f4e54a7511e5aea34f583061c628bf718b1024af6ec4cff55cb50365305da</hash>
+         <hash>14020d617b96dd2814e1211f6e3b645bcf5e2bd3179c23fe7dd16bc666fe9463</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>82542c835466f2abd0eeb2988a0bcecf3d6a14c9dd87ad4a7ca325b15afbce95</hash>
+         <hash>76e967b14d231e4f31f014f1564f359a7bfd36bfa263ee6f437afa8c056df657</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\stdio\xc32_monitor.c</file>
@@ -1599,11 +1599,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\FreeRTOSConfig.h</file>
-         <hash>f5fe12b87025fad59fdda057323adaf607e8e674d537c04396d70237f0e4fdf2</hash>
+         <hash>1ebd75a065df487621c812a1482124c6d3454bc27c95323e15e560d32f9c80d0</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>4566d5abfceea128a553ecf2bbb22b9d7c9c8a1d3c1f02f9091182b5290d02fc</hash>
+         <hash>ebf0cdce261dc4a256c06c0d4ad2582e6026a6da0e973d4cb92092e94ce8f370</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mx_eth_sk2\sys_tasks.h</file>
+         <hash>4264cd4e8b32046be7ed42e25312cd59b0760e05b89831076dd7e4b3f27001fc</hash>
       </entry>
       <entry>
          <file>..\src\app_task1.c</file>
@@ -1611,11 +1615,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\bsp\bsp.h</file>
-         <hash>0e93c172417f39c572c239eaafbd84262799fbe88f947cfc519889bc500a46df</hash>
+         <hash>28362bdda267cc798379f1999cd3dd52e50d98b57adfa898af9cbed67a7b4fb7</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>c95eb0d549ff1c20edebfec41d73584b5a20d21df20a724084200954b9e8d252</hash>
+         <hash>7ade8f368002778c723b3c4e14084910b7225cd36363ed0c948e9ea36c6f251f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\device.h</file>
@@ -1623,19 +1627,19 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>21fe8dd565f9610e1ff4a6bf7bebbd16842af13d3d2294f1dc67ad279fb01d22</hash>
+         <hash>db5c169cf3efd68da1c6a923ac84eebc724d602c940bde0b9b5f01f05028fde4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\initialization.c</file>
-         <hash>9d3b8e54fc6d16e38586239ef683dd07d4135cd966bd103194c133a183cd31be</hash>
+         <hash>17baf810a599ff04de99878f79d6339b6ba5e1d439b21c5d340613649e2db751</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>d03a08079e678cc6e6a1e2105684ab0082d190bbb731f6807d75e1aca260e98f</hash>
+         <hash>286e3fee81c9107fc6dec40405f500cabdca56836d29747c182f0899bb8997fd</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\osal\osal_freertos.h</file>
-         <hash>ca5e502b9f076c4bdc8d97ac2e4cfdfa5d1b49f7d64222c353fac4dcd794bc7c</hash>
+         <hash>7ad9faa903d8587bab9490660328f134b8e027f9c24bca47201f3f96f3b99474</hash>
       </entry>
       <entry>
          <file>..\src\app_task3.c</file>
@@ -1651,11 +1655,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>06b5b66a9b98ad4998c82d353c0108b9db1a846951b8865cbdeeef90c5bbe2fe</hash>
+         <hash>3cddf2b3d47ae387e376ac75eb468f9d8ffb575d68c143e08d54af4087474cce</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\osal\osal_freertos.c</file>
-         <hash>6f35cfd335587dd112d0ac648ae99539a5acbb98ba80ce6e8c7c855e7b8d7465</hash>
+         <hash>85201651ffb4dad86674b478746e0dc8cd833f98b39c83efc2ae3639f3efdd3b</hash>
       </entry>
       <entry>
          <file>..\src\app_task3.h</file>
@@ -1663,15 +1667,15 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>783d9a41c90817eec55d9317475cc2663a785fc9a955c06d3207fcee6e0ec080</hash>
+         <hash>2b46a2511ce5d23a56bc83079333d8d0a2e33763e5829c9383252806887a3dc0</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\tasks.c</file>
-         <hash>6d6640273f056b8b16a820f78ce44718a5732592142a21d2b50cd8642505039e</hash>
+         <hash>8e2140db0bfcaffa43f2e834cff2c6856d58c0496efa0c5faa1db506d8850587</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>292c78c91dbf63a6aa028f381b1dd548d549949f4fb9fcfd97f949569e013d76</hash>
+         <hash>8faf4220ded25b00fd72424a2fa4e63e154713ae7b42f7270f1e3289362a6312</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\interrupts_a.S</file>
@@ -1679,27 +1683,27 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>c8d9b7a52d092f37b4c3b821806bd6e8a30dbcc600960f9aed2b2f10f965c09f</hash>
+         <hash>03e9c94aba57e3cf7f4f73bc2d3eb4a96ae38f3425eedb5450622ca286475a0b</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>0f5a90e8303d9aa2a9c897d6b90da50df21776c6bde7bf8c792cacffa3048c8d</hash>
+         <hash>9a8141d3d6c8044a57d7e448180c9bd2ed32e45ded32be288d095a39dced91ab</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\definitions.h</file>
-         <hash>6ca67065a854003bf9e6ac1d388b75f29c898ed9eb75733254554b71dde2428c</hash>
+         <hash>fe58a879c246313945738b9919b4b88f00f65e3d728b41b8f2a5048082076a37</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\port.c</file>
-         <hash>43afc0568b8a0d41d2b74dee99d79056afc9be0c7932ff81e61fd3aeb741d3be</hash>
+         <hash>92b2eaa37d8da822b70bf1a25ec8846ec686b9cd122443ae2efe9cbbd305810a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\evic\plib_evic.c</file>
-         <hash>0f702b1f462243805c8ce98918cd3dd7a84797a5c99b3d13feeabcc3c19d2df3</hash>
+         <hash>9e0fccea0acc269f117deccb0dbc257179c233dc4700c33fc6f0a41e60c62668</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\interrupts.h</file>
-         <hash>91abdb8d191ae865fc6082f30783c3d6cca8aa8d5aca823a7fb2cc65e3a57d24</hash>
+         <hash>b962499a9220c4f731656b4a43b06dc4cf8762e6f9a89c71f4ab373883b37699</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\bsp\bsp.c</file>
@@ -1707,55 +1711,55 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\evic\plib_evic.h</file>
-         <hash>2f73c4ff4e1e5afdf9132140e231fd6c55b1825c54a71805faad0eedeca27433</hash>
+         <hash>db5e3889a7644e7053a032c08f7767258021260cc857660fc0c8cb77f9d17182</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>a73c0b319370116d5981d5dacbabad3a775f85ae540ef70b4ced1c99c9ac6cd5</hash>
+         <hash>7b3dd12a50d649c124c1af8be742671b9965b6f924310bda7984fe1b65c7f54a</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\ISR_Support.h</file>
-         <hash>6e2cc9adf24a6dea8b624297c8710c044586537c341404c47b946c5fd24a1343</hash>
+         <hash>226a67783cd76e2d57761e2dadfcc986be65184e6116cee325fde0f69a663dd2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>4452e3b0e6446b74c7d010d308072ba0a35c1f92bcf3882a54bf3796a72517aa</hash>
+         <hash>5cdf4fa35fe059446effff5bf20deaf83ddffb08921bc198fda106b1d17dd894</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>0f7a750669b24c41af51482eb76c867a1ed11c14dd4877d07433db3953d9a792</hash>
+         <hash>5014408cc33f0f616215f2b48c67b0d47ccc35bfd5f0044ac653b5bbc6cf5778</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\toolchain_specifics.h</file>
-         <hash>9dfc75809b6eb23cee342231de51f6b382f8f7eabf8a939539cf44c0da32acbc</hash>
+         <hash>38b3e0e3652463c4c84dc445fd0af062ddf1e36ce2aefeae250f3f0c4fef5685</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>ff7a2139380ad0e2695bbc0d068db7a3b7e54ec41387b4c77acbe1aaa2921b7c</hash>
+         <hash>1b61c1669091e59798a34c32c0f1e234d3f6a645f47641753eceeb7e1d9ce628</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\port_asm.S</file>
-         <hash>a97b42904519ee820220d2bdc4c5e5f39ef352553c1bbd6ba43dcb0262111d37</hash>
+         <hash>bd205593af5acf858f27a41a3cfef0719afe9a0b190e1373369f78b4e605e373</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\interrupts.c</file>
-         <hash>b90b8b31a583643113a088ce1e62de1fd73eb99df5b0b62f32d78a015c26556b</hash>
+         <hash>44d8309ac9f37dc6c08f6de8cc9734fbdd20dbdf2497d49611c766554178e226</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\clk\plib_clk.c</file>
-         <hash>90f3a456c779488a1a9eea5389aaa6af43a939be5dc133b647bf113a488fa28d</hash>
+         <hash>e8cbfd286346bacd3b737435c07e34ff8723c2e98af3a99f742dbb1f69622ce0</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\osal\osal.h</file>
-         <hash>d42702188d00d3e1d7219d7eef030485896bf8b5ebe55318656e82f0fbb89788</hash>
+         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\peripheral\clk\plib_clk.h</file>
-         <hash>aeb73e24e5a518024b1c3f7dce953a5cbacead08f55e80ae465fc8d2e522e477</hash>
+         <hash>35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>a62731cd211dd9caf70958b229d4a3a607ef12e6fbfec573a0d089f21c45f34f</hash>
+         <hash>0ec303ba296caca5de955dc470bcadd134fb15b192ddf61c9afc92070bc1039a</hash>
       </entry>
       <entry>
          <file>..\src\app_task2.c</file>
@@ -1763,7 +1767,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MPLAB\PIC32MX\portmacro.h</file>
-         <hash>cd1b255254966879d9ec4dec641f2d8de87dde2ef6a5c251e16c192f7d9176a3</hash>
+         <hash>4e096fd7cf4dde01a4416fb6cfa9ddb55443bd95b10572002c2f6a397f021cde</hash>
       </entry>
       <entry>
          <file>..\src\main.c</file>
@@ -1771,7 +1775,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mx_eth_sk2\osal\osal_definitions.h</file>
-         <hash>6dc49e317b4557c5516a172c1437125874abd98ffcc7260e3422966078dcef7f</hash>
+         <hash>af2f2336fac0fd5b49fb2d1c8f81baa4f554101b06f130aaa608cd9685c4ac35</hash>
       </entry>
       <entry>
          <file>..\src\app_task2.h</file>
@@ -1779,7 +1783,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>1947473678873963f3193497280d907f59a5936f92df6395327f7ca684cb1aa6</hash>
+         <hash>35000a143464bbbd8df7c9a6f066a64598a24da5174a7be33972e62bfbd75f4d</hash>
       </entry>
    </generatedFileHashHistoryMap>
 </config>
