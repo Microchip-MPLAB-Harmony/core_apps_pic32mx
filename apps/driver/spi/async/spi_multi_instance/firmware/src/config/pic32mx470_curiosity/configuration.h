@@ -97,7 +97,7 @@ extern "C" {
 #define DRV_SPI_QUEUE_SIZE_IDX0               4
 
 /* SPI Driver Common Configuration Options */
-#define DRV_SPI_INSTANCES_NUMBER              2
+#define DRV_SPI_INSTANCES_NUMBER              (2U)
 
 
 
