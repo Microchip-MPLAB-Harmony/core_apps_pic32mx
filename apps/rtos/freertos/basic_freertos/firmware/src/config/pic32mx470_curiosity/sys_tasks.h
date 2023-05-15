@@ -1,26 +1,23 @@
 /*******************************************************************************
- System Interrupts File
-
-  Company:
-    Microchip Technology Inc.
+ System Tasks Header File
 
   File Name:
-    interrupt.c
+    sys_tasks.h
 
   Summary:
-    Interrupt vectors mapping
+    This file contains declarations for task handles.
 
   Description:
-    This file maps all the interrupt vectors to their corresponding
-    implementations. If a particular module interrupt is used, then its ISR
-    definition can be found in corresponding PLIB source file. If a module
-    interrupt is not used, then its ISR implementation is mapped to dummy
-    handler.
+    Task handles declared in this header file can be used by the application
+    to control the behavior of the tasks.
+
+  Remarks:
+    None
  *******************************************************************************/
 
 // DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2023 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -43,54 +40,36 @@
  *******************************************************************************/
 // DOM-IGNORE-END
 
+#ifndef SYS_TASKS_H
+#define SYS_TASKS_H
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
+
 #include "configuration.h"
-#include "interrupts.h"
 #include "definitions.h"
 
-
-
 // *****************************************************************************
 // *****************************************************************************
-// Section: System Interrupt Vector Functions
+// Section: RTOS "Tasks" Handles
 // *****************************************************************************
 // *****************************************************************************
+/* Declaration of  TASK1_Tasks task handle */
+extern TaskHandle_t xTASK1_Tasks;
 
+/* Declaration of  TASK2_Tasks task handle */
+extern TaskHandle_t xTASK2_Tasks;
 
-/* All the handlers are defined here.  Each will call its PLIB-specific function. */
-// *****************************************************************************
-// *****************************************************************************
-// Section: System Interrupt Vector declarations
-// *****************************************************************************
-// *****************************************************************************
-void UART_1_Handler (void);
-void CHANGE_NOTICE_Handler (void);
+/* Declaration of  TASK3_Tasks task handle */
+extern TaskHandle_t xTASK3_Tasks;
 
-
-// *****************************************************************************
-// *****************************************************************************
-// Section: System Interrupt Vector definitions
-// *****************************************************************************
-// *****************************************************************************
-
-
-void UART_1_Handler (void)
-{
-    UART_1_InterruptHandler();
-}
-
-void CHANGE_NOTICE_Handler (void)
-{
-    CHANGE_NOTICE_InterruptHandler();
-}
+/* Declaration of  TASK4_Tasks task handle */
+extern TaskHandle_t xTASK4_Tasks;
 
 
 
 
-/*******************************************************************************
- End of File
-*/
+#endif //SYS_TASKS_H
