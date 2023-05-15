@@ -87,7 +87,7 @@ extern "C" {
 // *****************************************************************************
 // *****************************************************************************
 /* AT25M Driver Configuration Options */
-#define DRV_AT25_INSTANCES_NUMBER              1
+#define DRV_AT25_INSTANCES_NUMBER              (1U)
 #define DRV_AT25_INDEX                         0
 #define DRV_AT25_CLIENTS_NUMBER_IDX            1
 #define DRV_AT25_INT_SRC_IDX                   SPI1_IRQn
