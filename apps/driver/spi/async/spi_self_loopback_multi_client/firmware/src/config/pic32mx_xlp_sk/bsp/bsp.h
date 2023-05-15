@@ -40,8 +40,8 @@
 *******************************************************************************/
 // DOM-IGNORE-END
 
-#ifndef _BSP_H
-#define _BSP_H
+#ifndef BSP_H
+#define BSP_H
 
 // *****************************************************************************
 // *****************************************************************************
@@ -60,21 +60,24 @@
 // Section: BSP Macros
 // *****************************************************************************
 // *****************************************************************************
+#define pic32mx_xlp_sk
+#define BSP_NAME             "pic32mx_xlp_sk"
+
 /*** LED Macros for RGB_LED_GREEN ***/
-#define RGB_LED_GREEN_Toggle() (LATBINV = (1<<2))
+#define RGB_LED_GREEN_Toggle() (LATBINV = (1UL<<2))
 #define RGB_LED_GREEN_Get() ((PORTB >> 2) & 0x1)
-#define RGB_LED_GREEN_On() (LATBCLR = (1<<2))
-#define RGB_LED_GREEN_Off() (LATBSET = (1<<2))
+#define RGB_LED_GREEN_On() (LATBCLR = (1UL<<2))
+#define RGB_LED_GREEN_Off() (LATBSET = (1UL<<2))
 /*** LED Macros for RGB_LED_BLUE ***/
-#define RGB_LED_BLUE_Toggle() (LATCINV = (1<<4))
+#define RGB_LED_BLUE_Toggle() (LATCINV = (1UL<<4))
 #define RGB_LED_BLUE_Get() ((PORTC >> 4) & 0x1)
-#define RGB_LED_BLUE_On() (LATCCLR = (1<<4))
-#define RGB_LED_BLUE_Off() (LATCSET = (1<<4))
+#define RGB_LED_BLUE_On() (LATCCLR = (1UL<<4))
+#define RGB_LED_BLUE_Off() (LATCSET = (1UL<<4))
 /*** LED Macros for RGB_LED_RED ***/
-#define RGB_LED_RED_Toggle() (LATCINV = (1<<5))
+#define RGB_LED_RED_Toggle() (LATCINV = (1UL<<5))
 #define RGB_LED_RED_Get() ((PORTC >> 5) & 0x1)
-#define RGB_LED_RED_On() (LATCCLR = (1<<5))
-#define RGB_LED_RED_Off() (LATCSET = (1<<5))
+#define RGB_LED_RED_On() (LATCCLR = (1UL<<5))
+#define RGB_LED_RED_Off() (LATCSET = (1UL<<5))
 
 
 
@@ -108,7 +111,6 @@
 
   Example:
     <code>
-    //Initialize the BSP
     BSP_Initialize();
     </code>
 
@@ -118,7 +120,7 @@
 
 void BSP_Initialize(void);
 
-#endif // _BSP_H
+#endif // BSP_H
 
 /*******************************************************************************
  End of File
