@@ -1,32 +1,23 @@
 /*******************************************************************************
-  SYS CLK Static Functions for Clock System Service
-
-  Company:
-    Microchip Technology Inc.
+ System Tasks Header File
 
   File Name:
-    plib_clk.c
+    sys_tasks.h
 
   Summary:
-    SYS CLK static function implementations for the Clock System Service.
+    This file contains declarations for task handles.
 
   Description:
-    The Clock System Service provides a simple interface to manage the
-    oscillators on Microchip microcontrollers. This file defines the static
-    implementation for the Clock System Service.
+    Task handles declared in this header file can be used by the application
+    to control the behavior of the tasks.
 
   Remarks:
-    Static functions incorporate all system clock configuration settings as
-    determined by the user via the Microchip Harmony Configurator GUI.
-    It provides static version of the routines, eliminating the need for an
-    object ID or object handle.
+    None
+ *******************************************************************************/
 
-    Static single-open interfaces also eliminate the need for the open handle.
-
-*******************************************************************************/
-
+// DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2023 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -46,54 +37,36 @@
 * FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
-*******************************************************************************/
+ *******************************************************************************/
+// DOM-IGNORE-END
+
+#ifndef SYS_TASKS_H
+#define SYS_TASKS_H
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: Include Files
+// Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "device.h"
-#include "plib_clk.h"
+#include "configuration.h"
+#include "definitions.h"
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: File Scope Functions
+// Section: RTOS "Tasks" Handles
 // *****************************************************************************
 // *****************************************************************************
+/* Declaration of  TASK1_Tasks task handle */
+extern TaskHandle_t xTASK1_Tasks;
 
-// *****************************************************************************
-/* Function:
-    void CLK_Initialize( void )
+/* Declaration of  TASK2_Tasks task handle */
+extern TaskHandle_t xTASK2_Tasks;
 
-  Summary:
-    Initializes hardware and internal data structure of the System Clock.
-
-  Description:
-    This function initializes the hardware and internal data structure of System
-    Clock Service.
-
-  Remarks:
-    This is configuration values for the static version of the Clock System
-    Service module is determined by the user via the MHC GUI.
-
-    The objective is to eliminate the user's need to be knowledgeable in the
-    function of the 'configuration bits' to configure the system oscillators.
-*/
-
-void CLK_Initialize( void )
-{
-
-    /* Code for fuse settings can be found in "initialization.c" */
+/* Declaration of  TASK3_Tasks task handle */
+extern TaskHandle_t xTASK3_Tasks;
 
 
 
-    /* Peripheral Module Disable Configuration */
-    PMD1 = 0x101101U;
-    PMD2 = 0x7U;
-    PMD3 = 0x1f001fU;
-    PMD4 = 0xfffffffeU;
-    PMD5 = 0x1030302U;
-    PMD6 = 0xfffffffdU;
-}
+
+#endif //SYS_TASKS_H

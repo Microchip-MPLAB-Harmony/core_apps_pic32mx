@@ -125,6 +125,7 @@ Refer to the following table for LED and Switch name:
 | Board | LED Name | Switch Name |
 | ----- | -------- | -------- |
 |  [Curiosity PIC32MX470 Development Board](https://www.microchip.com/Developmenttools/ProductDetails/dm320103) | LED1 | S1 |
+|  [PIC32MX274 XLP Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/DM320105) | LED1 | NA |
 
 ## Running the Application on [PIC32 Ethernet Starter Kit](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM320004) and [PIC32MX Starter Kit](https://www.microchip.com/Developmenttools/ProductDetails/DM320001)
 
