@@ -48,10 +48,10 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
 #include "configuration.h"
 #include "interrupts.h"
 #include "definitions.h"
+
 
 
 // *****************************************************************************
@@ -61,16 +61,25 @@
 // *****************************************************************************
 
 
-void SPI_1_InterruptHandler( void );
-void SPI_2_InterruptHandler( void );
-void DMA_0_InterruptHandler( void );
-void DMA_1_InterruptHandler( void );
-void DMA_2_InterruptHandler( void );
-void DMA_3_InterruptHandler( void );
-
-
-
 /* All the handlers are defined here.  Each will call its PLIB-specific function. */
+// *****************************************************************************
+// *****************************************************************************
+// Section: System Interrupt Vector declarations
+// *****************************************************************************
+// *****************************************************************************
+void SPI_1_Handler (void);
+void SPI_2_Handler (void);
+void DMA_0_Handler (void);
+void DMA_1_Handler (void);
+void DMA_2_Handler (void);
+void DMA_3_Handler (void);
+
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: System Interrupt Vector definitions
+// *****************************************************************************
+// *****************************************************************************
 
 
 void SPI_1_Handler (void)

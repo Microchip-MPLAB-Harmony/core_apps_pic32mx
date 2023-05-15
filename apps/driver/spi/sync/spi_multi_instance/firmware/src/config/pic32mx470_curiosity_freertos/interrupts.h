@@ -57,6 +57,13 @@
 // *****************************************************************************
 // *****************************************************************************
 
+void SPI_1_InterruptHandler( void );
+void SPI_2_InterruptHandler( void );
+void DMA_0_InterruptHandler( void );
+void DMA_1_InterruptHandler( void );
+void DMA_2_InterruptHandler( void );
+void DMA_3_InterruptHandler( void );
+
 
 
 #endif // INTERRUPTS_H

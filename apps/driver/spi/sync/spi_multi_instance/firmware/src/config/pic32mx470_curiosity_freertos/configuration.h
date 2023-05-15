@@ -101,7 +101,7 @@ extern "C" {
 #define DRV_SPI_RCV_DMA_CH_IDX0               SYS_DMA_CHANNEL_1
 
 /* SPI Driver Common Configuration Options */
-#define DRV_SPI_INSTANCES_NUMBER              2
+#define DRV_SPI_INSTANCES_NUMBER              (2U)
 
 
 
