@@ -53,6 +53,7 @@
           <itemPath>../src/config/pic32mx_eth_sk2/user.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx_eth_sk2/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>

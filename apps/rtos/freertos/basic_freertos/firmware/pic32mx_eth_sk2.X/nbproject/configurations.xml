@@ -30,6 +30,7 @@
           <itemPath>../src/config/pic32mx_eth_sk2/user.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx_eth_sk2/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx_eth_sk2/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder displayName="FreeRTOS" name="f2" projectFiles="true">
@@ -67,16 +68,6 @@
       <itemPath>../src/app_task3.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="pic32mx_eth_sk2.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/BSP_PIC32MX_Ethernet_Starter_Kit_II.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/core.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/project.yml</itemPath>
-        <itemPath>../src/config/pic32mx_eth_sk2/pic32mx_eth_sk2.mhc/settings.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
       <itemPath>basic_freertos_pic32mx_eth_sk2.mc3</itemPath>

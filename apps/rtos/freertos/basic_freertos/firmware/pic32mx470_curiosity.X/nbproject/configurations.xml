@@ -34,6 +34,7 @@
           <itemPath>../src/config/pic32mx470_curiosity/user.h</itemPath>
           <itemPath>../src/config/pic32mx470_curiosity/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx470_curiosity/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx470_curiosity/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder displayName="FreeRTOS" name="f2" projectFiles="true">
@@ -72,17 +73,6 @@
       <itemPath>../src/task4.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="pic32mx470_curiosity.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/BSP_PIC32MX470_Curiosity_Development_Board.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/core.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/project.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/pic32mx470_curiosity/pic32mx470_curiosity.mhc/uart1.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx470_curiosity/harmony-manifest-success.yml</itemPath>
       <itemPath>basic_freertos_pic32mx470_curiosity.mc3</itemPath>

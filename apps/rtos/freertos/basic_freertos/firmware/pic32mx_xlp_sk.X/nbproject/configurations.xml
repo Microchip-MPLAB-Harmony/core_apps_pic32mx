@@ -44,6 +44,7 @@
           <itemPath>../src/config/pic32mx_xlp_sk/user.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx_xlp_sk/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder displayName="FreeRTOS" name="f2" projectFiles="true">
@@ -81,17 +82,6 @@
       <itemPath>../src/task3.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder displayName="pic32mx_xlp_sk.mhc" name="f1" projectFiles="true">
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/BSP_PIC32MX274_XLP_Starter_Kit.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/core.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/dfp.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/FreeRTOS.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/GraphSettings.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/HarmonyCore.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/project.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/settings.yml</itemPath>
-        <itemPath>../src/config/pic32mx_xlp_sk/pic32mx_xlp_sk.mhc/uart1.yml</itemPath>
-      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
       <itemPath>basic_freertos_pic32mx_xlp_sk.mc3</itemPath>

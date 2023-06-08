@@ -57,6 +57,7 @@
           <itemPath>../src/config/pic32mx_xlp_sk/user.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx_xlp_sk/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx_xlp_sk/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>

@@ -71,6 +71,7 @@
           <itemPath>../src/config/pic32mx470_curiosity/user.h</itemPath>
           <itemPath>../src/config/pic32mx470_curiosity/configuration.h</itemPath>
           <itemPath>../src/config/pic32mx470_curiosity/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32mx470_curiosity/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/nvm_disk_images.h</itemPath>
