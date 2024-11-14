@@ -60,8 +60,11 @@
 // Section: RTOS "Tasks" Routine
 // *****************************************************************************
 // *****************************************************************************
+
 /* Handle for the APP_TASK1_Tasks. */
 TaskHandle_t xAPP_TASK1_Tasks;
+
+
 
 static void lAPP_TASK1_Tasks(  void *pvParameters  )
 {   
@@ -70,8 +73,11 @@ static void lAPP_TASK1_Tasks(  void *pvParameters  )
         APP_TASK1_Tasks();
     }
 }
+
 /* Handle for the APP_TASK2_Tasks. */
 TaskHandle_t xAPP_TASK2_Tasks;
+
+
 
 static void lAPP_TASK2_Tasks(  void *pvParameters  )
 {   
@@ -80,8 +86,11 @@ static void lAPP_TASK2_Tasks(  void *pvParameters  )
         APP_TASK2_Tasks();
     }
 }
+
 /* Handle for the APP_TASK3_Tasks. */
 TaskHandle_t xAPP_TASK3_Tasks;
+
+
 
 static void lAPP_TASK3_Tasks(  void *pvParameters  )
 {   
@@ -119,30 +128,33 @@ void SYS_Tasks ( void )
     
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_TASK1_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_TASK1_Tasks,
-                "APP_TASK1_Tasks",
-                1024,
-                NULL,
-                1,
-                &xAPP_TASK1_Tasks);
+    
+    /* Create OS Thread for APP_TASK1_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_TASK1_Tasks,
+           "APP_TASK1_Tasks",
+           1024,
+           NULL,
+           1U ,
+           &xAPP_TASK1_Tasks);
 
     /* Create OS Thread for APP_TASK2_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_TASK2_Tasks,
-                "APP_TASK2_Tasks",
-                1024,
-                NULL,
-                2,
-                &xAPP_TASK2_Tasks);
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_TASK2_Tasks,
+           "APP_TASK2_Tasks",
+           1024,
+           NULL,
+           2U ,
+           &xAPP_TASK2_Tasks);
 
     /* Create OS Thread for APP_TASK3_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_TASK3_Tasks,
-                "APP_TASK3_Tasks",
-                1024,
-                NULL,
-                3,
-                &xAPP_TASK3_Tasks);
-
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_TASK3_Tasks,
+           "APP_TASK3_Tasks",
+           1024,
+           NULL,
+           3U ,
+           &xAPP_TASK3_Tasks);
 
 
 
