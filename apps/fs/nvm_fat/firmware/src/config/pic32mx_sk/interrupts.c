@@ -75,7 +75,7 @@ void FCE_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_FCE_VECTOR, ipl1SOFT) FCE_Handler (void)
+void __attribute__((used)) __ISR(_FCE_VECTOR, ipl1SOFT) FCE_Handler (void)
 {
     NVM_InterruptHandler();
 }
