@@ -77,7 +77,7 @@ void CHANGE_NOTICE_Handler (void);
 // *****************************************************************************
 
 
-void CHANGE_NOTICE_Handler (void)
+void __attribute__((used)) CHANGE_NOTICE_Handler (void)
 {
     CHANGE_NOTICE_InterruptHandler();
 }

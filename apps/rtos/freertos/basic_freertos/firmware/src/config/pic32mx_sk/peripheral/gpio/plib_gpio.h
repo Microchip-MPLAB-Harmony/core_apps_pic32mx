@@ -64,6 +64,7 @@
 
 /*** Macros for SWITCH3 pin ***/
 #define SWITCH3_Get()               ((PORTD >> 13) & 0x1)
+#define SWITCH3_GetLatch()          ((LATD >> 13) & 0x1)
 #define SWITCH3_PIN                  GPIO_PIN_RD13
 
 
