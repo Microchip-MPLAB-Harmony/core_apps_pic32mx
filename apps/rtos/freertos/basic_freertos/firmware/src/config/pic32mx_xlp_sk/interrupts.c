@@ -77,7 +77,7 @@ void UART_1_Handler (void);
 // *****************************************************************************
 
 
-void UART_1_Handler (void)
+void __attribute__((used)) UART_1_Handler (void)
 {
     UART_1_InterruptHandler();
 }
