@@ -69,6 +69,7 @@
 #define CLIENT2_CS_OutputEnable()      (TRISCCLR = (1<<6))
 #define CLIENT2_CS_InputEnable()       (TRISCSET = (1<<6))
 #define CLIENT2_CS_Get()               ((PORTC >> 6) & 0x1)
+#define CLIENT2_CS_GetLatch()          ((LATC >> 6) & 0x1)
 #define CLIENT2_CS_PIN                  GPIO_PIN_RC6
 
 /*** Macros for CLIENT1_CS pin ***/
@@ -78,6 +79,7 @@
 #define CLIENT1_CS_OutputEnable()      (TRISCCLR = (1<<0))
 #define CLIENT1_CS_InputEnable()       (TRISCSET = (1<<0))
 #define CLIENT1_CS_Get()               ((PORTC >> 0) & 0x1)
+#define CLIENT1_CS_GetLatch()          ((LATC >> 0) & 0x1)
 #define CLIENT1_CS_PIN                  GPIO_PIN_RC0
 
 
