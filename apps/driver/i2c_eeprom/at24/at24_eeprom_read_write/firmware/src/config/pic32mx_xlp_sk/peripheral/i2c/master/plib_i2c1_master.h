@@ -156,7 +156,7 @@ void I2C1_Initialize(void);
         uint8_t myData [NUM_BYTES];
         void MyI2CCallback(uintptr_t context)
         {
-            
+
         }
 
         I2C1_Initialize();
@@ -164,7 +164,7 @@ void I2C1_Initialize(void);
 
         if(!I2C1_Read( SLAVE_ADDR, &myData[0], NUM_BYTES ))
         {
-            
+
         }
 
 
@@ -226,7 +226,7 @@ bool I2C1_Read(uint16_t address, uint8_t* rdata, size_t rlength);
         uint8_t myData [NUM_BYTES];
         void MyI2CCallback(uintptr_t context)
         {
-            
+
         }
 
         I2C1_Initialize();
@@ -234,7 +234,7 @@ bool I2C1_Read(uint16_t address, uint8_t* rdata, size_t rlength);
 
         if(!I2C1_Write( SLAVE_ADDR, &myData[0], NUM_BYTES ))
         {
-            
+
         }
 
     </code>
@@ -305,14 +305,14 @@ bool I2C1_Write(uint16_t address, uint8_t* wdata, size_t wlength);
 
         void MyI2CCallback(uintptr_t context)
         {
-            
+
         }
 
         I2C1_Initialize();
         I2C1_CallbackRegister(MyI2CCallback, NULL);
         if(!I2C1_WriteRead( SLAVE_ADDR, &myTxData[0], NUM_BYTES, myRxData, NUM_BYTES ))
         {
-            
+
         }
 
 
@@ -359,12 +359,11 @@ bool I2C1_WriteRead(uint16_t address, uint8_t* wdata, size_t wlength, uint8_t* r
     <code>
         uint8_t myData [NUM_BYTES] = {'1', '0', ' ', 'B', 'Y', 'T', 'E', 'S', '!', '!'};
 
-        
         while(I2C1_IsBusy( ));
 
         if(!I2C1_Write( SLAVE_ADDR, &myData[0], NUM_BYTES ))
         {
-            
+
         }
 
     </code>
@@ -400,7 +399,7 @@ bool I2C1_IsBusy(void);
     <code>
     if(I2C_ERROR_NONE == I2C1_ErrorGet())
     {
-        
+
     }
     </code>
 
@@ -443,7 +442,7 @@ I2C_ERROR I2C1_ErrorGet(void);
 
   Example:
     <code>
-        
+
     </code>
 
   Remarks:
@@ -461,7 +460,7 @@ void I2C1_CallbackRegister(I2C_CALLBACK callback, uintptr_t contextHandle);
 
    Precondition:
     I2C1_Initialize must have been called for the associated I2C instance.
-	The transfer status should not be busy.
+    The transfer status should not be busy.
 
    Parameters:
     setup - Pointer to the structure containing the transfer setup.
@@ -483,7 +482,7 @@ void I2C1_CallbackRegister(I2C_CALLBACK callback, uintptr_t contextHandle);
     {
         if (I2C1_TransferSetup( &setup, 0 ) == true)
         {
-            
+
         }
     }
     </code>
@@ -494,8 +493,45 @@ void I2C1_CallbackRegister(I2C_CALLBACK callback, uintptr_t contextHandle);
 */
 
 bool I2C1_TransferSetup(I2C_TRANSFER_SETUP* setup, uint32_t srcClkFreq );
-
 void I2C1_TransferAbort( void );
+
+
+// *****************************************************************************
+/* Function:
+    bool I2C1_BusScan(uint16_t start_addr, uint16_t end_addr, void* pDevicesList, uint8_t* nDevicesFound)
+
+   Summary:
+    Scan the target devices on the I2C bus.
+
+   Precondition:
+    I2C1_Initialize must have been called for the associated I2C instance.
+    The transfer status should not be busy.
+
+   Parameters:
+    start_addr - Starting address of the target device.
+    end_addr - Ending address of the target device.
+    pDevicesList - Pointer to the application buffer where the address of the devices found on the bus will be returned.
+    nDevicesFound - Indicates number of devices found on the bus
+
+   Returns:
+    true - The call to this API executed successfully.
+    false - There was an error during the execution of this API.
+
+   Example:
+    <code>
+
+    uint8_t nDevicesFoundList[10] = {0};
+    uint8_t nDevFound = 0;
+
+    I2C1_BusScan(0x08, 0x77, nDevicesFoundList, &nDevFound);
+
+    </code>
+
+   Remarks:
+    If there is a mix of devices with 8 and 10 bit addresses on the bus, then this API must be called separately for
+    devices with 8-bit addresses and then for devices with 10-bit addresses.
+*/
+bool I2C1_BusScan(uint16_t start_addr, uint16_t end_addr, void* pDevicesList, uint8_t* nDevicesFound);
 
 
 // DOM-IGNORE-BEGIN

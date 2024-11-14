@@ -35,6 +35,7 @@
                 <itemPath>../src/config/pic32mx_xlp_sk/peripheral/i2c/master/plib_i2c1_master.h</itemPath>
                 <itemPath>../src/config/pic32mx_xlp_sk/peripheral/i2c/master/plib_i2c_master_common.h</itemPath>
               </logicalFolder>
+              <itemPath>../src/config/pic32mx_xlp_sk/peripheral/i2c/plib_i2c_smbus_common.h</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder displayName="system" name="f5" projectFiles="true">
@@ -102,6 +103,7 @@
               <logicalFolder displayName="master" name="f1" projectFiles="true">
                 <itemPath>../src/config/pic32mx_xlp_sk/peripheral/i2c/master/plib_i2c1_master.c</itemPath>
               </logicalFolder>
+              <itemPath>../src/config/pic32mx_xlp_sk/peripheral/i2c/plib_i2c_smbus_common.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder displayName="stdio" name="f4" projectFiles="true">
@@ -135,11 +137,11 @@
         <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.21</languageToolchainVersion>
+        <languageToolchainVersion>4.45</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.5.259"/>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.6.369"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
