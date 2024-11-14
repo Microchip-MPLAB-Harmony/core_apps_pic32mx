@@ -50,15 +50,15 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "peripheral/coretimer/plib_coretimer.h"
-#include "peripheral/uart/plib_uart2.h"
 #include "bsp/bsp.h"
+#include "peripheral/uart/plib_uart2.h"
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
-#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "system/time/sys_time.h"
 #include "app.h"
 
 
@@ -72,13 +72,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "PIC32MX795F512L"
-#define DEVICE_ARCH			 "MIPS"
-#define DEVICE_FAMILY		 "PIC32MX1156"
-#define DEVICE_SERIES		 "PIC32MX"
+#define DEVICE_NAME          "PIC32MX795F512L"
+#define DEVICE_ARCH          "MIPS"
+#define DEVICE_FAMILY        "PIC32MX1156"
+#define DEVICE_SERIES        "PIC32MX"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 80000000
+#define CPU_CLOCK_FREQUENCY 80000000U
 
 // *****************************************************************************
 // *****************************************************************************
