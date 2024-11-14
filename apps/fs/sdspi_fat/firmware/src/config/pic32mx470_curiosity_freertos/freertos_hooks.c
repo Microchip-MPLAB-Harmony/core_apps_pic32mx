@@ -39,9 +39,11 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+
 void vApplicationIdleHook( void );
 void vApplicationTickHook( void );
 void vAssertCalled( const char * pcFile, unsigned long ulLine );
+
 /*
 *********************************************************************************************************
 *                                          vApplicationStackOverflowHook()
@@ -100,7 +102,6 @@ void vApplicationStackOverflowHook( TaskHandle_t xTask, char *pcTaskName )
 * Note(s)     : none.
 *********************************************************************************************************
 */
-
 void vApplicationMallocFailedHook( void )
 {
    /* vApplicationMallocFailedHook() will only be called if
@@ -113,13 +114,13 @@ void vApplicationMallocFailedHook( void )
       FreeRTOSConfig.h, and the xPortGetFreeHeapSize() API function can be used
       to query the size of free heap space that remains (although it does not
       provide information on how the remaining heap might be fragmented). */
+
    taskDISABLE_INTERRUPTS();
    for( ;; )
    {
        /* Do Nothing */
-   }    
+   }
 }
-
 /*-----------------------------------------------------------*/
 
 void vApplicationIdleHook( void )
@@ -133,6 +134,7 @@ void vApplicationIdleHook( void )
     important that vApplicationIdleHook() is permitted to return to its calling
     function, because it is the responsibility of the idle task to clean up
     memory allocated by the kernel to any task that has since been deleted. */
+    
 }
 
 /*-----------------------------------------------------------*/
@@ -146,6 +148,7 @@ void vApplicationTickHook( void )
     added here, but the tick hook is called from an interrupt context, so
     code must not attempt to block, and only the interrupt safe FreeRTOS API
     functions can be used (those that end in FromISR()). */
+    
 }
 
 /*-----------------------------------------------------------*/
@@ -174,6 +177,10 @@ void vAssertCalled( const char * pcFile, unsigned long ulLine )
 /*-----------------------------------------------------------*/
 
 
+
+/*-----------------------------------------------------------*/
+
+/*-----------------------------------------------------------*/
 /*******************************************************************************
  End of File
  */

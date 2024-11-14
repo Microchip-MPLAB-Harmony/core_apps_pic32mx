@@ -64,12 +64,12 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "driver/sdspi/drv_sdspi.h"
-#include "system/time/sys_time.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "system/time/sys_time.h"
 #include "app.h"
 
 
@@ -83,13 +83,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "PIC32MX470F512H"
-#define DEVICE_ARCH			 "MIPS"
-#define DEVICE_FAMILY		 "PIC32MX1185"
-#define DEVICE_SERIES		 "PIC32MX"
+#define DEVICE_NAME          "PIC32MX470F512H"
+#define DEVICE_ARCH          "MIPS"
+#define DEVICE_FAMILY        "PIC32MX1185"
+#define DEVICE_SERIES        "PIC32MX"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 96000000
+#define CPU_CLOCK_FREQUENCY 96000000U
 
 // *****************************************************************************
 // *****************************************************************************

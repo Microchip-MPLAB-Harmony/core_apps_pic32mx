@@ -80,8 +80,11 @@ static void lSYS_FS_Tasks(  void *pvParameters  )
 }
 
 
+
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
+
+
 
 static void lAPP_Tasks(  void *pvParameters  )
 {   
@@ -116,7 +119,7 @@ void SYS_Tasks ( void )
         "SYS_FS_TASKS",
         SYS_FS_STACK_SIZE,
         (void*)NULL,
-        SYS_FS_PRIORITY,
+        SYS_FS_PRIORITY ,
         (TaskHandle_t*)NULL
     );
 
@@ -127,7 +130,7 @@ void SYS_Tasks ( void )
         "DRV_SD_0_TASKS",
         DRV_SDSPI_STACK_SIZE_IDX0,
         (void*)NULL,
-        DRV_SDSPI_PRIORITY_IDX0,
+        DRV_SDSPI_PRIORITY_IDX0 ,
         (TaskHandle_t*)NULL
     );
 
@@ -137,14 +140,15 @@ void SYS_Tasks ( void )
     
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_Tasks,
-                "APP_Tasks",
-                512,
-                NULL,
-                1,
-                &xAPP_Tasks);
-
+    
+    /* Create OS Thread for APP_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_Tasks,
+           "APP_Tasks",
+           512,
+           NULL,
+           1U ,
+           &xAPP_Tasks);
 
 
 

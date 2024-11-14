@@ -78,24 +78,24 @@ void DMA_1_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void CORE_TIMER_Handler (void)
+void __attribute__((used)) CORE_TIMER_Handler (void)
 {
     CORE_TIMER_InterruptHandler();
 }
 
 
 
-void SPI_1_Handler (void)
+void __attribute__((used)) SPI_1_Handler (void)
 {
     SPI_1_InterruptHandler();
 }
 
-void DMA_0_Handler (void)
+void __attribute__((used)) DMA_0_Handler (void)
 {
     DMA_0_InterruptHandler();
 }
 
-void DMA_1_Handler (void)
+void __attribute__((used)) DMA_1_Handler (void)
 {
     DMA_1_InterruptHandler();
 }
