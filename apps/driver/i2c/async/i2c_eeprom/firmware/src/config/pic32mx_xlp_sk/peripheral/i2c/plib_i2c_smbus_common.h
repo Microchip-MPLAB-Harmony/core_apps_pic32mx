@@ -1,32 +1,25 @@
 /*******************************************************************************
-  SYS CLK Static Functions for Clock System Service
+  Inter-Integrated Circuit (I2C) Library
+  Header File
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_clk.c
+    plib_i2c_smbus_common.h
 
   Summary:
-    SYS CLK static function implementations for the Clock System Service.
+    I2C SMBUS PLIB Common Implementation file
 
   Description:
-    The Clock System Service provides a simple interface to manage the
-    oscillators on Microchip microcontrollers. This file defines the static
-    implementation for the Clock System Service.
-
-  Remarks:
-    Static functions incorporate all system clock configuration settings as
-    determined by the user via the Microchip Harmony Configurator GUI.
-    It provides static version of the routines, eliminating the need for an
-    object ID or object handle.
-
-    Static single-open interfaces also eliminate the need for the open handle.
+    This file defines the interface to the I2C peripheral library.
+    This library provides access to and control of the associated peripheral
+    instance.
 
 *******************************************************************************/
-
+// DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2019 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018-2019 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -47,53 +40,46 @@
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
+// DOM-IGNORE-END
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: Include Files
+// Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
 
-#include "device.h"
-#include "plib_clk.h"
+#ifndef PLIB_I2C_SMBUS_COMMON_H
+#define PLIB_I2C_SMBUS_COMMON_H
+
+#include <stdint.h>
+#include <stdbool.h>
+#include <stddef.h>
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: File Scope Functions
+// Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
-
-// *****************************************************************************
-/* Function:
-    void CLK_Initialize( void )
-
-  Summary:
-    Initializes hardware and internal data structure of the System Clock.
-
-  Description:
-    This function initializes the hardware and internal data structure of System
-    Clock Service.
-
-  Remarks:
-    This is configuration values for the static version of the Clock System
-    Service module is determined by the user via the MHC GUI.
-
-    The objective is to eliminate the user's need to be knowledgeable in the
-    function of the 'configuration bits' to configure the system oscillators.
+/* This section lists the other files that are included in this file.
 */
 
-void CLK_Initialize( void )
-{
+uint8_t SMBUSCRC8Byte(uint8_t initCRC, uint8_t data);
+uint8_t SMBUSCRC8Buffer(uint8_t initCRC, void* pData, uint32_t size);
 
-    /* Peripheral Module Disable Configuration */
-    PMD1 = 0x101101U;
-    PMD2 = 0x7U;
-    PMD3 = 0x1f001fU;
-    PMD4 = 0x1fU;
-    PMD5 = 0xfffeffffU;
-    PMD6 = 0xfffffffdU;
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus // Provide C++ Compatibility
 
-    /* Code for fuse settings can be found in "initialization.c" */
+    extern "C" {
+
+#endif
+// DOM-IGNORE-END
 
 
+
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
 }
+#endif
+// DOM-IGNORE-END
+
+#endif /* PLIB_I2C_SMBUS_COMMON_H */
