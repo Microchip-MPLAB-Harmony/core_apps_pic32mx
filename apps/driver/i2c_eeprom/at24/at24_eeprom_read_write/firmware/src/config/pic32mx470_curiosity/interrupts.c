@@ -75,7 +75,7 @@ void I2C_1_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_I2C_1_VECTOR, ipl1SOFT) I2C_1_Handler (void)
+void __attribute__((used)) __ISR(_I2C_1_VECTOR, ipl1SOFT) I2C_1_Handler (void)
 {
     I2C_1_InterruptHandler();
 }
