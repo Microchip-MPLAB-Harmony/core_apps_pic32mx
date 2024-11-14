@@ -69,6 +69,7 @@
 #define SWITCH1_OutputEnable()      (TRISDCLR = (1<<6))
 #define SWITCH1_InputEnable()       (TRISDSET = (1<<6))
 #define SWITCH1_Get()               ((PORTD >> 6) & 0x1)
+#define SWITCH1_GetLatch()          ((LATD >> 6) & 0x1)
 #define SWITCH1_PIN                  GPIO_PIN_RD6
 #define SWITCH1_InterruptEnable()   (CNENDSET = (1<<6))
 #define SWITCH1_InterruptDisable()  (CNENDCLR = (1<<6))
