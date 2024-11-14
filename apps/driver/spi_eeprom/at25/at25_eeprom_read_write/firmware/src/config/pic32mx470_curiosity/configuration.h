@@ -91,8 +91,8 @@ extern "C" {
 #define DRV_AT25_INDEX                         0
 #define DRV_AT25_CLIENTS_NUMBER_IDX            1
 #define DRV_AT25_INT_SRC_IDX                   SPI1_IRQn
-#define DRV_AT25_EEPROM_FLASH_SIZE             262144
-#define DRV_AT25_EEPROM_PAGE_SIZE              256
+#define DRV_AT25_EEPROM_FLASH_SIZE             262144U
+#define DRV_AT25_EEPROM_PAGE_SIZE              256U
 #define DRV_AT25_CHIP_SELECT_PIN_IDX           SYS_PORT_PIN_RD4
 #define DRV_AT25_HOLD_PIN_IDX                  SYS_PORT_PIN_RB14
 #define DRV_AT25_WP_PIN_IDX                    SYS_PORT_PIN_RE3

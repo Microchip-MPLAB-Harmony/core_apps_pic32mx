@@ -69,6 +69,7 @@
 #define GPIO_RB14_OutputEnable()      (TRISBCLR = (1<<14))
 #define GPIO_RB14_InputEnable()       (TRISBSET = (1<<14))
 #define GPIO_RB14_Get()               ((PORTB >> 14) & 0x1)
+#define GPIO_RB14_GetLatch()          ((LATB >> 14) & 0x1)
 #define GPIO_RB14_PIN                  GPIO_PIN_RB14
 
 /*** Macros for GPIO_RD4 pin ***/
@@ -78,6 +79,7 @@
 #define GPIO_RD4_OutputEnable()      (TRISDCLR = (1<<4))
 #define GPIO_RD4_InputEnable()       (TRISDSET = (1<<4))
 #define GPIO_RD4_Get()               ((PORTD >> 4) & 0x1)
+#define GPIO_RD4_GetLatch()          ((LATD >> 4) & 0x1)
 #define GPIO_RD4_PIN                  GPIO_PIN_RD4
 
 /*** Macros for GPIO_RE3 pin ***/
@@ -87,6 +89,7 @@
 #define GPIO_RE3_OutputEnable()      (TRISECLR = (1<<3))
 #define GPIO_RE3_InputEnable()       (TRISESET = (1<<3))
 #define GPIO_RE3_Get()               ((PORTE >> 3) & 0x1)
+#define GPIO_RE3_GetLatch()          ((LATE >> 3) & 0x1)
 #define GPIO_RE3_PIN                  GPIO_PIN_RE3
 
 
