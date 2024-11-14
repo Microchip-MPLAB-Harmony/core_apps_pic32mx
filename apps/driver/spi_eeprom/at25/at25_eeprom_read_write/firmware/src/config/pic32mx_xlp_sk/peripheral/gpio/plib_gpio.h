@@ -69,6 +69,7 @@
 #define GPIO_RA10_OutputEnable()      (TRISACLR = (1<<10))
 #define GPIO_RA10_InputEnable()       (TRISASET = (1<<10))
 #define GPIO_RA10_Get()               ((PORTA >> 10) & 0x1)
+#define GPIO_RA10_GetLatch()          ((LATA >> 10) & 0x1)
 #define GPIO_RA10_PIN                  GPIO_PIN_RA10
 
 /*** Macros for GPIO_RC0 pin ***/
@@ -78,6 +79,7 @@
 #define GPIO_RC0_OutputEnable()      (TRISCCLR = (1<<0))
 #define GPIO_RC0_InputEnable()       (TRISCSET = (1<<0))
 #define GPIO_RC0_Get()               ((PORTC >> 0) & 0x1)
+#define GPIO_RC0_GetLatch()          ((LATC >> 0) & 0x1)
 #define GPIO_RC0_PIN                  GPIO_PIN_RC0
 
 /*** Macros for GPIO_RC3 pin ***/
@@ -87,6 +89,7 @@
 #define GPIO_RC3_OutputEnable()      (TRISCCLR = (1<<3))
 #define GPIO_RC3_InputEnable()       (TRISCSET = (1<<3))
 #define GPIO_RC3_Get()               ((PORTC >> 3) & 0x1)
+#define GPIO_RC3_GetLatch()          ((LATC >> 3) & 0x1)
 #define GPIO_RC3_PIN                  GPIO_PIN_RC3
 
 
