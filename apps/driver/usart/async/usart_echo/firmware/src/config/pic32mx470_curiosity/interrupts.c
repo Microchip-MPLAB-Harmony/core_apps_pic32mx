@@ -75,7 +75,7 @@ void UART_1_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_UART_1_VECTOR, ipl1SOFT) UART_1_Handler (void)
+void __attribute__((used)) __ISR(_UART_1_VECTOR, ipl1SOFT) UART_1_Handler (void)
 {
     UART_1_InterruptHandler();
 }
