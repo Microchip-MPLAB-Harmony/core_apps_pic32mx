@@ -79,17 +79,17 @@ void DMA_1_Handler (void);
 // *****************************************************************************
 
 
-void UART_1_Handler (void)
+void __attribute__((used)) UART_1_Handler (void)
 {
     UART_1_InterruptHandler();
 }
 
-void DMA_0_Handler (void)
+void __attribute__((used)) DMA_0_Handler (void)
 {
     DMA_0_InterruptHandler();
 }
 
-void DMA_1_Handler (void)
+void __attribute__((used)) DMA_1_Handler (void)
 {
     DMA_1_InterruptHandler();
 }
