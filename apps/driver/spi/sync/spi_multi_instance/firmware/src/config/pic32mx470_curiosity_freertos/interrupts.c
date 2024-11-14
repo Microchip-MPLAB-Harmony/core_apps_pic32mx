@@ -82,32 +82,32 @@ void DMA_3_Handler (void);
 // *****************************************************************************
 
 
-void SPI_1_Handler (void)
+void __attribute__((used)) SPI_1_Handler (void)
 {
     SPI_1_InterruptHandler();
 }
 
-void SPI_2_Handler (void)
+void __attribute__((used)) SPI_2_Handler (void)
 {
     SPI_2_InterruptHandler();
 }
 
-void DMA_0_Handler (void)
+void __attribute__((used)) DMA_0_Handler (void)
 {
     DMA_0_InterruptHandler();
 }
 
-void DMA_1_Handler (void)
+void __attribute__((used)) DMA_1_Handler (void)
 {
     DMA_1_InterruptHandler();
 }
 
-void DMA_2_Handler (void)
+void __attribute__((used)) DMA_2_Handler (void)
 {
     DMA_2_InterruptHandler();
 }
 
-void DMA_3_Handler (void)
+void __attribute__((used)) DMA_3_Handler (void)
 {
     DMA_3_InterruptHandler();
 }
