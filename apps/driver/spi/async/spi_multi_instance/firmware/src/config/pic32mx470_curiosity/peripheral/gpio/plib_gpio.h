@@ -69,6 +69,7 @@
 #define APP_EEPROM2_CS_OutputEnable()      (TRISGCLR = (1<<9))
 #define APP_EEPROM2_CS_InputEnable()       (TRISGSET = (1<<9))
 #define APP_EEPROM2_CS_Get()               ((PORTG >> 9) & 0x1)
+#define APP_EEPROM2_CS_GetLatch()          ((LATG >> 9) & 0x1)
 #define APP_EEPROM2_CS_PIN                  GPIO_PIN_RG9
 
 /*** Macros for APP_EEPROM1_HOLD pin ***/
@@ -78,6 +79,7 @@
 #define APP_EEPROM1_HOLD_OutputEnable()      (TRISBCLR = (1<<14))
 #define APP_EEPROM1_HOLD_InputEnable()       (TRISBSET = (1<<14))
 #define APP_EEPROM1_HOLD_Get()               ((PORTB >> 14) & 0x1)
+#define APP_EEPROM1_HOLD_GetLatch()          ((LATB >> 14) & 0x1)
 #define APP_EEPROM1_HOLD_PIN                  GPIO_PIN_RB14
 
 /*** Macros for APP_EEPROM2_WP pin ***/
@@ -87,6 +89,7 @@
 #define APP_EEPROM2_WP_OutputEnable()      (TRISBCLR = (1<<15))
 #define APP_EEPROM2_WP_InputEnable()       (TRISBSET = (1<<15))
 #define APP_EEPROM2_WP_Get()               ((PORTB >> 15) & 0x1)
+#define APP_EEPROM2_WP_GetLatch()          ((LATB >> 15) & 0x1)
 #define APP_EEPROM2_WP_PIN                  GPIO_PIN_RB15
 
 /*** Macros for APP_EEPROM2_HOLD pin ***/
@@ -96,6 +99,7 @@
 #define APP_EEPROM2_HOLD_OutputEnable()      (TRISDCLR = (1<<8))
 #define APP_EEPROM2_HOLD_InputEnable()       (TRISDSET = (1<<8))
 #define APP_EEPROM2_HOLD_Get()               ((PORTD >> 8) & 0x1)
+#define APP_EEPROM2_HOLD_GetLatch()          ((LATD >> 8) & 0x1)
 #define APP_EEPROM2_HOLD_PIN                  GPIO_PIN_RD8
 
 /*** Macros for APP_EEPROM1_CS pin ***/
@@ -105,6 +109,7 @@
 #define APP_EEPROM1_CS_OutputEnable()      (TRISDCLR = (1<<4))
 #define APP_EEPROM1_CS_InputEnable()       (TRISDSET = (1<<4))
 #define APP_EEPROM1_CS_Get()               ((PORTD >> 4) & 0x1)
+#define APP_EEPROM1_CS_GetLatch()          ((LATD >> 4) & 0x1)
 #define APP_EEPROM1_CS_PIN                  GPIO_PIN_RD4
 
 /*** Macros for APP_EEPROM1_WP pin ***/
@@ -114,6 +119,7 @@
 #define APP_EEPROM1_WP_OutputEnable()      (TRISECLR = (1<<3))
 #define APP_EEPROM1_WP_InputEnable()       (TRISESET = (1<<3))
 #define APP_EEPROM1_WP_Get()               ((PORTE >> 3) & 0x1)
+#define APP_EEPROM1_WP_GetLatch()          ((LATE >> 3) & 0x1)
 #define APP_EEPROM1_WP_PIN                  GPIO_PIN_RE3
 
 

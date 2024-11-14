@@ -76,12 +76,12 @@ void SPI_2_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_SPI_1_VECTOR, ipl1SOFT) SPI_1_Handler (void)
+void __attribute__((used)) __ISR(_SPI_1_VECTOR, ipl1SOFT) SPI_1_Handler (void)
 {
     SPI_1_InterruptHandler();
 }
 
-void __ISR(_SPI_2_VECTOR, ipl1SOFT) SPI_2_Handler (void)
+void __attribute__((used)) __ISR(_SPI_2_VECTOR, ipl1SOFT) SPI_2_Handler (void)
 {
     SPI_2_InterruptHandler();
 }
