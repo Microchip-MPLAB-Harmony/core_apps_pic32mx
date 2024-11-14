@@ -43,8 +43,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_OPMODESELECT_DEFAULT_H
-#define _USB_OPMODESELECT_DEFAULT_H
+#ifndef USB_OPMODESELECT_DEFAULT_H
+#define USB_OPMODESELECT_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -64,12 +64,12 @@ PLIB_TEMPLATE void USB_OperatingModeSelect_Default( USB_MODULE_ID index , USB_OP
     volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
     usb->UxCON.UxCONbits.USBEN_SOFEN = 0;
     usb->UxCON.UxCONbits.HOSTEN = 0 ;
-	usb->UxOTGCON.OTGEN = 0;
+    usb->UxOTGCON.OTGEN = 0;
     switch ( opMode )
     {
         case USB_OPMODE_NONE:
              break;
-			
+            
         case USB_OPMODE_DEVICE:
              usb->UxCON.UxCONbits.USBEN_SOFEN = 1; 
             break;
@@ -105,7 +105,7 @@ PLIB_TEMPLATE bool USB_ExistsOpModeSelect_Default( USB_MODULE_ID index )
 }
 
 
-#endif /*_USB_OPMODESELECT_DEFAULT_H*/
+#endif /*USB_OPMODESELECT_DEFAULT_H*/
 
 /******************************************************************************
  End of File

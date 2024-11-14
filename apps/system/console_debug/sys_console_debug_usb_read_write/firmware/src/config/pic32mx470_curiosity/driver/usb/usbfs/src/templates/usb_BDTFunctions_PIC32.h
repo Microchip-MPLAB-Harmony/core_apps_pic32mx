@@ -60,14 +60,20 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_BDTFUNCTIONS_PIC32_H
-#define _USB_BDTFUNCTIONS_PIC32_H
+#ifndef USB_BDTFUNCTIONS_PIC32_H
+#define USB_BDTFUNCTIONS_PIC32_H
 
 #include <sys/kmem.h>
 #define ConvertToPhysicalAddress(a) ((uint32_t)KVA_TO_PA(a))
 #define ConvertToVirtualAddress(a)  PA_TO_KVA1(a)
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
+
+
+/* MISRA C-2012 Rule 3.1, Rule 6.1, Rule 7.3,
+   Rule 10.3, Rule 10.6,Rule 11.6 Deviation record ID -  
+    H3_USB_MISRAC_2012_R_10_3_DR_1 and H3_USB_MISRAC_2012_R_11_6_DR_1 */
+
 // *****************************************************************************
 /* Buffer Status Layout for PIC24/dsPIC33 and PIC32.
 
@@ -613,7 +619,7 @@ PLIB_TEMPLATE bool USB_BufferReleasedToSW_PIC32
     if (!(pBDTEntry->bufferStatus.usbOwnsBuffer))
     {
         /* This indicates that the UOWN bit is Zero, so CPU owns the buffer. 
-		   Return true */
+        Return true */
         result = true;
     }
     return (result);
@@ -850,7 +856,7 @@ PLIB_TEMPLATE void USB_BufferStallDisable_PIC32
 
     pBDTEntry = (pUSB_BDT_ENTRY)pBDT + iBDTEntry;
 
-    if(pBDTEntry->bufferStatus.stallEnable)
+    if(pBDTEntry->bufferStatus.stallEnable == 1U)
     {
         pBDTEntry -> bufferStatus.usbOwnsBuffer = 0;
         pBDTEntry -> bufferStatus.stallEnable = 0;
@@ -941,7 +947,10 @@ PLIB_TEMPLATE bool USB_ExistsBDTFunctions_PIC32( USB_MODULE_ID index )
     return true;
 }
 
-#endif /*_USB_BDTFUNCTIONS_PIC32_H*/
+
+/* MISRAC 2012 deviation block end */
+
+#endif /*USB_BDTFUNCTIONS_PIC32_H*/
 
 /******************************************************************************
  End of File

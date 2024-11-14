@@ -44,11 +44,10 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_OTG_VBUSPOWERONOFF_DEFAULT_H
-#define _USB_OTG_VBUSPOWERONOFF_DEFAULT_H
+#ifndef USB_OTG_VBUSPOWERONOFF_DEFAULT_H
+#define USB_OTG_VBUSPOWERONOFF_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
-
 
 //******************************************************************************
 /* Function :  USB_OTG_VBusPowerOff_Default
@@ -62,7 +61,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 PLIB_TEMPLATE void USB_OTG_VBusPowerOff_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
     usb->UxOTGCON.VBUSON = 0;
 
 }
@@ -79,7 +78,7 @@ PLIB_TEMPLATE void USB_OTG_VBusPowerOff_Default( USB_MODULE_ID index )
 
 PLIB_TEMPLATE void USB_OTG_VBusPowerOn_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
     usb->UxOTGCON.VBUSON = 1;
 }
 
@@ -99,8 +98,7 @@ PLIB_TEMPLATE bool USB_ExistsOTG_VbusPowerOnOff_Default( USB_MODULE_ID index )
     return true;
 }
 
-
-#endif /*_USB_OTG_VBUSPOWERONOFF_DEFAULT_H*/
+#endif /*USB_OTG_VBUSPOWERONOFF_DEFAULT_H*/
 
 /******************************************************************************
  End of File

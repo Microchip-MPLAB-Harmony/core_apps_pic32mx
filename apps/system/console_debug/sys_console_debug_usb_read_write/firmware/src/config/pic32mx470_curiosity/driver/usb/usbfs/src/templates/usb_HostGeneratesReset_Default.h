@@ -44,8 +44,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_HOSTGENERATESRESET_DEFAULT_H
-#define _USB_HOSTGENERATESRESET_DEFAULT_H
+#ifndef USB_HOSTGENERATESRESET_DEFAULT_H
+#define USB_HOSTGENERATESRESET_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -61,8 +61,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 PLIB_TEMPLATE void USB_ResetSignalEnable_Default( USB_MODULE_ID index )
 {
- 	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxCON.w |=  UxCON_USBRST_MASK ;
+     volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    usb->UxCON.w |=  UxCON_USBRST_MASK ;
 }
 
 
@@ -78,8 +78,8 @@ PLIB_TEMPLATE void USB_ResetSignalEnable_Default( USB_MODULE_ID index )
 
 PLIB_TEMPLATE void USB_ResetSignalDisable_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxCON.w &= ( ~ UxCON_USBRST_MASK);
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    usb->UxCON.w &= ( ~ UxCON_USBRST_MASK);
 }
 
 //******************************************************************************
@@ -99,7 +99,7 @@ PLIB_TEMPLATE bool USB_ExistsHostGeneratesReset_Default( USB_MODULE_ID index )
 }
 
 
-#endif /*_USB_HOSTGENERATESRESET_DEFAULT_H*/
+#endif /*USB_HOSTGENERATESRESET_DEFAULT_H*/
 
 /******************************************************************************
  End of File

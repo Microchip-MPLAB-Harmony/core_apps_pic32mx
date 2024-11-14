@@ -48,7 +48,6 @@
 #include "device.h"
 
 
-
 // ****************************************************************************
 // ****************************************************************************
 // Section: Configuration Bits
@@ -103,9 +102,10 @@
 // *****************************************************************************
 // *****************************************************************************
 /* Following MISRA-C rules are deviated in the below code block */
-/* MISRA C-2012 Rule 11.1 */
-/* MISRA C-2012 Rule 11.3 */
-/* MISRA C-2012 Rule 11.8 */
+/* MISRA C-2012 Rule 7.2 - Deviation record ID - H3_MISRAC_2012_R_7_2_DR_1 */
+/* MISRA C-2012 Rule 11.1 - Deviation record ID - H3_MISRAC_2012_R_11_1_DR_1 */
+/* MISRA C-2012 Rule 11.3 - Deviation record ID - H3_MISRAC_2012_R_11_3_DR_1 */
+/* MISRA C-2012 Rule 11.8 - Deviation record ID - H3_MISRAC_2012_R_11_8_DR_1 */
 
 
 
@@ -126,34 +126,34 @@ SYSTEM_OBJECTS sysObj;
  * USB Driver Initialization
  ******************************************************/
  
-uint8_t __attribute__((aligned(512))) endPointTable1[DRV_USBFS_ENDPOINTS_NUMBER * 32];
+static uint8_t __attribute__((aligned(512))) endPointTable1[DRV_USBFS_ENDPOINTS_NUMBER * 32];
 
 
-const DRV_USBFS_INIT drvUSBFSInit =
+static const DRV_USBFS_INIT drvUSBFSInit =
 {
-	 /* Assign the endpoint table */
+     /* Assign the endpoint table */
     .endpointTable= endPointTable1,
 
 
-	/* Interrupt Source for USB module */
-	.interruptSource = INT_SOURCE_USB,
+    /* Interrupt Source for USB module */
+    .interruptSource = INT_SOURCE_USB,
 
 
     
     /* USB Controller to operate as USB Device */
     .operationMode = DRV_USBFS_OPMODE_DEVICE,
-	
-	.operationSpeed = USB_SPEED_FULL,
+    
+    .operationSpeed = USB_SPEED_FULL,
  
-	/* Stop in idle */
+    /* Stop in idle */
     .stopInIdle = false,
-	
-	    /* Suspend in sleep */
+    
+        /* Suspend in sleep */
     .suspendInSleep = false,
  
     /* Identifies peripheral (PLIB-level) ID */
     .usbID = USB_ID_1,
-	
+    
 
 };
 
@@ -180,7 +180,7 @@ static uint8_t CACHE_ALIGN sysConsole1USBCdcWrBuffer[SYS_CONSOLE_USB_CDC_READ_WR
 static uint8_t sysConsole1USBCdcRdRingBuffer[SYS_CONSOLE_USB_CDC_RD_BUFFER_SIZE_IDX1];
 static uint8_t sysConsole1USBCdcWrRingBuffer[SYS_CONSOLE_USB_CDC_WR_BUFFER_SIZE_IDX1];
 
-const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole1USBCdcInitData =
+static const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole1USBCdcInitData =
 {
     .cdcInstanceIndex           = 1,
     .cdcReadBuffer              = sysConsole1USBCdcRdBuffer,
@@ -191,7 +191,7 @@ const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole1USBCdcInitData =
     .consoleWriteBufferSize     = SYS_CONSOLE_USB_CDC_WR_BUFFER_SIZE_IDX1,
 };
 
-const SYS_CONSOLE_INIT sysConsole1Init =
+static const SYS_CONSOLE_INIT sysConsole1Init =
 {
     .deviceInitData = (const void*)&sysConsole1USBCdcInitData,
     .consDevDesc = &sysConsoleUSBCdcDevDesc,
@@ -221,7 +221,7 @@ static uint8_t CACHE_ALIGN sysConsole0USBCdcWrBuffer[SYS_CONSOLE_USB_CDC_READ_WR
 static uint8_t sysConsole0USBCdcRdRingBuffer[SYS_CONSOLE_USB_CDC_RD_BUFFER_SIZE_IDX0];
 static uint8_t sysConsole0USBCdcWrRingBuffer[SYS_CONSOLE_USB_CDC_WR_BUFFER_SIZE_IDX0];
 
-const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole0USBCdcInitData =
+static const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole0USBCdcInitData =
 {
     .cdcInstanceIndex           = 0,
     .cdcReadBuffer              = sysConsole0USBCdcRdBuffer,
@@ -232,7 +232,7 @@ const SYS_CONSOLE_USB_CDC_INIT_DATA sysConsole0USBCdcInitData =
     .consoleWriteBufferSize     = SYS_CONSOLE_USB_CDC_WR_BUFFER_SIZE_IDX0,
 };
 
-const SYS_CONSOLE_INIT sysConsole0Init =
+static const SYS_CONSOLE_INIT sysConsole0Init =
 {
     .deviceInitData = (const void*)&sysConsole0USBCdcInitData,
     .consDevDesc = &sysConsoleUSBCdcDevDesc,
@@ -265,6 +265,7 @@ const SYS_CONSOLE_INIT sysConsole0Init =
 
 void SYS_Initialize ( void* data )
 {
+
     /* MISRAC 2012 deviation block start */
     /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
@@ -290,7 +291,6 @@ void SYS_Initialize ( void* data )
 	GPIO_Initialize();
 
 	BSP_Initialize();
-
 
     /* MISRAC 2012 deviation block start */
     /* Following MISRA-C rules deviated in this block  */
@@ -318,8 +318,8 @@ void SYS_Initialize ( void* data )
     sysObj.usbDevObject0 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_0 , ( SYS_MODULE_INIT* ) & usbDevInitData);
 
 
-	/* Initialize USB Driver */ 
-    sysObj.drvUSBFSObject = DRV_USBFS_Initialize(DRV_USBFS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBFSInit);	
+    /* Initialize USB Driver */ 
+    sysObj.drvUSBFSObject = DRV_USBFS_Initialize(DRV_USBFS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBFSInit);    
 
 
     /* MISRAC 2012 deviation block end */
@@ -334,9 +334,7 @@ void SYS_Initialize ( void* data )
 
 
     /* MISRAC 2012 deviation block end */
-
 }
-
 
 /*******************************************************************************
  End of File

@@ -44,10 +44,11 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_STOPINIDLE_DEFAULT_H
-#define _USB_STOPINIDLE_DEFAULT_H
+#ifndef USB_STOPINIDLE_DEFAULT_H
+#define USB_STOPINIDLE_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
+
 //******************************************************************************
 /* Function :  USB_StopInIdleEnable_Default
 
@@ -60,7 +61,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 PLIB_TEMPLATE void USB_StopInIdleEnable_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
     usb->UxCNFG1.USBSIDL = 1;
    
 }
@@ -77,7 +78,7 @@ PLIB_TEMPLATE void USB_StopInIdleEnable_Default( USB_MODULE_ID index )
 
 PLIB_TEMPLATE void USB_StopInIdleDisable_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
     usb->UxCNFG1.USBSIDL = 0;
 }
 
@@ -98,7 +99,7 @@ PLIB_TEMPLATE bool USB_ExistsStopInIdle_Default( USB_MODULE_ID index )
 }
 
 
-#endif /*_USB_STOPINIDLE_DEFAULT_H*/
+#endif /*USB_STOPINIDLE_DEFAULT_H*/
 
 /******************************************************************************
  End of File

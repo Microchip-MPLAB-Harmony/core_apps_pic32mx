@@ -43,8 +43,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_LASTPINGPONG_DEFAULT_H
-#define _USB_LASTPINGPONG_DEFAULT_H
+#ifndef USB_LASTPINGPONG_DEFAULT_H
+#define USB_LASTPINGPONG_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -60,8 +60,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 PLIB_TEMPLATE USB_PING_PONG_STATE USB_LastTransactionPingPongStateGet_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	return (USB_PING_PONG_STATE) usb->UxSTAT.PPBI ;
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    return (USB_PING_PONG_STATE) usb->UxSTAT.PPBI ;
 }
 
 //******************************************************************************
@@ -81,7 +81,7 @@ PLIB_TEMPLATE bool USB_ExistsLastPingPong_Default( USB_MODULE_ID index )
 }
 
 
-#endif /*_USB_LASTPINGPONG_DEFAULT_H*/
+#endif /*USB_LASTPINGPONG_DEFAULT_H*/
 
 /******************************************************************************
  End of File

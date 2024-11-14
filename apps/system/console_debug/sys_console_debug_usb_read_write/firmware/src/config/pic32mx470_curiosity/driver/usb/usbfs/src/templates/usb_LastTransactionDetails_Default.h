@@ -43,10 +43,11 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_LASTTRANSACTIONDETAILS_DEFAULT_H
-#define _USB_LASTTRANSACTIONDETAILS_DEFAULT_H
+#ifndef USB_LASTTRANSACTIONDETAILS_DEFAULT_H
+#define USB_LASTTRANSACTIONDETAILS_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
+
 
 //******************************************************************************
 /* Function :  USB_LastTransactionDetailsGet_Default
@@ -83,7 +84,8 @@ PLIB_TEMPLATE bool USB_ExistsLastTransactionDetails_Default( USB_MODULE_ID index
 }
 
 
-#endif /*_USB_LASTTRANSACTIONDETAILS_DEFAULT_H*/
+
+#endif /*USB_LASTTRANSACTIONDETAILS_DEFAULT_H*/
 
 /******************************************************************************
  End of File

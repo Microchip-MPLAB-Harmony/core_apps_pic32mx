@@ -44,10 +44,13 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_DEVICEADDRESS_DEFAULT_H
-#define _USB_DEVICEADDRESS_DEFAULT_H
+#ifndef USB_DEVICEADDRESS_DEFAULT_H
+#define USB_DEVICEADDRESS_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
+
+/* MISRA C-2012 Rule 10.3.
+   Deviation record ID - , H3_USB_MISRAC_2012_R_10_3_DR_1 */
 
 
 //******************************************************************************
@@ -68,7 +71,7 @@ PLIB_TEMPLATE void USB_DeviceAddressSet_Default
 )
 {
     volatile usb_registers_t  * usb = ((usb_registers_t *)(index));
-	usb->UxADDR.DEVADDR = ( address & 0x7F ) ;
+    usb->UxADDR.DEVADDR = ( address & 0x7F ) ;
 }
 
 //******************************************************************************
@@ -106,8 +109,9 @@ PLIB_TEMPLATE bool USB_ExistsDeviceAddress_Default( USB_MODULE_ID index )
     return true;
 }
 
+/* MISRAC 2012 deviation block end */
 
-#endif /*_USB_DEVICEADDRESS_DEFAULT_H*/
+#endif /*USB_DEVICEADDRESS_DEFAULT_H*/
 
 /******************************************************************************
  End of File

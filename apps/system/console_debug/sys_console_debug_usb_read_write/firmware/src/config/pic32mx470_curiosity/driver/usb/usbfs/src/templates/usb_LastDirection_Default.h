@@ -43,8 +43,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_LASTDIRECTION_DEFAULT_H
-#define _USB_LASTDIRECTION_DEFAULT_H
+#ifndef USB_LASTDIRECTION_DEFAULT_H
+#define USB_LASTDIRECTION_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -82,8 +82,7 @@ PLIB_TEMPLATE bool USB_ExistsLastDirection_Default( USB_MODULE_ID index )
     return true;
 }
 
-
-#endif /*_USB_LASTDIRECTION_DEFAULT_H*/
+#endif /*USB_LASTDIRECTION_DEFAULT_H*/
 
 /******************************************************************************
  End of File

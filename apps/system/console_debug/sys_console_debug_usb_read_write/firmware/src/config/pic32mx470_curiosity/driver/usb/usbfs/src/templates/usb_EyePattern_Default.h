@@ -44,8 +44,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_EYEPATTERN_DEFAULT_H
-#define _USB_EYEPATTERN_DEFAULT_H
+#ifndef USB_EYEPATTERN_DEFAULT_H
+#define USB_EYEPATTERN_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -63,7 +63,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 PLIB_TEMPLATE void USB_EyePatternDisable_Default( USB_MODULE_ID index )
 {
      volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	 usb->UxCNFG1CLR = UxCNFG1_UTEYE_MASK ;
+     usb->UxCNFG1CLR = UxCNFG1_UTEYE_MASK ;
 }
 
 //******************************************************************************
@@ -79,8 +79,8 @@ PLIB_TEMPLATE void USB_EyePatternDisable_Default( USB_MODULE_ID index )
 
 PLIB_TEMPLATE void USB_EyePatternEnable_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxCNFG1SET = UxCNFG1_UTEYE_MASK ;
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    usb->UxCNFG1SET = UxCNFG1_UTEYE_MASK ;
 }
 
 //******************************************************************************
@@ -100,7 +100,7 @@ PLIB_TEMPLATE bool USB_ExistsEyePattern_Default( USB_MODULE_ID index )
     return true;
 }
 
-#endif /*_USB_EYEPATTERN_DEFAULT_H*/
+#endif /*USB_EYEPATTERN_DEFAULT_H*/
 
 /******************************************************************************
  End of File

@@ -44,8 +44,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_SLEEPENTRYGUARD_DEFAULT_H
-#define _USB_SLEEPENTRYGUARD_DEFAULT_H
+#ifndef USB_SLEEPENTRYGUARD_DEFAULT_H
+#define USB_SLEEPENTRYGUARD_DEFAULT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -62,8 +62,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 PLIB_TEMPLATE void USB_SleepGuardEnable_Default( USB_MODULE_ID index )
 {
-	volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxPWRCSET = UxPWRC_USLPGRD_MASK ; 
+    volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
+    usb->UxPWRCSET = UxPWRC_USLPGRD_MASK ; 
     
 }
 
@@ -80,7 +80,7 @@ PLIB_TEMPLATE void USB_SleepGuardEnable_Default( USB_MODULE_ID index )
 PLIB_TEMPLATE void USB_SleepGuardDisable_Default( USB_MODULE_ID index )
 {
     volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxPWRCCLR = UxPWRC_USLPGRD_MASK ; 
+    usb->UxPWRCCLR = UxPWRC_USLPGRD_MASK ; 
 }
 
 //******************************************************************************
@@ -99,8 +99,7 @@ PLIB_TEMPLATE bool USB_ExistsSleepEntryGuard_Default( USB_MODULE_ID index )
     return true;
 }
 
-
-#endif /*_USB_SLEEPENTRYGUARD_DEFAULT_H*/
+#endif /*USB_SLEEPENTRYGUARD_DEFAULT_H*/
 
 /******************************************************************************
  End of File

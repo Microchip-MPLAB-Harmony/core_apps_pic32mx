@@ -44,8 +44,8 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 
 //DOM-IGNORE-END
 
-#ifndef _USB_MODULEPOWER_32BIT16BIT_H
-#define _USB_MODULEPOWER_32BIT16BIT_H
+#ifndef USB_MODULEPOWER_32BIT16BIT_H
+#define USB_MODULEPOWER_32BIT16BIT_H
 
 #include "driver/usb/usbfs/src/templates/usbfs_registers.h"
 
@@ -64,7 +64,7 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 PLIB_TEMPLATE void USB_Enable_32Bit16Bit( USB_MODULE_ID index )
 {
     volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxPWRC.USBPWR = 1;
+    usb->UxPWRC.USBPWR = 1;
     
 }
 
@@ -81,7 +81,7 @@ PLIB_TEMPLATE void USB_Enable_32Bit16Bit( USB_MODULE_ID index )
 PLIB_TEMPLATE void USB_Disable_32Bit16Bit( USB_MODULE_ID index )
 {
     volatile usb_registers_t   * usb = ((usb_registers_t *)(index));
-	usb->UxPWRC.USBPWR = 0 ;
+    usb->UxPWRC.USBPWR = 0 ;
  
 }
 
@@ -101,8 +101,7 @@ PLIB_TEMPLATE bool USB_ExistsModulePower_32Bit16Bit( USB_MODULE_ID index )
     return true;
 }
 
-
-#endif /*_USB_MODULEPOWER_32BIT16BIT_H*/
+#endif /*USB_MODULEPOWER_32BIT16BIT_H*/
 
 /******************************************************************************
  End of File
