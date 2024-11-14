@@ -60,8 +60,11 @@
 // Section: RTOS "Tasks" Routine
 // *****************************************************************************
 // *****************************************************************************
+
 /* Handle for the APP_I2C_EEPROM_Tasks. */
 TaskHandle_t xAPP_I2C_EEPROM_Tasks;
+
+
 
 static void lAPP_I2C_EEPROM_Tasks(  void *pvParameters  )
 {   
@@ -100,14 +103,15 @@ void SYS_Tasks ( void )
     
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_I2C_EEPROM_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_I2C_EEPROM_Tasks,
-                "APP_I2C_EEPROM_Tasks",
-                1024,
-                NULL,
-                1,
-                &xAPP_I2C_EEPROM_Tasks);
-
+    
+    /* Create OS Thread for APP_I2C_EEPROM_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_I2C_EEPROM_Tasks,
+           "APP_I2C_EEPROM_Tasks",
+           1024,
+           NULL,
+           1U ,
+           &xAPP_I2C_EEPROM_Tasks);
 
 
 

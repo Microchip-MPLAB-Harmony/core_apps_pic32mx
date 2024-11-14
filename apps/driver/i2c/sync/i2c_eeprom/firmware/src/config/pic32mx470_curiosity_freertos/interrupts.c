@@ -77,7 +77,7 @@ void I2C_1_Handler (void);
 // *****************************************************************************
 
 
-void I2C_1_Handler (void)
+void __attribute__((used)) I2C_1_Handler (void)
 {
     I2C_1_InterruptHandler();
 }
