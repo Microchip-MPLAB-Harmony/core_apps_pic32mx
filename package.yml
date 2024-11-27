@@ -7,15 +7,15 @@ package:
   required: false
 
   dependencies:
-    - name: "core"
-      type: "package"
-      version: "v3.14.0"
     - name: "bsp"
       type: "package"
-      version: "v3.17.0"
-    - name: "usb"
-      type: "package"
-      version: "v3.14.0"
+      version: "v3.21.1"
     - name: "FreeRTOS-Kernel"
       type: "package"
       version: "V11.1.0"
+    - name: "core"
+      type: "package"
+      version: "v3.14.0"
+    - name: "usb"
+      type: "package"
+      version: "v3.14.0"
