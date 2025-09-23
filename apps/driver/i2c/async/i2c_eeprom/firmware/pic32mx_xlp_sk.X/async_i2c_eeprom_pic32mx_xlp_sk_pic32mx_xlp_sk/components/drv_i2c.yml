@@ -1,0 +1,50 @@
+configVersion: 1.0.0
+componentName: drv_i2c
+coreVersion: 5.8.2
+device: PIC32MX274F256D
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_i2c
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: drv_i2c
+          x: '331'
+          y: '66'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DRV_I2C_MODE:
+      attributes:
+        id: DRV_I2C_MODE
+      children:
+      - children:
+        - attributes:
+            id: drv_i2c
+            value: Asynchronous
+          type: Dynamic
+        type: Values
+      type: Combo
+  userData: {}
