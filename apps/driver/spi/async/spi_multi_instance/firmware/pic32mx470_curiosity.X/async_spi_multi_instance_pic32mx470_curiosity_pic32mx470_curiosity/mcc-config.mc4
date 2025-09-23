@@ -1,0 +1,125 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- BSP_PIC32MX470_Curiosity_Development_Board
+- HarmonyCore
+- core
+- dfp
+- drv_spi
+- drv_spi_0
+- drv_spi_1
+- spi1
+- spi2
+generatedFileHashHistoryMap:
+- file: ..\src\app_instance1.c
+  hash: 14f2a94c041e5c5fb3c5421d74cadcd2dadd9555deed3aab55b573a5d3c94239
+- file: ..\src\app_instance1.h
+  hash: 7c5cbfd59e67c8b7a94513e924751acd5a743ab389676ae956ac8066aec55118
+- file: ..\src\app_instance2.c
+  hash: 326f7020a1308248990551877aca5a4fc2e7aa3887e0715cb4c2de3c24f602d0
+- file: ..\src\app_instance2.h
+  hash: 62680395d72501deaccf719c4ea2450fcbea993b012b52a254db3f01702e462b
+- file: ..\src\app_monitor.c
+  hash: be9eda2a696447febe7a3d6f43a9606916e4eb6fb8b6b6711db0732978e053bc
+- file: ..\src\app_monitor.h
+  hash: b7a941e35aec6cbebd1edeaf2bf358d9a3fec5a9f30277d3c7704cd181af5f4d
+- file: ..\src\config\pic32mx470_curiosity\bsp\bsp.c
+  hash: e10ae2bdcf41b1c2608d2be0492a91f5d401350147fe0a45bfad2e874aade06b
+- file: ..\src\config\pic32mx470_curiosity\bsp\bsp.h
+  hash: 7bedbb9b622bb96a1e559e57d98b793b8687fdf881009cdb42716534cc2c3d9d
+- file: ..\src\config\pic32mx470_curiosity\configuration.h
+  hash: 4d241f3c6faa171769f2778391ecce24fd2a0ae33e997ae199336008d0d03b58
+- file: ..\src\config\pic32mx470_curiosity\definitions.h
+  hash: 24f55352113062d648d9828e17515b5042192f695c82ce32b960f6255d0f92b9
+- file: ..\src\config\pic32mx470_curiosity\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mx470_curiosity\driver\driver.h
+  hash: 042fdd289460dbddb8e805850af7e3ac9aea95468e37414959781ebc5b2f454d
+- file: ..\src\config\pic32mx470_curiosity\driver\driver_common.h
+  hash: 5217965f6720b4fdf717e99ce9df4f2c9fbd82bbbc9655847166d1eefa806fee
+- file: ..\src\config\pic32mx470_curiosity\driver\spi\drv_spi.h
+  hash: 9a6daa12b48114aa08202529bea2a2a3d9d98a4365d864f10380ad2244b139d2
+- file: ..\src\config\pic32mx470_curiosity\driver\spi\drv_spi_definitions.h
+  hash: 92f0a3e5c52999719e33e290cd002b19a2bef4f1f003b80f6373d2ebaa1c07f3
+- file: ..\src\config\pic32mx470_curiosity\driver\spi\src\drv_spi.c
+  hash: cb8ca253da0576e64ca7ad7d64c4a7a82c6b88fb5d51736469818e0999bc6acd
+- file: ..\src\config\pic32mx470_curiosity\driver\spi\src\drv_spi_local.h
+  hash: d19b6335d37bb86224a50feaac9678342de36b4c6649ca29b47caa39cf4e11fd
+- file: ..\src\config\pic32mx470_curiosity\exceptions.c
+  hash: ed8f326d4f1abc2e74c1743119304a2f613522e3baacdd8df59fdda14c44619e
+- file: ..\src\config\pic32mx470_curiosity\initialization.c
+  hash: 26f935921b9871a237d81dffd704390771618d72e1e8d7b4fa587fd44e2aaff6
+- file: ..\src\config\pic32mx470_curiosity\interrupts.c
+  hash: d79f9f647d6616b034029eec956143875616fcd861c6fcda5b785e311d394ce6
+- file: ..\src\config\pic32mx470_curiosity\interrupts.h
+  hash: f18f3e33f557fdcd60b85f3faec3fa5dc39c718885871bcd4f76c684406b4009
+- file: ..\src\config\pic32mx470_curiosity\osal\osal.h
+  hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
+- file: ..\src\config\pic32mx470_curiosity\osal\osal_definitions.h
+  hash: 5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37
+- file: ..\src\config\pic32mx470_curiosity\osal\osal_impl_basic.h
+  hash: 65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463
+- file: ..\src\config\pic32mx470_curiosity\p32MX470F512H.ld
+  hash: 7eac67047b7884067b4425b6983e29a9c1bc11ccaad514c2a92f8ff68ec0dbf0
+- file: ..\src\config\pic32mx470_curiosity\peripheral\clk\plib_clk.c
+  hash: e76427b330a6848de95cbf54cf6ef62413734586a69eeceeebef4b3630f56518
+- file: ..\src\config\pic32mx470_curiosity\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mx470_curiosity\peripheral\evic\plib_evic.c
+  hash: a7e1937eece35fa1a94bdefb5829d71b2dece606e444f7bbad83e074934ae5da
+- file: ..\src\config\pic32mx470_curiosity\peripheral\evic\plib_evic.h
+  hash: ca9eb25560dda9352bae8b747c34ddbd1e16faaf25067d2edc7556bda1673bb5
+- file: ..\src\config\pic32mx470_curiosity\peripheral\gpio\plib_gpio.c
+  hash: 35d95276eb8706bb942d0f49d6a5fa8dfc473d63bfd8cf2d73ef756416850ea1
+- file: ..\src\config\pic32mx470_curiosity\peripheral\gpio\plib_gpio.h
+  hash: 61ecdeeaac5a8f655c903da0c33364260b08a1fa29e37c63452d59975f9c10a9
+- file: ..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi1_master.c
+  hash: 37ae84695717de5cf6dcd0f66fc5bc02ff1864c7c1568e3c1c83779a1ea91848
+- file: ..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi1_master.h
+  hash: e022deaa6bc614442c072622acf6a7ebb292ba4db067510bd6e37af805bea226
+- file: ..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi2_master.c
+  hash: 2f29f9388a6ff5e95dee4e50d927800af0879d0ca7c588136b13cdf36fcf0fce
+- file: ..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi2_master.h
+  hash: 5e78a42e59de34629f92f7916be364a44ed98f1fbaecd993eb121c485092d7d1
+- file: ..\src\config\pic32mx470_curiosity\peripheral\spi\spi_master\plib_spi_master_common.h
+  hash: 844a71566e886cd1f28024000d440ac48841cdb4f4059f5feefac8e4334f12ef
+- file: ..\src\config\pic32mx470_curiosity\stdio\xc32_monitor.c
+  hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
+- file: ..\src\config\pic32mx470_curiosity\sys_tasks.h
+  hash: 21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56
+- file: ..\src\config\pic32mx470_curiosity\system\debug\sys_debug.h
+  hash: aa94da8f32cbcb40672145542d149d077ff8f4b25c08d47d53e3d206d1c6bb83
+- file: ..\src\config\pic32mx470_curiosity\system\dma\sys_dma.c
+  hash: 772a0f1332b9de8ac954f390a0a69dad05fe6976d2d6fbc3de30a50021eb148f
+- file: ..\src\config\pic32mx470_curiosity\system\dma\sys_dma.h
+  hash: c488b17103a857ae2ea4e256df4b8315217edd9a1dca0f97475340f778c9d83f
+- file: ..\src\config\pic32mx470_curiosity\system\dma\sys_dma_mapping.h
+  hash: edbc703ae272ef9118fece15f4e08a9dc755cc797448e96e34d8404e7089b42f
+- file: ..\src\config\pic32mx470_curiosity\system\int\src\sys_int.c
+  hash: 30ac5e334ca90204f545f1ab769ae26f421b910b3fb3be99354b364febceee64
+- file: ..\src\config\pic32mx470_curiosity\system\int\sys_int.h
+  hash: 2c878ab7ff41ae56b5c0c3c94929ad66eb87b8660bf9a439177d049e8ad8f8c8
+- file: ..\src\config\pic32mx470_curiosity\system\int\sys_int_mapping.h
+  hash: a2dcf05575becc98aa212af1d220eda07487bd645d82c4d7a980aa3a22384cf3
+- file: ..\src\config\pic32mx470_curiosity\system\ports\sys_ports.h
+  hash: 32e25883b7d06dc8df2f8357504cc7dbe69d75b0c35f796f318a5407c6cc86a1
+- file: ..\src\config\pic32mx470_curiosity\system\ports\sys_ports_mapping.h
+  hash: 97195d4a7a99942def4f84b563b6590ee56ecb79c39f0defdc163c548e8f85ab
+- file: ..\src\config\pic32mx470_curiosity\system\system.h
+  hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
+- file: ..\src\config\pic32mx470_curiosity\system\system_common.h
+  hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
+- file: ..\src\config\pic32mx470_curiosity\system\system_module.h
+  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+- file: ..\src\config\pic32mx470_curiosity\tasks.c
+  hash: 69e1a95113ce17a991a70a8e3984a15342304b67e7fa136009fb269488d3a337
+- file: ..\src\config\pic32mx470_curiosity\toolchain_specifics.h
+  hash: b4de6e02e3e48c62f7ba233405ffdf6ef31bb971d1a7b49efa1676f45cabc1ac
+- file: ..\src\config\pic32mx470_curiosity\user.h
+  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
