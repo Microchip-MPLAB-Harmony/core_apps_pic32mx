@@ -1,0 +1,102 @@
+configVersion: 1.0.0
+componentName: drv_at25
+coreVersion: 5.8.2
+device: PIC32MX274F256D
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_at25
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: drv_at25_SPI_dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: spi1
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: SPI1_SPI
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: drv_at25
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: drv_at25
+          x: '247'
+          y: '93'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DRV_AT25_CHIP_SELECT_PIN:
+      attributes:
+        id: DRV_AT25_CHIP_SELECT_PIN
+      children:
+      - children:
+        - attributes:
+            value: '21'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DRV_AT25_HOLD_PIN:
+      attributes:
+        id: DRV_AT25_HOLD_PIN
+      children:
+      - children:
+        - attributes:
+            value: '24'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DRV_AT25_PLIB:
+      attributes:
+        id: DRV_AT25_PLIB
+      children:
+      - children:
+        - attributes:
+            id: drv_at25
+            value: SPI1
+          type: Dynamic
+        type: Values
+      type: String
+    DRV_AT25_WRITE_PROTECT_PIN:
+      attributes:
+        id: DRV_AT25_WRITE_PROTECT_PIN
+      children:
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: KeyValueSet
+  userData: {}

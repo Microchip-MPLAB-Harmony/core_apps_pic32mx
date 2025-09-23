@@ -1,0 +1,205 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/toolchain_specifics.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/definitions.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/initialization.c
+  projectFolder: config/pic32mx_xlp_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/interrupts.c
+  projectFolder: config/pic32mx_xlp_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/interrupts.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/exceptions.c
+  projectFolder: config/pic32mx_xlp_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/p32MX274F256D.ld
+  projectFolder: config/pic32mx_xlp_sk
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx_xlp_sk/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx_xlp_sk/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx_xlp_sk/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx_xlp_sk/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx_xlp_sk/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx_xlp_sk/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx_xlp_sk/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/at25/drv_at25.h
+  projectFolder: config/pic32mx_xlp_sk/driver/at25
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/at25/drv_at25_definitions.h
+  projectFolder: config/pic32mx_xlp_sk/driver/at25
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/at25/src/drv_at25.c
+  projectFolder: config/pic32mx_xlp_sk/driver/at25
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/at25/src/drv_at25_local.h
+  projectFolder: config/pic32mx_xlp_sk/driver/at25
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/device.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/bsp/bsp.c
+  projectFolder: config/pic32mx_xlp_sk/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/bsp/bsp.h
+  projectFolder: config/pic32mx_xlp_sk/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi_master_common.h
+  projectFolder: config/pic32mx_xlp_sk/peripheral/spi/spi_master
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi1_master.h
+  projectFolder: config/pic32mx_xlp_sk/peripheral/spi/spi_master
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/peripheral/spi/spi_master/plib_spi1_master.c
+  projectFolder: config/pic32mx_xlp_sk/peripheral/spi/spi_master
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/driver.h
+  projectFolder: config/pic32mx_xlp_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/driver/driver_common.h
+  projectFolder: config/pic32mx_xlp_sk/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/system.h
+  projectFolder: config/pic32mx_xlp_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/system_common.h
+  projectFolder: config/pic32mx_xlp_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/system_module.h
+  projectFolder: config/pic32mx_xlp_sk/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/int/sys_int.h
+  projectFolder: config/pic32mx_xlp_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mx_xlp_sk/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/int/src/sys_int.c
+  projectFolder: config/pic32mx_xlp_sk/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/ports/sys_ports.h
+  projectFolder: config/pic32mx_xlp_sk/system/ports
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/ports/sys_ports_mapping.h
+  projectFolder: config/pic32mx_xlp_sk/system/ports
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/osal/osal.h
+  projectFolder: config/pic32mx_xlp_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/osal/osal_definitions.h
+  projectFolder: config/pic32mx_xlp_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/osal/osal_impl_basic.h
+  projectFolder: config/pic32mx_xlp_sk/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/user.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/configuration.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/sys_tasks.h
+  projectFolder: config/pic32mx_xlp_sk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/tasks.c
+  projectFolder: config/pic32mx_xlp_sk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/spi_eeprom/at25/at25_eeprom_read_write/firmware/src/config/pic32mx_xlp_sk/system/debug/sys_debug.h
+  projectFolder: config/pic32mx_xlp_sk/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx_xlp_sk;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx_xlp_sk;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
