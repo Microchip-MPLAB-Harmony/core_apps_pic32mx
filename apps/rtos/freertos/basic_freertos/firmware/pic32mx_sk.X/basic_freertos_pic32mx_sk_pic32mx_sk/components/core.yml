@@ -1,0 +1,569 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: PIC32MX360F512L
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: FreeRTOS-Kernel
+  type: package
+  version: V11.1.0
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '220'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    BSP_PIN_19_CN:
+      attributes:
+        id: BSP_PIN_19_CN
+      children:
+      - children:
+        - attributes:
+            value: 'True'
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_80_FUNCTION_NAME:
+      attributes:
+        id: BSP_PIN_80_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: SWITCH3
+          type: User
+        type: Values
+      type: String
+    BSP_PIN_80_FUNCTION_TYPE:
+      attributes:
+        id: BSP_PIN_80_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: CN19
+          type: User
+        type: Values
+      type: String
+    CHANGE_NOTICE_INTERRUPT_ENABLE:
+      attributes:
+        id: CHANGE_NOTICE_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CHANGE_NOTICE_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: CHANGE_NOTICE_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CHANGE_NOTICE_INTERRUPT_HANDLER:
+      attributes:
+        id: CHANGE_NOTICE_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: CHANGE_NOTICE_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    CHANGE_NOTICE_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: CHANGE_NOTICE_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    COMPILER_CHOICE:
+      attributes:
+        id: COMPILER_CHOICE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CORE_SOFTWARE_0_INTERRUPT_ENABLE:
+      attributes:
+        id: CORE_SOFTWARE_0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: FreeRTOS
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CORE_SOFTWARE_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: CORE_SOFTWARE_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_ENABLE:
+      attributes:
+        id: EVIC_1_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_ENABLE_GENERATE:
+      attributes:
+        id: EVIC_1_ENABLE_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_ENABLE_LOCK:
+      attributes:
+        id: EVIC_1_ENABLE_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_HANDLER_LOCK:
+      attributes:
+        id: EVIC_1_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_PRIORITY_GENERATE:
+      attributes:
+        id: EVIC_1_PRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_PRIORITY_LOCK:
+      attributes:
+        id: EVIC_1_PRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_SUBPRIORITY_GENERATE:
+      attributes:
+        id: EVIC_1_SUBPRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_1_SUBPRIORITY_LOCK:
+      attributes:
+        id: EVIC_1_SUBPRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_26_ENABLE:
+      attributes:
+        id: EVIC_26_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_26_HANDLER_LOCK:
+      attributes:
+        id: EVIC_26_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_26_INTERRUPT_HANDLER:
+      attributes:
+        id: EVIC_26_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: CHANGE_NOTICE_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    EVIC_4_ENABLE:
+      attributes:
+        id: EVIC_4_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_ENABLE_GENERATE:
+      attributes:
+        id: EVIC_4_ENABLE_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_ENABLE_LOCK:
+      attributes:
+        id: EVIC_4_ENABLE_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_HANDLER_LOCK:
+      attributes:
+        id: EVIC_4_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_PRIORITY_GENERATE:
+      attributes:
+        id: EVIC_4_PRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_PRIORITY_LOCK:
+      attributes:
+        id: EVIC_4_PRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_SUBPRIORITY_GENERATE:
+      attributes:
+        id: EVIC_4_SUBPRIORITY_GENERATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_4_SUBPRIORITY_LOCK:
+      attributes:
+        id: EVIC_4_SUBPRIORITY_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EVIC_PRIORITY_1ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_1ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_2ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_2ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_3ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_3ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_4ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_4ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_5ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_5ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_6ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_6ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_PRIORITY_7ATTRIBUTE:
+      attributes:
+        id: EVIC_PRIORITY_7ATTRIBUTE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: AUTO
+          type: Dynamic
+        type: Values
+      type: Combo
+    EVIC_SRS_ENABLE:
+      attributes:
+        id: EVIC_SRS_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    KEIL_STACK_HEAP_SIZE:
+      attributes:
+        id: KEIL_STACK_HEAP_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1200'
+          type: Dynamic
+        type: Values
+      type: String
+    SYS_PORT_ATLEAST_ONE_CN_USED:
+      attributes:
+        id: SYS_PORT_ATLEAST_ONE_CN_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SYS_PORT_CNEN:
+      attributes:
+        id: SYS_PORT_CNEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '524288'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_CNPUE:
+      attributes:
+        id: SYS_PORT_CNPUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '622592'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_D_LAT:
+      attributes:
+        id: SYS_PORT_D_LAT
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    SYS_PORT_D_TRIS:
+      attributes:
+        id: SYS_PORT_D_TRIS
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '7'
+          type: Dynamic
+        type: Values
+      type: Hex
+    TIMER_1_INTERRUPT_ENABLE:
+      attributes:
+        id: TIMER_1_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: FreeRTOS
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TIMER_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: TIMER_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TMR1_CLOCK_ENABLE:
+      attributes:
+        id: TMR1_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: FreeRTOS
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TMR1_CLOCK_FREQUENCY:
+      attributes:
+        id: TMR1_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '80000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '172'
+        canvasWidth: '507'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
