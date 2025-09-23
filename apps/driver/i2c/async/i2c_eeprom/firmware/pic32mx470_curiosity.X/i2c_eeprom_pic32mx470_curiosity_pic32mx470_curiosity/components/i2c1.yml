@@ -1,0 +1,156 @@
+configVersion: 1.0.0
+componentName: i2c1
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: i2c1
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: I2C1_I2C
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: drv_i2c_0
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: drv_i2c_I2C_dependency
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: i2c1
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: i2c1
+          x: '32'
+          y: '146'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    BRG_VALUE:
+      attributes:
+        id: BRG_VALUE
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '55'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_CORE_TIMER_FREQUENCY:
+      attributes:
+        id: I2CS_CORE_TIMER_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_RISE_TIME_CORE_TIMER_CNTS:
+      attributes:
+        id: I2CS_RISE_TIME_CORE_TIMER_CNTS
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '14'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2CS_SETUP_TIME_CORE_TIMER_CNTS:
+      attributes:
+        id: I2CS_SETUP_TIME_CORE_TIMER_CNTS
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2C_CLOCK_FREQ:
+      attributes:
+        id: I2C_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    I2C_CLOCK_SPEED:
+      attributes:
+        id: I2C_CLOCK_SPEED
+      children:
+      - children:
+        - attributes:
+            value: '400000'
+          type: User
+        type: Values
+      type: Long
+    I2C_CLOCK_SPEED_HZ:
+      attributes:
+        id: I2C_CLOCK_SPEED_HZ
+      children:
+      - children:
+        - attributes:
+            id: i2c1
+            value: '400000'
+          type: Dynamic
+        type: Values
+      type: Long
+    I2C_OPERATING_MODE:
+      attributes:
+        id: I2C_OPERATING_MODE
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: i2c1
+            value: Master
+          type: Dynamic
+        type: Values
+      type: Combo
+  userData: {}

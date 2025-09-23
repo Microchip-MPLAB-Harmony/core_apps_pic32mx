@@ -60,7 +60,7 @@
 #define NOP asm(" NOP")
 
 
-volatile static I2C_OBJ i2c1MasterObj;
+static volatile I2C_OBJ i2c1MasterObj;
 
 
 void I2C1_Initialize(void)
