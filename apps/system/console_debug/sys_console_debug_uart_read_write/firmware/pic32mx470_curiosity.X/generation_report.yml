@@ -1,0 +1,213 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.c
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.h
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/uart/plib_uart_common.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/uart
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/uart/plib_uart1.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/uart
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/uart/plib_uart1.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/uart
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/toolchain_specifics.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/definitions.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/initialization.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/exceptions.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/p32MX470F512H.ld
+  projectFolder: config/pic32mx470_curiosity
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx470_curiosity/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/device.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/sys_console.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console.c
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_local.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_uart.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_uart_definitions.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_uart.c
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/src/sys_debug_local.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/src/sys_debug.c
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver_common.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/system.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/system_common.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/system_module.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/int/src/sys_int.c
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_definitions.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_impl_basic.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/user.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/configuration.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/sys_tasks.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/tasks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_uart_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/sys_debug.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]

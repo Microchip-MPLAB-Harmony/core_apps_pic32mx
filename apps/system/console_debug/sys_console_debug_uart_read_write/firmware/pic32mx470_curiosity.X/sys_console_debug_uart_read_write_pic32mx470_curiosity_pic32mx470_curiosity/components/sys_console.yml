@@ -1,0 +1,50 @@
+configVersion: 1.0.0
+componentName: sys_console
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: sys_console
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: sys_console
+          x: '158'
+          y: '89'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    SYS_CONSOLE_UART_CONNECTION_COUNTER:
+      attributes:
+        id: SYS_CONSOLE_UART_CONNECTION_COUNTER
+      children:
+      - children:
+        - attributes:
+            id: sys_console
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}
