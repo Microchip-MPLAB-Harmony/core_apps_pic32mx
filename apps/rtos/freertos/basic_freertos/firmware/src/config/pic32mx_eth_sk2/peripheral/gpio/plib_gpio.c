@@ -46,7 +46,7 @@
 
 #define TOTAL_NUM_OF_INT_USED (1U)
 /* Array to store pin objects of each configured interrupt */
-volatile static GPIO_PIN_CALLBACK_OBJ cnPinObj[TOTAL_NUM_OF_INT_USED] =
+static volatile GPIO_PIN_CALLBACK_OBJ cnPinObj[TOTAL_NUM_OF_INT_USED] =
     {
         {.cnPin = CN19_PIN , .gpioPin = GPIO_PIN_RD13, .callback = NULL },
     };
