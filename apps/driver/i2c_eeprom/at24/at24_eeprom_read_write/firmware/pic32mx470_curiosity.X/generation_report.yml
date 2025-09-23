@@ -1,0 +1,213 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/i2c/master/plib_i2c1_master.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/i2c/master
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/i2c/master/plib_i2c_master_common.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/i2c/master
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/i2c/master/plib_i2c1_master.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/i2c/master
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/i2c/plib_i2c_smbus_common.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/i2c
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/i2c/plib_i2c_smbus_common.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/i2c
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.c
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.h
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/at24/drv_at24.h
+  projectFolder: config/pic32mx470_curiosity/driver/at24
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/at24/drv_at24_definitions.h
+  projectFolder: config/pic32mx470_curiosity/driver/at24
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/at24/src/drv_at24.c
+  projectFolder: config/pic32mx470_curiosity/driver/at24
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/at24/src/drv_at24_local.h
+  projectFolder: config/pic32mx470_curiosity/driver/at24
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/toolchain_specifics.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/definitions.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/initialization.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/exceptions.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/p32MX470F512H.ld
+  projectFolder: config/pic32mx470_curiosity
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx470_curiosity/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/device.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver_common.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/system.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/system_common.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/system_module.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/int/src/sys_int.c
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/ports/sys_ports.h
+  projectFolder: config/pic32mx470_curiosity/system/ports
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/ports/sys_ports_mapping.h
+  projectFolder: config/pic32mx470_curiosity/system/ports
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_definitions.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_impl_basic.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/user.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/configuration.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/sys_tasks.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/tasks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/driver/i2c_eeprom/at24/at24_eeprom_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/sys_debug.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
