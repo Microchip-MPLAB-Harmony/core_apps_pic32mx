@@ -1,0 +1,113 @@
+configVersion: 1.0.0
+componentName: drv_at24
+coreVersion: 5.8.2
+device: PIC32MX274F256D
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_at24
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: drv_at24_I2C_dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: i2c1
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: I2C1_I2C
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: drv_at24
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: drv_at24
+          x: '190'
+          y: '140'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DRV_AT24_PLIB:
+      attributes:
+        id: DRV_AT24_PLIB
+      children:
+      - children:
+        - attributes:
+            id: drv_at24
+            value: I2C1
+          type: Dynamic
+        type: Values
+      type: String
+    EEPROM_ADDR_LEN:
+      attributes:
+        id: EEPROM_ADDR_LEN
+      children:
+      - children:
+        - attributes:
+            id: drv_at24
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_FLASH_SIZE:
+      attributes:
+        id: EEPROM_FLASH_SIZE
+      children:
+      - children:
+        - attributes:
+            value: '262144'
+          type: User
+        type: Values
+      type: Integer
+    EEPROM_PAGE_SIZE:
+      attributes:
+        id: EEPROM_PAGE_SIZE
+      children:
+      - children:
+        - attributes:
+            value: '256'
+          type: User
+        type: Values
+      type: Integer
+    I2C_EEPROM_ADDDRESS:
+      attributes:
+        id: I2C_EEPROM_ADDDRESS
+      children:
+      - children:
+        - attributes:
+            value: '84'
+          type: User
+        type: Values
+      type: Hex
+  userData: {}
