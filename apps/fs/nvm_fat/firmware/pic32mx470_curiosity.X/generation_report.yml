@@ -1,0 +1,275 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/bsp/bsp.c
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/bsp/bsp.h
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/drv_memory.h
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/drv_memory_definitions.h
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/src/drv_memory_nvm.c
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/drv_memory_nvm.h
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/sys_fs.h
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/src/sys_fs_local.h
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/sys_fs_media_manager.h
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/src/sys_fs_media_manager_local.h
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/sys_fs_fat_interface.h
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system/ff.h
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/file_system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system/ffconf.h
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/file_system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access/diskio.h
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/src/sys_fs.c
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/src/sys_fs_media_manager.c
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/src/sys_fs_fat_interface.c
+  projectFolder: config/pic32mx470_curiosity/system/fs
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system/ff.c
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/file_system
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system/ffunicode.c
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/file_system
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access/diskio.c
+  projectFolder: config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/toolchain_specifics.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/definitions.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/initialization.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/interrupts.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/interrupts.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/exceptions.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/p32MX470F512H.ld
+  projectFolder: config/pic32mx470_curiosity
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx470_curiosity/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/src/drv_memory.c
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/src/drv_memory_local.h
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/src/drv_memory_file_system.c
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/memory/src/drv_memory_file_system.h
+  projectFolder: config/pic32mx470_curiosity/driver/memory
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/device.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/driver.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/driver/driver_common.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/system.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/system_common.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/system_module.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/system_media.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/int/sys_int.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/int/src/sys_int.c
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/osal/osal.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/osal/osal_definitions.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/osal/osal_impl_basic.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/user.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/configuration.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/sys_tasks.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/tasks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/system/debug/sys_debug.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/nvm/plib_nvm.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/nvm
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx470_curiosity/peripheral/nvm/plib_nvm.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/nvm
+  type: Source Files
+generatedSettings:
+- category: C32
+  key: extra-include-directories
+  value: ;../src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system;../src/config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access
+- category: C32CPP
+  key: extra-include-directories
+  value: ;../src/config/pic32mx470_curiosity/system/fs/fat_fs/file_system;../src/config/pic32mx470_curiosity/system/fs/fat_fs/hardware_access
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
