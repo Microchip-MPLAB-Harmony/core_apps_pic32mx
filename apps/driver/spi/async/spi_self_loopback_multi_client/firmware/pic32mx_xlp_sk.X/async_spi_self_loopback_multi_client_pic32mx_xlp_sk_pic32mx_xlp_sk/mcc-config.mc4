@@ -1,0 +1,119 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MX274F256D
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- BSP_PIC32MX274_XLP_Starter_Kit
+- HarmonyCore
+- core
+- dfp
+- drv_spi
+- drv_spi_0
+- spi1
+generatedFileHashHistoryMap:
+- file: ..\src\app_client1.c
+  hash: 523352dc18c8faf33d26cbd10a275fd7544f550dc802f3016d75c0960397714d
+- file: ..\src\app_client1.h
+  hash: 3957c6fb94cc72d053cce8ea94807f1c1db709a020bcad51bb872dd6d02b1362
+- file: ..\src\app_client2.c
+  hash: 85608dea03f4a3d03ef5733b78189adf1cd2103c9c883a59fb8a77eea61bf51a
+- file: ..\src\app_client2.h
+  hash: a18f1ca6312a5a78283bbc22761ecc3d622e98543ccdb30a94a194d79210756f
+- file: ..\src\app_monitor.c
+  hash: be9eda2a696447febe7a3d6f43a9606916e4eb6fb8b6b6711db0732978e053bc
+- file: ..\src\app_monitor.h
+  hash: b7a941e35aec6cbebd1edeaf2bf358d9a3fec5a9f30277d3c7704cd181af5f4d
+- file: ..\src\config\pic32mx_xlp_sk\bsp\bsp.c
+  hash: 621ef522304925e6c579ee307b671d54a53bf87742a7983829084847e62e3ea2
+- file: ..\src\config\pic32mx_xlp_sk\bsp\bsp.h
+  hash: d7898c4842a8a8e5ffd517b8e5e9e854d5da9e8cbf9046aeedaeed12809f22a2
+- file: ..\src\config\pic32mx_xlp_sk\configuration.h
+  hash: d44359f86456cfb75267b3a4e58050801cb5c046571b70c6f9a84b38cad02a1f
+- file: ..\src\config\pic32mx_xlp_sk\definitions.h
+  hash: 7c9ce3731d06f68573d39cd5b7056007e889d0cc9a294b79bb3d8cd98471b07c
+- file: ..\src\config\pic32mx_xlp_sk\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mx_xlp_sk\driver\driver.h
+  hash: 042fdd289460dbddb8e805850af7e3ac9aea95468e37414959781ebc5b2f454d
+- file: ..\src\config\pic32mx_xlp_sk\driver\driver_common.h
+  hash: 5217965f6720b4fdf717e99ce9df4f2c9fbd82bbbc9655847166d1eefa806fee
+- file: ..\src\config\pic32mx_xlp_sk\driver\spi\drv_spi.h
+  hash: 9a6daa12b48114aa08202529bea2a2a3d9d98a4365d864f10380ad2244b139d2
+- file: ..\src\config\pic32mx_xlp_sk\driver\spi\drv_spi_definitions.h
+  hash: 92f0a3e5c52999719e33e290cd002b19a2bef4f1f003b80f6373d2ebaa1c07f3
+- file: ..\src\config\pic32mx_xlp_sk\driver\spi\src\drv_spi.c
+  hash: cb8ca253da0576e64ca7ad7d64c4a7a82c6b88fb5d51736469818e0999bc6acd
+- file: ..\src\config\pic32mx_xlp_sk\driver\spi\src\drv_spi_local.h
+  hash: d19b6335d37bb86224a50feaac9678342de36b4c6649ca29b47caa39cf4e11fd
+- file: ..\src\config\pic32mx_xlp_sk\exceptions.c
+  hash: ed8f326d4f1abc2e74c1743119304a2f613522e3baacdd8df59fdda14c44619e
+- file: ..\src\config\pic32mx_xlp_sk\initialization.c
+  hash: 67b511367266f566da051ce80b7b3b7f34abaaa7be626f6ec518926970e339a4
+- file: ..\src\config\pic32mx_xlp_sk\interrupts.c
+  hash: fb0c24e085a957f2618742375ade993710e95e6b21b8e85b48423f220886a366
+- file: ..\src\config\pic32mx_xlp_sk\interrupts.h
+  hash: 3100f072a528f3f4920eaaa8cd51e098d71ac781cef4ae2f6a603e3c783e0502
+- file: ..\src\config\pic32mx_xlp_sk\osal\osal.h
+  hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
+- file: ..\src\config\pic32mx_xlp_sk\osal\osal_definitions.h
+  hash: 5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37
+- file: ..\src\config\pic32mx_xlp_sk\osal\osal_impl_basic.h
+  hash: 65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463
+- file: ..\src\config\pic32mx_xlp_sk\p32MX274F256D.ld
+  hash: 70a4d110c95325dbbd15b6e1035eaf62236cbe3b3c7c31b7cf88d8b5c9956708
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\clk\plib_clk.c
+  hash: 0351e9d55381d0f6f8360071fcc04f18a2d73f0f2b1a29b57a92ad9b734b0425
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\evic\plib_evic.c
+  hash: e497e9452365e2cb94f8ca92df1613088055eddfc002b4ee9d43876df0810d1d
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\evic\plib_evic.h
+  hash: 1b1b3012fec583fbba26ddddd35ba1c3e3c9cbb5f8c14ba0bec7a3923d53aee7
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\gpio\plib_gpio.c
+  hash: 8d86b360e3bc154007be2f3b08e463432727342b73940790b8897630d6836d59
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\gpio\plib_gpio.h
+  hash: 2811808ac2dfa55b10c3ce3e114f40c50bb2b67c0132bd7b3c9ccf4516624eea
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\spi\spi_master\plib_spi1_master.c
+  hash: 8f75e94a0b60e7abe55277269324a76fbce6248c832a338787555c8ca25fe280
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\spi\spi_master\plib_spi1_master.h
+  hash: e022deaa6bc614442c072622acf6a7ebb292ba4db067510bd6e37af805bea226
+- file: ..\src\config\pic32mx_xlp_sk\peripheral\spi\spi_master\plib_spi_master_common.h
+  hash: 844a71566e886cd1f28024000d440ac48841cdb4f4059f5feefac8e4334f12ef
+- file: ..\src\config\pic32mx_xlp_sk\stdio\xc32_monitor.c
+  hash: 858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a
+- file: ..\src\config\pic32mx_xlp_sk\sys_tasks.h
+  hash: 21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56
+- file: ..\src\config\pic32mx_xlp_sk\system\debug\sys_debug.h
+  hash: aa94da8f32cbcb40672145542d149d077ff8f4b25c08d47d53e3d206d1c6bb83
+- file: ..\src\config\pic32mx_xlp_sk\system\dma\sys_dma.c
+  hash: 772a0f1332b9de8ac954f390a0a69dad05fe6976d2d6fbc3de30a50021eb148f
+- file: ..\src\config\pic32mx_xlp_sk\system\dma\sys_dma.h
+  hash: c488b17103a857ae2ea4e256df4b8315217edd9a1dca0f97475340f778c9d83f
+- file: ..\src\config\pic32mx_xlp_sk\system\dma\sys_dma_mapping.h
+  hash: edbc703ae272ef9118fece15f4e08a9dc755cc797448e96e34d8404e7089b42f
+- file: ..\src\config\pic32mx_xlp_sk\system\int\src\sys_int.c
+  hash: 30ac5e334ca90204f545f1ab769ae26f421b910b3fb3be99354b364febceee64
+- file: ..\src\config\pic32mx_xlp_sk\system\int\sys_int.h
+  hash: 2c878ab7ff41ae56b5c0c3c94929ad66eb87b8660bf9a439177d049e8ad8f8c8
+- file: ..\src\config\pic32mx_xlp_sk\system\int\sys_int_mapping.h
+  hash: a2dcf05575becc98aa212af1d220eda07487bd645d82c4d7a980aa3a22384cf3
+- file: ..\src\config\pic32mx_xlp_sk\system\ports\sys_ports.h
+  hash: 3f8df3595671ac0245663883fcdd7fa19cb5749a39f311b321fca897d5c78bec
+- file: ..\src\config\pic32mx_xlp_sk\system\ports\sys_ports_mapping.h
+  hash: 97195d4a7a99942def4f84b563b6590ee56ecb79c39f0defdc163c548e8f85ab
+- file: ..\src\config\pic32mx_xlp_sk\system\system.h
+  hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
+- file: ..\src\config\pic32mx_xlp_sk\system\system_common.h
+  hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
+- file: ..\src\config\pic32mx_xlp_sk\system\system_module.h
+  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+- file: ..\src\config\pic32mx_xlp_sk\tasks.c
+  hash: 5f3ce020c9cc55c7e69e675a84257fc1a557a818f702aeff34c849734c8eae42
+- file: ..\src\config\pic32mx_xlp_sk\toolchain_specifics.h
+  hash: b4de6e02e3e48c62f7ba233405ffdf6ef31bb971d1a7b49efa1676f45cabc1ac
+- file: ..\src\config\pic32mx_xlp_sk\user.h
+  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
