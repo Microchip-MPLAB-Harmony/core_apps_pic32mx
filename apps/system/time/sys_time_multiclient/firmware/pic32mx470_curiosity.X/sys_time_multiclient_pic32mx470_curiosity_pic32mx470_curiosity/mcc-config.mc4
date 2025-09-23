@@ -1,0 +1,102 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- BSP_PIC32MX470_Curiosity_Development_Board
+- HarmonyCore
+- core
+- core_timer
+- dfp
+- stdio
+- sys_time
+- uart1
+generatedFileHashHistoryMap:
+- file: ..\src\app.c
+  hash: 632c78c323cb9f8c6359f20337440c08f8461eb4b0304552b6a3cfd5c4052620
+- file: ..\src\app.h
+  hash: 8e35d8509552a4d1d6e6f123ad75694cf784a707f7dac592ed33b55121aa8e28
+- file: ..\src\config\pic32mx470_curiosity\bsp\bsp.c
+  hash: e10ae2bdcf41b1c2608d2be0492a91f5d401350147fe0a45bfad2e874aade06b
+- file: ..\src\config\pic32mx470_curiosity\bsp\bsp.h
+  hash: 7bedbb9b622bb96a1e559e57d98b793b8687fdf881009cdb42716534cc2c3d9d
+- file: ..\src\config\pic32mx470_curiosity\configuration.h
+  hash: 4cf4df28854988ffcbdc49b39443a823ea0c0b15ca0134f4d9a32d550cb98737
+- file: ..\src\config\pic32mx470_curiosity\definitions.h
+  hash: af090020154ea5e6ff1966c3910a44bd3df2e5fa55d514163cdf146e065ddccd
+- file: ..\src\config\pic32mx470_curiosity\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mx470_curiosity\exceptions.c
+  hash: ed8f326d4f1abc2e74c1743119304a2f613522e3baacdd8df59fdda14c44619e
+- file: ..\src\config\pic32mx470_curiosity\initialization.c
+  hash: 7787960617c3f9dc027f70370470e27afe85cf18a6dd05d5d470b1af6bd64e23
+- file: ..\src\config\pic32mx470_curiosity\interrupts.c
+  hash: 5d543d8f5ac3f7f7cbb7e8faeb0d648e95ab162acae140d270bc642ffcfb2a4a
+- file: ..\src\config\pic32mx470_curiosity\interrupts.h
+  hash: 80825fbf90806a4a2720478935c4d8fb1ae134dc3180c24943975f59be484f04
+- file: ..\src\config\pic32mx470_curiosity\osal\osal.h
+  hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
+- file: ..\src\config\pic32mx470_curiosity\osal\osal_definitions.h
+  hash: 5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37
+- file: ..\src\config\pic32mx470_curiosity\osal\osal_impl_basic.h
+  hash: 65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463
+- file: ..\src\config\pic32mx470_curiosity\p32MX470F512H.ld
+  hash: 7eac67047b7884067b4425b6983e29a9c1bc11ccaad514c2a92f8ff68ec0dbf0
+- file: ..\src\config\pic32mx470_curiosity\peripheral\clk\plib_clk.c
+  hash: fcb29a998bf3ca8bf5d526295e5219e51bc385d837ba8b5ea93d68f2b5812f9b
+- file: ..\src\config\pic32mx470_curiosity\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mx470_curiosity\peripheral\coretimer\plib_coretimer.c
+  hash: d2e0839da9beba86ea927aad046330882835e6d1177f6f327eba3e7ecc7e66ff
+- file: ..\src\config\pic32mx470_curiosity\peripheral\coretimer\plib_coretimer.h
+  hash: 2f25cfd629c8a2bf36b595eb6bf6f577e6e1856d901a8ed31bd4e54166fe94ef
+- file: ..\src\config\pic32mx470_curiosity\peripheral\evic\plib_evic.c
+  hash: cfb7110c52ef05632316d5446da2d7e4f6cdc13b6ec3eae7e695967520ccc020
+- file: ..\src\config\pic32mx470_curiosity\peripheral\evic\plib_evic.h
+  hash: ca9eb25560dda9352bae8b747c34ddbd1e16faaf25067d2edc7556bda1673bb5
+- file: ..\src\config\pic32mx470_curiosity\peripheral\gpio\plib_gpio.c
+  hash: 84708673761e3cb840571fb16e1372b7e153606254dce7ebf0896f3de9cb9f7c
+- file: ..\src\config\pic32mx470_curiosity\peripheral\gpio\plib_gpio.h
+  hash: a56f49aa8799ec088531e790cfd1ba241f40e1c67c8ff4e3fae2e12cc86e3dd2
+- file: ..\src\config\pic32mx470_curiosity\peripheral\uart\plib_uart1.c
+  hash: e7484d782648c4da52edfa00f62436721b80a927e8e45c0a467ae0b109f20e6e
+- file: ..\src\config\pic32mx470_curiosity\peripheral\uart\plib_uart1.h
+  hash: 0ee6b47011bb6162f6b5bba91d8c1ab289be568eafe725a83d051e4857595ffe
+- file: ..\src\config\pic32mx470_curiosity\peripheral\uart\plib_uart_common.h
+  hash: b87295faadae4157d5880e22970f89094f2b51e1866930040a90ba49c6b29797
+- file: ..\src\config\pic32mx470_curiosity\stdio\xc32_monitor.c
+  hash: 34c7efa285dd6778faf01a0097bf7bebc131e7a8a0ed97bb737ff3e0a39895d2
+- file: ..\src\config\pic32mx470_curiosity\sys_tasks.h
+  hash: 21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56
+- file: ..\src\config\pic32mx470_curiosity\system\debug\sys_debug.h
+  hash: aa94da8f32cbcb40672145542d149d077ff8f4b25c08d47d53e3d206d1c6bb83
+- file: ..\src\config\pic32mx470_curiosity\system\int\src\sys_int.c
+  hash: 30ac5e334ca90204f545f1ab769ae26f421b910b3fb3be99354b364febceee64
+- file: ..\src\config\pic32mx470_curiosity\system\int\sys_int.h
+  hash: 2c878ab7ff41ae56b5c0c3c94929ad66eb87b8660bf9a439177d049e8ad8f8c8
+- file: ..\src\config\pic32mx470_curiosity\system\int\sys_int_mapping.h
+  hash: a2dcf05575becc98aa212af1d220eda07487bd645d82c4d7a980aa3a22384cf3
+- file: ..\src\config\pic32mx470_curiosity\system\system.h
+  hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
+- file: ..\src\config\pic32mx470_curiosity\system\system_common.h
+  hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
+- file: ..\src\config\pic32mx470_curiosity\system\system_module.h
+  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+- file: ..\src\config\pic32mx470_curiosity\system\time\src\sys_time.c
+  hash: fa2d85ab967b80157caf8483f6e28a23b12b548844a1d80f2fef760cd9b99271
+- file: ..\src\config\pic32mx470_curiosity\system\time\src\sys_time_local.h
+  hash: df56f970664902417d798760e44978cf4b84c108cf0761647a383e91db76980c
+- file: ..\src\config\pic32mx470_curiosity\system\time\sys_time.h
+  hash: 6357468f7670698b16bfb6439d9919ed38eba99d4f03277a8b43ac34586fa1b3
+- file: ..\src\config\pic32mx470_curiosity\system\time\sys_time_definitions.h
+  hash: 46537746b1d12ece6b682c9be1c8f3f219663c638c21a51a973762b7b393afe6
+- file: ..\src\config\pic32mx470_curiosity\tasks.c
+  hash: 36364a39e784157f4aac281dfecc1f19be971c9935e6299a6f37a78cd98d1d46
+- file: ..\src\config\pic32mx470_curiosity\toolchain_specifics.h
+  hash: b4de6e02e3e48c62f7ba233405ffdf6ef31bb971d1a7b49efa1676f45cabc1ac
+- file: ..\src\config\pic32mx470_curiosity\user.h
+  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5
