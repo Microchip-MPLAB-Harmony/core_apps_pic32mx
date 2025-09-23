@@ -46,10 +46,10 @@
 
 
 /* Array to store callback objects of each configured interrupt */
-volatile static GPIO_PIN_CALLBACK_OBJ portPinCbObj[1];
+static volatile GPIO_PIN_CALLBACK_OBJ portPinCbObj[1];
 
 /* Array to store number of interrupts in each PORT Channel + previous interrupt count */
-volatile static uint8_t portNumCb[6 + 1] = { 0, 0, 0, 1, 1, 1, 1, };
+static volatile uint8_t portNumCb[6 + 1] = { 0, 0, 0, 1, 1, 1, 1, };
 
 /******************************************************************************
   Function:
