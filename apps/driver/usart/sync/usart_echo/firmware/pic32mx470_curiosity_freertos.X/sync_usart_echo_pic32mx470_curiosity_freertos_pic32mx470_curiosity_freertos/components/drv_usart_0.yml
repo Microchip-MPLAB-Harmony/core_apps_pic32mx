@@ -1,0 +1,161 @@
+configVersion: 1.0.0
+componentName: drv_usart_0
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_usart_0
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: FreeRTOS-Kernel
+  type: package
+  version: V11.1.0
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: drv_usart_UART_dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: uart1
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: UART1_UART
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: drv_usart_0
+  elementPosition: {}
+  symbols:
+    DRV_USART_PLIB:
+      attributes:
+        id: DRV_USART_PLIB
+      children:
+      - children:
+        - attributes:
+            id: drv_usart_0
+            value: UART1
+          type: Dynamic
+        type: Values
+      type: String
+    DRV_USART_RX_DMA:
+      attributes:
+        id: DRV_USART_RX_DMA
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DRV_USART_RX_DMA_CHANNEL:
+      attributes:
+        id: DRV_USART_RX_DMA_CHANNEL
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: drv_usart_0
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Integer
+    DRV_USART_RX_DMA_EN:
+      attributes:
+        id: DRV_USART_RX_DMA_EN
+      children:
+      - children:
+        - attributes:
+            id: drv_usart_0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DRV_USART_TX_DMA:
+      attributes:
+        id: DRV_USART_TX_DMA
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DRV_USART_TX_DMA_CHANNEL:
+      attributes:
+        id: DRV_USART_TX_DMA_CHANNEL
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: drv_usart_0
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    DRV_USART_TX_DMA_EN:
+      attributes:
+        id: DRV_USART_TX_DMA_EN
+      children:
+      - children:
+        - attributes:
+            id: drv_usart_0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData: {}

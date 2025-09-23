@@ -1,0 +1,87 @@
+configVersion: 1.0.0
+componentName: drv_usart
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_usart
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: FreeRTOS-Kernel
+  type: package
+  version: V11.1.0
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: drv_usart
+          x: '235'
+          y: '150'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DRV_USART_COMMON_MODE:
+      attributes:
+        id: DRV_USART_COMMON_MODE
+      children:
+      - children:
+        - attributes:
+            id: drv_usart
+            value: Synchronous
+          type: Dynamic
+        type: Values
+      type: Combo
+    DRV_USART_SYS_DMA_CODE_ENABLE:
+      attributes:
+        id: DRV_USART_SYS_DMA_CODE_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: drv_usart
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DRV_USART_SYS_DMA_ENABLE:
+      attributes:
+        id: DRV_USART_SYS_DMA_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: drv_usart
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    DRV_USART_SYS_DMA_ENABLE_CNTR:
+      attributes:
+        id: DRV_USART_SYS_DMA_ENABLE_CNTR
+      children:
+      - children:
+        - attributes:
+            id: drv_usart
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}
