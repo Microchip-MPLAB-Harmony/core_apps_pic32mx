@@ -144,9 +144,24 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
+      <logicalFolder name="sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos" displayName="sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos" projectFiles="true">
+        <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/BSP_PIC32MX470_Curiosity_Development_Board.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/FreeRTOS.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/HarmonyCore.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/core.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/core_timer.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/dfp.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/drv_sdspi.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/drv_sdspi_0.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/spi1.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/sys_fs.yml</itemPath>
+          <itemPath>sdspi_fat_pic32mx470_curiosity_freertos_pic32mx470_curiosity_freertos/components/sys_time.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx470_curiosity_freertos/harmony-manifest-success.yml</itemPath>
-      <itemPath>sdspi_fat_pic32mx470_curiosity_freertos.mc3</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
       <logicalFolder displayName="config" name="f1" projectFiles="true">
@@ -282,7 +297,7 @@
         <targetPluginBoard/>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
