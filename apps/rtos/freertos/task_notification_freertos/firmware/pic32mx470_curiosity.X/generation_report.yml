@@ -1,0 +1,285 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/bsp/bsp.c
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/bsp/bsp.h
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/toolchain_specifics.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/definitions.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/initialization.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/interrupts.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/interrupts.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/interrupts_a.S
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/exceptions.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/p32MX470F512H.ld
+  projectFolder: config/pic32mx470_curiosity
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx470_curiosity/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/device.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/FreeRTOSConfig.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/freertos_hooks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/croutine.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/list.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/queue.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/FreeRTOS_tasks.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/timers.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/event_groups.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/stream_buffer.c
+  projectFolder: FreeRTOS/Source
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c
+  projectFolder: FreeRTOS/Source/portable/MemMang
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/croutine.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/event_groups.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/FreeRTOS.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/list.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/mpu_wrappers.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/portable.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/projdefs.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/queue.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/semphr.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/stack_macros.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/deprecated_definitions.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/task.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/timers.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/mpu_prototypes.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/mpu_syscall_numbers.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/stream_buffer.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/include/message_buffer.h
+  projectFolder: FreeRTOS/Source/include
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX/port.c
+  projectFolder: FreeRTOS/Source/portable/MPLAB/PIC32MX
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX/portmacro.h
+  projectFolder: FreeRTOS/Source/portable/MPLAB/PIC32MX
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX/port_asm.S
+  projectFolder: FreeRTOS/Source/portable/MPLAB/PIC32MX
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX/ISR_Support.h
+  projectFolder: FreeRTOS/Source/portable/MPLAB/PIC32MX
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/osal/osal.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/osal/osal_definitions.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/osal/osal_freertos.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/osal/osal_freertos.c
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/app1.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/app1.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/user.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/configuration.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/sys_tasks.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/rtos/freertos/task_notification_freertos/firmware/src/config/pic32mx470_curiosity/tasks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+- category: C32
+  key: extra-include-directories
+  value: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;
+- category: C32-AS
+  key: extra-include-directories-for-assembler
+  value: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx470_curiosity;
+- category: C32-AS
+  key: extra-include-directories-for-preprocessor
+  value: ../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MX;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mx470_curiosity;
+removedFiles: [
+  ]
