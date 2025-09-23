@@ -78,9 +78,19 @@
       <itemPath>../src/task3.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
+      <logicalFolder name="basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk" displayName="basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk" projectFiles="true">
+        <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/BSP_PIC32MX274_XLP_Starter_Kit.yml</itemPath>
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/FreeRTOS.yml</itemPath>
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/HarmonyCore.yml</itemPath>
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/core.yml</itemPath>
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/dfp.yml</itemPath>
+          <itemPath>basic_freertos_pic32mx_xlp_sk_pic32mx_xlp_sk/components/uart1.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
-      <itemPath>basic_freertos_pic32mx_xlp_sk.mc3</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
       <logicalFolder displayName="config" name="f1" projectFiles="true">
@@ -168,7 +178,7 @@
         <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
