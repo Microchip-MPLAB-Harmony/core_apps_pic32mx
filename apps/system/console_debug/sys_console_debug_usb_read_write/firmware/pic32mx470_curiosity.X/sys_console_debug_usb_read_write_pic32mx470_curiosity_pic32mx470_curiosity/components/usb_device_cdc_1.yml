@@ -1,0 +1,109 @@
+configVersion: 1.0.0
+componentName: usb_device_cdc_1
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: usb_device_cdc_1
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: usb
+  type: package
+  version: v3.14.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: USB Device
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: sys_console_1
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: sys_console_USB_DEVICE_CDC_dependency
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: usb_device_cdc_1
+  elementPosition: {}
+  symbols:
+    CONFIG_USB_DEVICE_FUNCTION_BULK_IN_ENDPOINT_NUMBER:
+      attributes:
+        id: CONFIG_USB_DEVICE_FUNCTION_BULK_IN_ENDPOINT_NUMBER
+      children:
+      - children:
+        - attributes:
+            id: usb_device_cdc_1
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Integer
+    CONFIG_USB_DEVICE_FUNCTION_BULK_OUT_ENDPOINT_NUMBER:
+      attributes:
+        id: CONFIG_USB_DEVICE_FUNCTION_BULK_OUT_ENDPOINT_NUMBER
+      children:
+      - children:
+        - attributes:
+            id: usb_device_cdc_1
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Integer
+    CONFIG_USB_DEVICE_FUNCTION_INTERFACE_NUMBER:
+      attributes:
+        id: CONFIG_USB_DEVICE_FUNCTION_INTERFACE_NUMBER
+      children:
+      - children:
+        - attributes:
+            id: usb_device_cdc_1
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    CONFIG_USB_DEVICE_FUNCTION_INT_ENDPOINT_NUMBER:
+      attributes:
+        id: CONFIG_USB_DEVICE_FUNCTION_INT_ENDPOINT_NUMBER
+      children:
+      - children:
+        - attributes:
+            id: usb_device_cdc_1
+            value: '3'
+          type: Dynamic
+        type: Values
+      type: Integer
+    CONFIG_USB_DEVICE_FUNCTION_USE_IAD:
+      attributes:
+        id: CONFIG_USB_DEVICE_FUNCTION_USE_IAD
+      children:
+      - children:
+        - attributes:
+            id: usb_device_cdc_1
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+  userData: {}

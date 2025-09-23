@@ -1,0 +1,65 @@
+configVersion: 1.0.0
+componentName: sys_console
+coreVersion: 5.8.2
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: sys_console
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: bsp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+- dependencyPackage: ''
+  name: usb
+  type: package
+  version: v3.14.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: sys_console
+          x: '480'
+          y: '94'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    SYS_CONSOLE_USB_CONNECTION_COUNTER:
+      attributes:
+        id: SYS_CONSOLE_USB_CONNECTION_COUNTER
+      children:
+      - children:
+        - attributes:
+            id: sys_console
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SYS_CONSOLE_USB_READ_WRITE_BUFFER_SIZE:
+      attributes:
+        id: SYS_CONSOLE_USB_READ_WRITE_BUFFER_SIZE
+      children:
+      - children:
+        - attributes:
+            id: sys_console
+            value: '64'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}

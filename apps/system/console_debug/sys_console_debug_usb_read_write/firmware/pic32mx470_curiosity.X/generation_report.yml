@@ -1,0 +1,753 @@
+generatedFiles:
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_usb_cdc.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_usb_cdc_definitions.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_usb_cdc.c
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/toolchain_specifics.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/definitions.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/initialization.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/interrupts.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/exceptions.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/p32MX470F512H.ld
+  projectFolder: config/pic32mx470_curiosity
+  type: Linker Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/stdio/xc32_monitor.c
+  projectFolder: config/pic32mx470_curiosity/stdio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/clk/plib_clk.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/clk
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/gpio/plib_gpio.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/gpio
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.c
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/peripheral/evic/plib_evic.h
+  projectFolder: config/pic32mx470_curiosity/peripheral/evic
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb_device_init_data.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_device.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_common.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_chapter_9.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_local.h
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_mapping.h
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_function_driver.h
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device.c
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_external_dependencies.h
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/src/sys_debug_local.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/src/sys_debug.c
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.c
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/bsp/bsp.h
+  projectFolder: config/pic32mx470_curiosity/bsp
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/drv_usb.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/drv_usb_external_dependencies.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/drv_usbfs.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/drv_usbfs_variant_mapping.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/drv_usbfs_local.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_host_client_driver.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_host_hub_interface.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_host.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_hub.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/drv_usbfs.c
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/drv_usbfs_device.c
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/plib_usbfs.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/plib_usbfs_header.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/usbfs_registers.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usbfs_registers.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ActivityPending_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ActivityPending_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ALL_Interrupt_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ALL_Interrupt_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_AutomaticSuspend_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_AutomaticSuspend_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BDTBaseAddress_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BDTBaseAddress_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BDTFunctions_PIC32.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BDTFunctions_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BufferFreeze_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_BufferFreeze_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_DeviceAddress_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_DeviceAddress_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EP0LowSpeedConnect_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EP0LowSpeedConnect_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EP0NAKRetry_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EP0NAKRetry_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnControlTransfer_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnControlTransfer_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnHandshake_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnHandshake_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnRxEnableEnhanced_PIC32.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnRxEnableEnhanced_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnStall_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnStall_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnTxRx_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EPnTxRx_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ERR_Interrupt_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ERR_Interrupt_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ERR_InterruptStatus_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ERR_InterruptStatus_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EyePattern_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_EyePattern_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_FrameNumber_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_FrameNumber_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_GEN_Interrupt_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_GEN_Interrupt_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_GEN_InterruptStatus_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_GEN_InterruptStatus_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_HostBusyWithToken_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_HostBusyWithToken_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_HostGeneratesReset_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_HostGeneratesReset_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastDirection_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastDirection_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastEndpoint_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastEndpoint_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastPingPong_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastPingPong_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastTransactionDetails_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LastTransactionDetails_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LiveJState_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LiveJState_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LiveSingleEndedZero_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_LiveSingleEndedZero_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ModuleBusy_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ModuleBusy_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ModulePower_32Bit16Bit.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ModulePower_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_NextTokenSpeed_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_NextTokenSpeed_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OnChipPullup_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OnChipTransceiver_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OpModeSelect_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OpModeSelect_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_ASessionValid_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_ASessionValid_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_BSessionEnd_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_BSessionEnd_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_IDPinState_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_IDPinState_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_Interrupt_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_Interrupt_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_InterruptStatus_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_InterruptStatus_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_LineState_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_LineState_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_PullUpPullDown_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_PullUpPullDown_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_SessionValid_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_SessionValid_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusCharge_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusCharge_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusDischarge_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusDischarge_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusPowerOnOff_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_OTG_VbusPowerOnOff_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_PacketTransfer_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_PacketTransfer_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_PingPongMode_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ResumeSignaling_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_ResumeSignaling_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_SleepEntryGuard_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_SleepEntryGuard_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_SOFThreshold_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_SOFThreshold_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_SpeedControl_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_StartOfFrames_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_StartOfFrames_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_StopInIdle_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_StopInIdle_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_Suspend_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_Suspend_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_TokenEP_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_TokenEP_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_TokenPID_Default.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_TokenPID_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/usb/usbfs/src/templates/usb_UOEMonitor_Unsupported.h
+  projectFolder: config/pic32mx470_curiosity/driver/usb/usbfs/src/templates
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/device.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/sys_console.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console.c
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/console/src/sys_console_local.h
+  projectFolder: config/pic32mx470_curiosity/system/console
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_device_cdc.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/usb_cdc.h
+  projectFolder: config/pic32mx470_curiosity/usb
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_cdc.c
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_cdc_acm.c
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/usb/src/usb_device_cdc_local.h
+  projectFolder: config/pic32mx470_curiosity/usb/src
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/driver/driver_common.h
+  projectFolder: config/pic32mx470_curiosity/driver
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/system.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/system_common.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/system_module.h
+  projectFolder: config/pic32mx470_curiosity/system
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/int/sys_int_mapping.h
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/int/src/sys_int.c
+  projectFolder: config/pic32mx470_curiosity/system/int
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_definitions.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/osal/osal_impl_basic.h
+  projectFolder: config/pic32mx470_curiosity/osal
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/user.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/configuration.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/sys_tasks.h
+  projectFolder: config/pic32mx470_curiosity
+  type: Header Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/tasks.c
+  projectFolder: config/pic32mx470_curiosity
+  type: Source Files
+- excludeFromProject: false
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/system/console_debug/sys_console_debug_usb_read_write/firmware/src/config/pic32mx470_curiosity/system/debug/sys_debug.h
+  projectFolder: config/pic32mx470_curiosity/system/debug
+  type: Header Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/pic32mx470_curiosity;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+removedFiles: [
+  ]
