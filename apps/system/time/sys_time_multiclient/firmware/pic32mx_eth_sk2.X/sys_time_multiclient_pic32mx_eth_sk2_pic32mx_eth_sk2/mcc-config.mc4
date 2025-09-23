@@ -1,0 +1,102 @@
+configVersion: 1.0.0
+coreVersion: 5.8.2
+device: PIC32MX795F512L
+deviceLibrary:
+  className: com.microchip.mcc.harmony.Harmony3Library
+groupModules: []
+modules:
+- BSP_PIC32MX_Ethernet_Starter_Kit_II
+- HarmonyCore
+- core
+- core_timer
+- dfp
+- stdio
+- sys_time
+- uart2
+generatedFileHashHistoryMap:
+- file: ..\src\app.c
+  hash: 632c78c323cb9f8c6359f20337440c08f8461eb4b0304552b6a3cfd5c4052620
+- file: ..\src\app.h
+  hash: 8e35d8509552a4d1d6e6f123ad75694cf784a707f7dac592ed33b55121aa8e28
+- file: ..\src\config\pic32mx_eth_sk2\bsp\bsp.c
+  hash: 9359a3559e2ada22752465e4d372cd65f481e1875cd14b827c88a323e5ea36d0
+- file: ..\src\config\pic32mx_eth_sk2\bsp\bsp.h
+  hash: 68480525861050ccce473f7ef734ded929065b3cab98c363ceeb73e575c0c4bd
+- file: ..\src\config\pic32mx_eth_sk2\configuration.h
+  hash: cf3bfe333e227ca002f97be19251d037334160435f06b8f1a2bc76439b4a11ab
+- file: ..\src\config\pic32mx_eth_sk2\definitions.h
+  hash: ce735429616a5e9f0c9f9ee34147a345b65e059de96a16a1bbfe6692d4d28827
+- file: ..\src\config\pic32mx_eth_sk2\device.h
+  hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
+- file: ..\src\config\pic32mx_eth_sk2\exceptions.c
+  hash: ed8f326d4f1abc2e74c1743119304a2f613522e3baacdd8df59fdda14c44619e
+- file: ..\src\config\pic32mx_eth_sk2\initialization.c
+  hash: a5efa3da55c45546fefc1552d52253c7a35e3067e51087d7928701c2df1532e1
+- file: ..\src\config\pic32mx_eth_sk2\interrupts.c
+  hash: 5d543d8f5ac3f7f7cbb7e8faeb0d648e95ab162acae140d270bc642ffcfb2a4a
+- file: ..\src\config\pic32mx_eth_sk2\interrupts.h
+  hash: 80825fbf90806a4a2720478935c4d8fb1ae134dc3180c24943975f59be484f04
+- file: ..\src\config\pic32mx_eth_sk2\osal\osal.h
+  hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
+- file: ..\src\config\pic32mx_eth_sk2\osal\osal_definitions.h
+  hash: 5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37
+- file: ..\src\config\pic32mx_eth_sk2\osal\osal_impl_basic.h
+  hash: 65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463
+- file: ..\src\config\pic32mx_eth_sk2\p32MX795F512L.ld
+  hash: 89fc5aa4d5f2061d3a5608f4779c6c2743053e5c571025736c53d5ea1ffadef4
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\clk\plib_clk.c
+  hash: 8aa2e862bc4cd5eda4ad78d8b08142efcb089478f42106a2e1cb52b32b0dc768
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\clk\plib_clk.h
+  hash: 35384f2e13e59b7190bf77f6996baf3ea2377ec42df94979a6f793326def5255
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\coretimer\plib_coretimer.c
+  hash: d2e0839da9beba86ea927aad046330882835e6d1177f6f327eba3e7ecc7e66ff
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\coretimer\plib_coretimer.h
+  hash: 150fd91657d573ce1b1e905ee3d6cf71919849148320ac59a4cd5ac7579a0fd3
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\evic\plib_evic.c
+  hash: 8a466a89840a02c52289a868411088e4bb25de5be93f8f5c32959a9ac0b91e3b
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\evic\plib_evic.h
+  hash: db5e3889a7644e7053a032c08f7767258021260cc857660fc0c8cb77f9d17182
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\gpio\plib_gpio.c
+  hash: e48252e0af1f671c5076fa382cfb4470fe50c9d9d900c0768d917518c3e11055
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\gpio\plib_gpio.h
+  hash: 9478b2e79aa3c17424897d0630ebb0e4a75d3aa558390f084a289dded46a40c5
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\uart\plib_uart2.c
+  hash: 3a0d4aac6a9bd174ee7dead08b121ad3a29083f4a71fe864b17c07e630915414
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\uart\plib_uart2.h
+  hash: 90f0937c814b47f860e2957bddef1dedd0c690c1532c4b8fd4cbede8a1a4b5de
+- file: ..\src\config\pic32mx_eth_sk2\peripheral\uart\plib_uart_common.h
+  hash: b87295faadae4157d5880e22970f89094f2b51e1866930040a90ba49c6b29797
+- file: ..\src\config\pic32mx_eth_sk2\stdio\xc32_monitor.c
+  hash: ebf5bb594a90f0fa360e2a086014a3d15ce37ed290e46e94aa1e4bf9b5610146
+- file: ..\src\config\pic32mx_eth_sk2\sys_tasks.h
+  hash: 21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56
+- file: ..\src\config\pic32mx_eth_sk2\system\debug\sys_debug.h
+  hash: aa94da8f32cbcb40672145542d149d077ff8f4b25c08d47d53e3d206d1c6bb83
+- file: ..\src\config\pic32mx_eth_sk2\system\int\src\sys_int.c
+  hash: 30ac5e334ca90204f545f1ab769ae26f421b910b3fb3be99354b364febceee64
+- file: ..\src\config\pic32mx_eth_sk2\system\int\sys_int.h
+  hash: 2c878ab7ff41ae56b5c0c3c94929ad66eb87b8660bf9a439177d049e8ad8f8c8
+- file: ..\src\config\pic32mx_eth_sk2\system\int\sys_int_mapping.h
+  hash: a2dcf05575becc98aa212af1d220eda07487bd645d82c4d7a980aa3a22384cf3
+- file: ..\src\config\pic32mx_eth_sk2\system\system.h
+  hash: 2b75f8e370e5cb2c54f70da7351ee149f0d5a7673e700f39b373099716b31b55
+- file: ..\src\config\pic32mx_eth_sk2\system\system_common.h
+  hash: c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984
+- file: ..\src\config\pic32mx_eth_sk2\system\system_module.h
+  hash: 96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9
+- file: ..\src\config\pic32mx_eth_sk2\system\time\src\sys_time.c
+  hash: fa2d85ab967b80157caf8483f6e28a23b12b548844a1d80f2fef760cd9b99271
+- file: ..\src\config\pic32mx_eth_sk2\system\time\src\sys_time_local.h
+  hash: df56f970664902417d798760e44978cf4b84c108cf0761647a383e91db76980c
+- file: ..\src\config\pic32mx_eth_sk2\system\time\sys_time.h
+  hash: 6357468f7670698b16bfb6439d9919ed38eba99d4f03277a8b43ac34586fa1b3
+- file: ..\src\config\pic32mx_eth_sk2\system\time\sys_time_definitions.h
+  hash: 46537746b1d12ece6b682c9be1c8f3f219663c638c21a51a973762b7b393afe6
+- file: ..\src\config\pic32mx_eth_sk2\tasks.c
+  hash: 36364a39e784157f4aac281dfecc1f19be971c9935e6299a6f37a78cd98d1d46
+- file: ..\src\config\pic32mx_eth_sk2\toolchain_specifics.h
+  hash: b4de6e02e3e48c62f7ba233405ffdf6ef31bb971d1a7b49efa1676f45cabc1ac
+- file: ..\src\config\pic32mx_eth_sk2\user.h
+  hash: 451e0878e9fcf6cf9fab046c1452ea662757988346c7f39e6bc98478ca25f995
+- file: ..\src\main.c
+  hash: d3c233d419e6304bfacbafc18cc68c0f5c26e365f23b20ea40ccfac458f664c5

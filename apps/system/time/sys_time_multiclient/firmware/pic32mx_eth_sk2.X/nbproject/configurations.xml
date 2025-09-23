@@ -59,9 +59,21 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
+      <logicalFolder name="sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2" displayName="sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2" projectFiles="true">
+        <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/BSP_PIC32MX_Ethernet_Starter_Kit_II.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/HarmonyCore.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/core.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/core_timer.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/dfp.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/stdio.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/sys_time.yml</itemPath>
+          <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/components/uart2.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
-      <itemPath>sys_time_multiclient_pic32mx_eth_sk2.mc3</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
       <logicalFolder displayName="config" name="f1" projectFiles="true">
@@ -127,7 +139,7 @@
         <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
