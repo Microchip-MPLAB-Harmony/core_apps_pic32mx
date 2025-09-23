@@ -58,9 +58,21 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
+      <logicalFolder name="sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk" displayName="sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk" projectFiles="true">
+        <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/BSP_PIC32MX274_XLP_Starter_Kit.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/HarmonyCore.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/core.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/dfp.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/sys_console.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/sys_console_0.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/sys_debug.yml</itemPath>
+          <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk_pic32mx_xlp_sk/components/uart1.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
-      <itemPath>sys_console_debug_uart_read_write_pic32mx_xlp_sk.mc3</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
       <logicalFolder displayName="config" name="f1" projectFiles="true">
@@ -131,7 +143,7 @@
         <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
