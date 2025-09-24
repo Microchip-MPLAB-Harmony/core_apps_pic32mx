@@ -1,14 +1,16 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="65">
-  <logicalFolder displayName="root" name="root" projectFiles="true">
-    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
-          <logicalFolder displayName="bsp" name="f1" projectFiles="true">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
+          <logicalFolder name="f1" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/bsp/bsp.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="driver" name="f2" projectFiles="true">
-            <logicalFolder displayName="memory" name="f1" projectFiles="true">
+          <logicalFolder name="f2" displayName="driver" projectFiles="true">
+            <logicalFolder name="f1" displayName="memory" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory_definitions.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/drv_memory_nvm.h</itemPath>
@@ -17,36 +19,36 @@
             <itemPath>../src/config/pic32mx_eth_sk2/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/driver/driver_common.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="osal" name="f3" projectFiles="true">
+          <logicalFolder name="f3" displayName="osal" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal_definitions.h</itemPath>
             <itemPath>../src/config/pic32mx_eth_sk2/osal/osal_impl_basic.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="peripheral" name="f4" projectFiles="true">
-            <logicalFolder displayName="clk" name="f1" projectFiles="true">
+          <logicalFolder name="f4" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evic" name="f2" projectFiles="true">
+            <logicalFolder name="f2" displayName="evic" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="gpio" name="f3" projectFiles="true">
+            <logicalFolder name="f3" displayName="gpio" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvm" name="f4" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvm" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder displayName="system" name="f5" projectFiles="true">
-            <logicalFolder displayName="debug" name="f1" projectFiles="true">
+          <logicalFolder name="f5" displayName="system" projectFiles="true">
+            <logicalFolder name="f1" displayName="debug" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/debug/sys_debug.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="fs" name="f2" projectFiles="true">
-              <logicalFolder displayName="fat_fs" name="f1" projectFiles="true">
-                <logicalFolder displayName="file_system" name="f1" projectFiles="true">
+            <logicalFolder name="f2" displayName="fs" projectFiles="true">
+              <logicalFolder name="f1" displayName="fat_fs" projectFiles="true">
+                <logicalFolder name="f1" displayName="file_system" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.h</itemPath>
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffconf.h</itemPath>
                 </logicalFolder>
-                <logicalFolder displayName="hardware_access" name="f2" projectFiles="true">
+                <logicalFolder name="f2" displayName="hardware_access" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -56,7 +58,7 @@
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager_local.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/sys_fs_fat_interface.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="int" name="f3" projectFiles="true">
+            <logicalFolder name="f3" displayName="int" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/sys_int.h</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/sys_int_mapping.h</itemPath>
             </logicalFolder>
@@ -77,9 +79,12 @@
       <itemPath>../src/nvm_disk_images.h</itemPath>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <logicalFolder name="nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2" displayName="nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2" projectFiles="true">
-        <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/mcc-config.mc4</itemPath>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <logicalFolder name="nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2"
+                     displayName="nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2"
+                     projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
           <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/components/BSP_PIC32MX_Ethernet_Starter_Kit_II.yml</itemPath>
           <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/components/HarmonyCore.yml</itemPath>
@@ -90,55 +95,60 @@
           <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/components/nvm.yml</itemPath>
           <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/components/sys_fs.yml</itemPath>
         </logicalFolder>
+        <itemPath>nvm_fat_pic32mx_eth_sk2_pic32mx_eth_sk2/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
-    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
           <itemPath>../src/config/pic32mx_eth_sk2/p32MX795F512L.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32mx_eth_sk2" name="f1" projectFiles="true">
-          <logicalFolder displayName="bsp" name="f1" projectFiles="true">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32mx_eth_sk2" projectFiles="true">
+          <logicalFolder name="f1" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/bsp/bsp.c</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="driver" name="f2" projectFiles="true">
-            <logicalFolder displayName="memory" name="f1" projectFiles="true">
+          <logicalFolder name="f2" displayName="driver" projectFiles="true">
+            <logicalFolder name="f1" displayName="memory" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_nvm.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder displayName="peripheral" name="f3" projectFiles="true">
-            <logicalFolder displayName="clk" name="f1" projectFiles="true">
+          <logicalFolder name="f3" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clk" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evic" name="f2" projectFiles="true">
+            <logicalFolder name="f2" displayName="evic" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="gpio" name="f3" projectFiles="true">
+            <logicalFolder name="f3" displayName="gpio" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvm" name="f4" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvm" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder displayName="stdio" name="f4" projectFiles="true">
+          <logicalFolder name="f4" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/pic32mx_eth_sk2/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="system" name="f5" projectFiles="true">
-            <logicalFolder displayName="fs" name="f1" projectFiles="true">
-              <logicalFolder displayName="fat_fs" name="f1" projectFiles="true">
-                <logicalFolder displayName="file_system" name="f1" projectFiles="true">
+          <logicalFolder name="f5" displayName="system" projectFiles="true">
+            <logicalFolder name="f1" displayName="fs" projectFiles="true">
+              <logicalFolder name="f1" displayName="fat_fs" projectFiles="true">
+                <logicalFolder name="f1" displayName="file_system" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.c</itemPath>
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffunicode.c</itemPath>
                 </logicalFolder>
-                <logicalFolder displayName="hardware_access" name="f2" projectFiles="true">
+                <logicalFolder name="f2" displayName="hardware_access" projectFiles="true">
                   <itemPath>../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -146,7 +156,7 @@
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager.c</itemPath>
               <itemPath>../src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_fat_interface.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="int" name="f2" projectFiles="true">
+            <logicalFolder name="f2" displayName="int" projectFiles="true">
               <itemPath>../src/config/pic32mx_eth_sk2/system/int/src/sys_int.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -170,9 +180,9 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC32MX795F512L</targetDevice>
-        <targetHeader/>
-        <targetPluginBoard/>
-        <platformTool>PKOBSKDEPlatformTool</platformTool>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
+        <platformTool></platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
@@ -192,7 +202,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile/>
+          <alternateLoadableFile></alternateLoadableFile>
         </loading>
         <subordinates>
         </subordinates>
@@ -200,27 +210,29 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep/>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep/>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
       <C32>
-        <property key="additional-warnings" value="true"/>
+        <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value="-Wformat=2 -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wno-deprecated-declarations -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wmissing-noreturn -Werror-implicit-function-declaration -Wfloat-equal -Wpacked"/>
+        <property key="appendMe"
+                  value="-Wformat=2 -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wwrite-strings -Waggregate-return -Wstrict-prototypes -Wno-deprecated-declarations -Wredundant-decls -Wnested-externs -Winline -Wlong-long -Wunreachable-code -Wmissing-noreturn -Werror-implicit-function-declaration -Wfloat-equal -Wpacked"/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/pic32mx_eth_sk2;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32mx_eth_sk2;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
-        <property key="make-warnings-into-errors" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="false"/>
         <property key="post-instruction-scheduling" value="default"/>
@@ -314,7 +326,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/pic32mx_eth_sk2;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32mx_eth_sk2;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system;../src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -344,93 +357,11 @@
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
-      <PICkit3PlatformTool>
-        <property key="ADC 1" value="true"/>
-        <property key="AutoSelectMemRanges" value="auto"/>
-        <property key="CHANGE NOTICE" value="true"/>
-        <property key="COMPARATOR" value="true"/>
-        <property key="CTMU" value="true"/>
-        <property key="DMA" value="true"/>
-        <property key="Freeze All Other Peripherals" value="true"/>
-        <property key="I2C1" value="true"/>
-        <property key="I2C2" value="true"/>
-        <property key="INPUT CAPTURE 1" value="true"/>
-        <property key="INPUT CAPTURE 2" value="true"/>
-        <property key="INPUT CAPTURE 3" value="true"/>
-        <property key="INPUT CAPTURE 4" value="true"/>
-        <property key="INPUT CAPTURE 5" value="true"/>
-        <property key="INTERRUPT CONTROL" value="true"/>
-        <property key="OUTPUT COMPARE 1" value="true"/>
-        <property key="OUTPUT COMPARE 2" value="true"/>
-        <property key="OUTPUT COMPARE 3" value="true"/>
-        <property key="OUTPUT COMPARE 4" value="true"/>
-        <property key="OUTPUT COMPARE 5" value="true"/>
-        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
-        <property key="REAL TIME CLOCK" value="true"/>
-        <property key="SPI/I2S 1" value="true"/>
-        <property key="SPI/I2S 2" value="true"/>
-        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="TIMER1" value="true"/>
-        <property key="TIMER2" value="true"/>
-        <property key="TIMER3" value="true"/>
-        <property key="TIMER4" value="true"/>
-        <property key="TIMER5" value="true"/>
-        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
-        <property key="UART1" value="true"/>
-        <property key="UART2" value="true"/>
-        <property key="hwtoolclock.frcindebug" value="false"/>
-        <property key="memories.aux" value="false"/>
-        <property key="memories.bootflash" value="true"/>
-        <property key="memories.configurationmemory" value="true"/>
-        <property key="memories.eeprom" value="true"/>
-        <property key="memories.flashdata" value="true"/>
-        <property key="memories.id" value="true"/>
-        <property key="memories.programmemory" value="true"/>
-        <property key="memories.programmemory.end" value="0x1d003fff"/>
-        <property key="memories.programmemory.start" value="0x1d000000"/>
-        <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmertogo.imagename" value=""/>
-        <property key="programoptions.donoteraseauxmem" value="false"/>
-        <property key="programoptions.eraseb4program" value="true"/>
-        <property key="programoptions.pgmspeed" value="2"/>
-        <property key="programoptions.preserveeeprom" value="false"/>
-        <property key="programoptions.preserveprogramrange" value="false"/>
-        <property key="programoptions.preserveprogramrange.end" value="0x1d003fff"/>
-        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
-        <property key="programoptions.preserveuserid" value="false"/>
-        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
-        <property key="programoptions.usehighvoltageonmclr" value="false"/>
-        <property key="programoptions.uselvpprogramming" value="false"/>
-        <property key="voltagevalue" value="3.25"/>
-      </PICkit3PlatformTool>
-      <PKOBSKDEPlatformTool>
-        <property key="AutoSelectMemRanges" value="auto"/>
-        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
-        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
-        <property key="memories.configurationmemory" value="true"/>
-        <property key="memories.dataflash" value="true"/>
-        <property key="memories.eeprom" value="true"/>
-        <property key="memories.id" value="true"/>
-        <property key="memories.programmemory" value="true"/>
-        <property key="memories.programmemory.ranges" value="1d000000-1d07ffff"/>
-        <property key="memories.userotp" value="true"/>
-        <property key="programoptions.donoteraseauxmem" value="false"/>
-        <property key="programoptions.eraseb4program" value="true"/>
-        <property key="programoptions.preservedataflash" value="false"/>
-        <property key="programoptions.preservedataflash.ranges" value=""/>
-        <property key="programoptions.preserveeeprom" value="false"/>
-        <property key="programoptions.preserveeeprom.ranges" value="${memories.eedata.default}"/>
-        <property key="programoptions.preserveprogram.ranges" value=""/>
-        <property key="programoptions.preserveprogramrange" value="false"/>
-        <property key="programoptions.usehighvoltageonmclr" value="false"/>
-        <property key="programoptions.uselvpprogramming" value="true"/>
-      </PKOBSKDEPlatformTool>
       <Tool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
-        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
         <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
         <property key="memories.configurationmemory" value="true"/>
         <property key="memories.dataflash" value="true"/>
@@ -444,7 +375,8 @@
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges" value=""/>
         <property key="programoptions.preserveeeprom" value="false"/>
-        <property key="programoptions.preserveeeprom.ranges" value="${memories.eedata.default}"/>
+        <property key="programoptions.preserveeeprom.ranges"
+                  value="${memories.eedata.default}"/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
         <property key="programoptions.preserveprogramrange" value="false"/>
         <property key="programoptions.usehighvoltageonmclr" value="false"/>
