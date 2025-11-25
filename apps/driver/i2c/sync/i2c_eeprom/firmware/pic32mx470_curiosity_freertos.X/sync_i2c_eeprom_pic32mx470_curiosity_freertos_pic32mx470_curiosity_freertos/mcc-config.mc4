@@ -27,7 +27,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mx470_curiosity_freertos\configuration.h
   hash: 4a358fa057d647191345c6e66f8c824b020c3985e150c25ea436c3dacb2a672b
 - file: ..\src\config\pic32mx470_curiosity_freertos\definitions.h
-  hash: bca1843000fb67576b4333caf90af8852f1bb81c9922d681f9c2d19d93566d61
+  hash: 5b0cf7265ffedaf99444ed7865ac5392bc9d824398c0419d295648481e54303c
 - file: ..\src\config\pic32mx470_curiosity_freertos\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mx470_curiosity_freertos\driver\driver.h

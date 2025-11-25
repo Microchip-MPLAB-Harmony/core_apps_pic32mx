@@ -2,8 +2,8 @@
 
 manifest_file_version: 1.0.0
 project: at25_eeprom_read_write_pic32mx_xlp_sk
-creation_date: 2025-09-23T10:07:22.987+00:00[UTC]
-operating_system: Windows 10
+creation_date: 2025-11-25T11:08:11.754+00:00[UTC]
+operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32MX274F256D

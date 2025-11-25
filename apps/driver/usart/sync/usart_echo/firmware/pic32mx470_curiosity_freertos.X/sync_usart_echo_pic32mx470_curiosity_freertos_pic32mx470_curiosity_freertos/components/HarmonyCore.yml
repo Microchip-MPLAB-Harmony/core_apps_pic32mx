@@ -57,14 +57,6 @@ data:
       children:
       - children:
         - attributes:
-            id: readOnly
-          children:
-          - type: Value
-            value: 'true'
-          type: Boolean
-        type: Attributes
-      - children:
-        - attributes:
             id: drv_usart_0
             value: 'true'
           type: Dynamic
@@ -96,14 +88,6 @@ data:
       attributes:
         id: ENABLE_SYS_COMMON
       children:
-      - children:
-        - attributes:
-            id: readOnly
-          children:
-          - type: Value
-            value: 'true'
-          type: Boolean
-        type: Attributes
       - children:
         - attributes:
             id: HarmonyCore

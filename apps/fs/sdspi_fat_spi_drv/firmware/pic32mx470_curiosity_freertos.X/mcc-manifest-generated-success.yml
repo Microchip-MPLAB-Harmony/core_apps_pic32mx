@@ -2,8 +2,8 @@
 
 manifest_file_version: 1.0.0
 project: sdspi_fat_spi_drv_pic32mx470_curiosity_freertos
-creation_date: 2025-09-23T10:04:33.901+00:00[UTC]
-operating_system: Windows 10
+creation_date: 2025-11-25T11:03:30.463+00:00[UTC]
+operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32MX470F512H

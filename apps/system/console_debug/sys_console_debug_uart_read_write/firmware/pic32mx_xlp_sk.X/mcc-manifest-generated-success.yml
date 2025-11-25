@@ -2,8 +2,8 @@
 
 manifest_file_version: 1.0.0
 project: sys_console_debug_uart_read_write_pic32mx_xlp_sk
-creation_date: 2025-09-23T10:08:50.229+00:00[UTC]
-operating_system: Windows 10
+creation_date: 2025-11-25T11:00:49.975+00:00[UTC]
+operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32MX274F256D

@@ -79,7 +79,6 @@
         <itemPath>sys_time_multiclient_pic32mx_eth_sk2_pic32mx_eth_sk2/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mx_eth_sk2/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

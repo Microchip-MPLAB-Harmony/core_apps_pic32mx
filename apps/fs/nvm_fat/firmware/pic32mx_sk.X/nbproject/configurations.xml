@@ -15,6 +15,7 @@
               <itemPath>../src/config/pic32mx_sk/driver/memory/drv_memory_definitions.h</itemPath>
               <itemPath>../src/config/pic32mx_sk/driver/memory/drv_memory_nvm.h</itemPath>
               <itemPath>../src/config/pic32mx_sk/driver/memory/src/drv_memory_local.h</itemPath>
+              <itemPath>../src/config/pic32mx_sk/driver/memory/src/drv_memory_file_system.h</itemPath>
             </logicalFolder>
             <itemPath>../src/config/pic32mx_sk/driver/driver.h</itemPath>
             <itemPath>../src/config/pic32mx_sk/driver/driver_common.h</itemPath>
@@ -98,7 +99,6 @@
         <itemPath>nvm_fat_pic32mx_sk_pic32mx_sk/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mx_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

@@ -25,13 +25,13 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mx_eth_sk2\configuration.h
   hash: cf3bfe333e227ca002f97be19251d037334160435f06b8f1a2bc76439b4a11ab
 - file: ..\src\config\pic32mx_eth_sk2\definitions.h
-  hash: ce735429616a5e9f0c9f9ee34147a345b65e059de96a16a1bbfe6692d4d28827
+  hash: 0d8a23652c76c61c40268f2e34d631d68ec15091e7d96ddaa0598facda0f533f
 - file: ..\src\config\pic32mx_eth_sk2\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mx_eth_sk2\exceptions.c
   hash: ed8f326d4f1abc2e74c1743119304a2f613522e3baacdd8df59fdda14c44619e
 - file: ..\src\config\pic32mx_eth_sk2\initialization.c
-  hash: a5efa3da55c45546fefc1552d52253c7a35e3067e51087d7928701c2df1532e1
+  hash: 738feecbd98f261e99167e6967ce27f9a3f38c70ea188b18b55cb74b742e58be
 - file: ..\src\config\pic32mx_eth_sk2\interrupts.c
   hash: 5d543d8f5ac3f7f7cbb7e8faeb0d648e95ab162acae140d270bc642ffcfb2a4a
 - file: ..\src\config\pic32mx_eth_sk2\interrupts.h

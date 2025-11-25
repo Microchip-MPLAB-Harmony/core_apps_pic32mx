@@ -81,7 +81,6 @@
         <itemPath>async_i2c_eeprom_pic32mx_xlp_sk_pic32mx_xlp_sk/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32mx_xlp_sk/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

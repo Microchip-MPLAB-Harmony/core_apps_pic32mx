@@ -1,246 +1,246 @@
 generatedFiles:
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory.h
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory_definitions.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory_definitions.h
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_nvm.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_nvm.c
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory_nvm.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/drv_memory_nvm.h
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/bsp/bsp.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/bsp/bsp.c
   projectFolder: config/pic32mx_eth_sk2/bsp
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/bsp/bsp.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/bsp/bsp.h
   projectFolder: config/pic32mx_eth_sk2/bsp
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs.h
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_local.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_local.h
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs_media_manager.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs_media_manager.h
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager_local.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager_local.h
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs_fat_interface.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/sys_fs_fat_interface.h
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.h
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/file_system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffconf.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffconf.h
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/file_system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.h
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs.c
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_media_manager.c
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_fat_interface.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/src/sys_fs_fat_interface.c
   projectFolder: config/pic32mx_eth_sk2/system/fs
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ff.c
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/file_system
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffunicode.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/file_system/ffunicode.c
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/file_system
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access/diskio.c
   projectFolder: config/pic32mx_eth_sk2/system/fs/fat_fs/hardware_access
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/toolchain_specifics.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/toolchain_specifics.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/main.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/main.c
   projectFolder: ''
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/definitions.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/definitions.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/initialization.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/initialization.c
   projectFolder: config/pic32mx_eth_sk2
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/interrupts.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/interrupts.c
   projectFolder: config/pic32mx_eth_sk2
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/interrupts.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/interrupts.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/exceptions.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/exceptions.c
   projectFolder: config/pic32mx_eth_sk2
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/p32MX795F512L.ld
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/p32MX795F512L.ld
   projectFolder: config/pic32mx_eth_sk2
   type: Linker Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/stdio/xc32_monitor.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/stdio/xc32_monitor.c
   projectFolder: config/pic32mx_eth_sk2/stdio
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.h
   projectFolder: config/pic32mx_eth_sk2/peripheral/clk
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/clk/plib_clk.c
   projectFolder: config/pic32mx_eth_sk2/peripheral/clk
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.h
   projectFolder: config/pic32mx_eth_sk2/peripheral/gpio
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/gpio/plib_gpio.c
   projectFolder: config/pic32mx_eth_sk2/peripheral/gpio
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.c
   projectFolder: config/pic32mx_eth_sk2/peripheral/evic
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/evic/plib_evic.h
   projectFolder: config/pic32mx_eth_sk2/peripheral/evic
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory.c
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_local.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_local.h
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.c
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/memory/src/drv_memory_file_system.h
   projectFolder: config/pic32mx_eth_sk2/driver/memory
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/device.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/device.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/driver.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/driver.h
   projectFolder: config/pic32mx_eth_sk2/driver
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/driver_common.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/driver/driver_common.h
   projectFolder: config/pic32mx_eth_sk2/driver
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system.h
   projectFolder: config/pic32mx_eth_sk2/system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_common.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_common.h
   projectFolder: config/pic32mx_eth_sk2/system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_module.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_module.h
   projectFolder: config/pic32mx_eth_sk2/system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_media.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/system_media.h
   projectFolder: config/pic32mx_eth_sk2/system
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/sys_int.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/sys_int.h
   projectFolder: config/pic32mx_eth_sk2/system/int
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/sys_int_mapping.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/sys_int_mapping.h
   projectFolder: config/pic32mx_eth_sk2/system/int
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/src/sys_int.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/int/src/sys_int.c
   projectFolder: config/pic32mx_eth_sk2/system/int
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal.h
   projectFolder: config/pic32mx_eth_sk2/osal
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal_definitions.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal_definitions.h
   projectFolder: config/pic32mx_eth_sk2/osal
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal_impl_basic.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/osal/osal_impl_basic.h
   projectFolder: config/pic32mx_eth_sk2/osal
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.c
   projectFolder: ''
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/app.h
   projectFolder: ''
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/user.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/user.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/configuration.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/configuration.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/sys_tasks.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/sys_tasks.h
   projectFolder: config/pic32mx_eth_sk2
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/tasks.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/tasks.c
   projectFolder: config/pic32mx_eth_sk2
   type: Source Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/debug/sys_debug.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/system/debug/sys_debug.h
   projectFolder: config/pic32mx_eth_sk2/system/debug
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.h
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.h
   projectFolder: config/pic32mx_eth_sk2/peripheral/nvm
   type: Header Files
 - excludeFromProject: false
-  path: /home/svcjenkins/workspace/apps-team/Users/skn/regenerate-apps-for_xc32-v500/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.c
+  path: /home/svcjenkins/workspace/apps-team/Users/skn/fix-double-type-symbol-issue/core_apps_pic32mx/apps/fs/nvm_fat/firmware/src/config/pic32mx_eth_sk2/peripheral/nvm/plib_nvm.c
   projectFolder: config/pic32mx_eth_sk2/peripheral/nvm
   type: Source Files
 generatedSettings:

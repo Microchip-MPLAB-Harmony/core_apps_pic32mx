@@ -24,7 +24,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mx470_curiosity\configuration.h
   hash: 9c61f5288599dc478bb078c5c615b40ab2235c79590ac0617bcbb59bac44e9e6
 - file: ..\src\config\pic32mx470_curiosity\definitions.h
-  hash: f98996cafda4f85fc05105f26528a54ea3226a7b481c41720bc91241cc91800c
+  hash: 692eb105b51bb499e1df137f452818af339405fad859f84287a85bf64947ed8d
 - file: ..\src\config\pic32mx470_curiosity\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mx470_curiosity\driver\driver.h

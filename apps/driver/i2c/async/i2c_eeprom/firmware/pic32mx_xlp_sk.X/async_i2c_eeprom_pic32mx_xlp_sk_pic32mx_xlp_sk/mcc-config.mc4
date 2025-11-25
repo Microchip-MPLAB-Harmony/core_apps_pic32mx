@@ -24,7 +24,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\pic32mx_xlp_sk\configuration.h
   hash: e68ae30eba872ecd1ef124afc6620f37743065827af73701afe23df39a8544a4
 - file: ..\src\config\pic32mx_xlp_sk\definitions.h
-  hash: 1d17b4c3d78ad174f670d15eb05aa9abdca3799a2b6ee5ef83733154cfa089af
+  hash: 6d1e3f4db2114e9243820899608f495d9e33c610ee74cdda3a43760a53899bcc
 - file: ..\src\config\pic32mx_xlp_sk\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\pic32mx_xlp_sk\driver\driver.h
