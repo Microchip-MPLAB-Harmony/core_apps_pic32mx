@@ -1,18 +1,15 @@
 package:
   format-version: "1.0.0"
   name: "core_apps_pic32mx"
-  version: "v3.6.0"
+  version: "v3.6.1"
   type: "application"
   status: "production"
   required: false
 
   dependencies:
-    - name: "bsp"
+    - name: "core"
       type: "package"
-      version: "v3.23.0"
-    - name: "FreeRTOS-Kernel"
-      type: "package"
-      version: "V11.1.0"
+      version: "v3.15.5"
     - name: "usb"
       type: "package"
       version: "v3.14.0"
