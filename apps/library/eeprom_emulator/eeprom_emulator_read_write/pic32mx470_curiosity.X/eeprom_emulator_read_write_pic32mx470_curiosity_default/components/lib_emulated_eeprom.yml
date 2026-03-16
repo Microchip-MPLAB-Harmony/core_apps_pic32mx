@@ -1,0 +1,196 @@
+configVersion: 1.0.0
+componentName: lib_emulated_eeprom
+coreVersion: 5.8.4
+device: PIC32MX470F512H
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: lib_emulated_eeprom
+  type: module
+  version: ''
+- dependencyPackage: ''
+  devMode: true
+  name: core
+  type: package
+  version: v3.15.5
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: lib_emulated_eeprom_MEMORY_dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: nvm
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: NVM_MEMORY
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: lib_emulated_eeprom
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: lib_emulated_eeprom
+          x: '578'
+          y: '106'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    EEPROM_EMULATOR_EEPROM_LOGICAL_SIZE:
+      attributes:
+        id: EEPROM_EMULATOR_EEPROM_LOGICAL_SIZE
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '6096'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_EEPROM_SIZE:
+      attributes:
+        id: EEPROM_EMULATOR_EEPROM_SIZE
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '16384'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_EEPROM_SIZE_IN_BLOCKS:
+      attributes:
+        id: EEPROM_EMULATOR_EEPROM_SIZE_IN_BLOCKS
+      children:
+      - children:
+        - attributes:
+            value: '4'
+          type: User
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_EEPROM_START_ADDRESS:
+      attributes:
+        id: EEPROM_EMULATOR_EEPROM_START_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '2634530816'
+          type: Dynamic
+        type: Values
+      type: Hex
+    EEPROM_EMULATOR_FLASH_SIZE:
+      attributes:
+        id: EEPROM_EMULATOR_FLASH_SIZE
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '524288'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_FLASH_START_ADDR:
+      attributes:
+        id: EEPROM_EMULATOR_FLASH_START_ADDR
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: 0x9d000000L
+          type: Dynamic
+        type: Values
+      type: String
+    EEPROM_EMULATOR_IS_DEPENDENCY_SATISFIED:
+      attributes:
+        id: EEPROM_EMULATOR_IS_DEPENDENCY_SATISFIED
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    EEPROM_EMULATOR_NUM_LOGICAL_PAGES:
+      attributes:
+        id: EEPROM_EMULATOR_NUM_LOGICAL_PAGES
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '12'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_NUM_PHYSICAL_PAGES:
+      attributes:
+        id: EEPROM_EMULATOR_NUM_PHYSICAL_PAGES
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '32'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_NVM_PLIB:
+      attributes:
+        id: EEPROM_EMULATOR_NVM_PLIB
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: NVM
+          type: Dynamic
+        type: Values
+      type: String
+    EEPROM_EMULATOR_PAGES_PER_ROW:
+      attributes:
+        id: EEPROM_EMULATOR_PAGES_PER_ROW
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '8'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_PAGE_SIZE:
+      attributes:
+        id: EEPROM_EMULATOR_PAGE_SIZE
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '512'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EEPROM_EMULATOR_ROW_SIZE:
+      attributes:
+        id: EEPROM_EMULATOR_ROW_SIZE
+      children:
+      - children:
+        - attributes:
+            id: lib_emulated_eeprom
+            value: '4096'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}
