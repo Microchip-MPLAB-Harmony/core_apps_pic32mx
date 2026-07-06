@@ -9,10 +9,9 @@ dependency:
   type: module
   version: ''
 - dependencyPackage: ''
-  devMode: true
   name: core
   type: package
-  version: v3.15.5
+  version: v3.17.0
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments:

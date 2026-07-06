@@ -53,10 +53,10 @@
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
 #include "library/emulated_eeprom/emulated_eeprom.h"
-#include "peripheral/nvm/plib_nvm.h"
 #include "system/int/sys_int.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "peripheral/nvm/plib_nvm.h"
 #include "app.h"
 
 

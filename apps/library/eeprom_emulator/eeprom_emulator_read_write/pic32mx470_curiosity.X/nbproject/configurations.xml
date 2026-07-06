@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
+    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="default" displayName="default" projectFiles="true">
           <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/default/bsp/bsp.h</itemPath>
           </logicalFolder>
           <logicalFolder name="library" displayName="library" projectFiles="true">
-            <logicalFolder name="emulated_eeprom"
-                           displayName="emulated_eeprom"
-                           projectFiles="true">
+            <logicalFolder name="emulated_eeprom" displayName="emulated_eeprom" projectFiles="true">
               <itemPath>../src/config/default/library/emulated_eeprom/emulated_eeprom.h</itemPath>
               <itemPath>../src/config/default/library/emulated_eeprom/emulated_eeprom_local.h</itemPath>
               <itemPath>../src/config/default/library/emulated_eeprom/emulated_eeprom_definitions.h</itemPath>
@@ -60,54 +56,37 @@
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="true">
-      <logicalFolder name="eeprom_emulator_read_write_pic32mx470_curiosity_default"
-                     displayName="eeprom_emulator_read_write_pic32mx470_curiosity_default"
-                     projectFiles="true">
-        <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/core.yml</itemPath>
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/nvm.yml</itemPath>
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/BSP_PIC32MX470_Curiosity_Development_Board.yml</itemPath>
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/lib_emulated_eeprom.yml</itemPath>
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/HarmonyCore.yml</itemPath>
-          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/dfp.yml</itemPath>
-        </logicalFolder>
+    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="eeprom_emulator_read_write_pic32mx470_curiosity_default" displayName="eeprom_emulator_read_write_pic32mx470_curiosity_default" projectFiles="true">
         <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/mcc-config.mc4</itemPath>
-      </logicalFolder>
-      <logicalFolder name="pic32mx470_curiosity_default"
-                     displayName="pic32mx470_curiosity_default"
-                     projectFiles="true">
-        <itemPath>pic32mx470_curiosity_default/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/BSP_PIC32MX470_Curiosity_Development_Board.yml</itemPath>
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/core.yml</itemPath>
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/dfp.yml</itemPath>
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/HarmonyCore.yml</itemPath>
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/lib_emulated_eeprom.yml</itemPath>
+          <itemPath>eeprom_emulator_read_write_pic32mx470_curiosity_default/components/nvm.yml</itemPath>
+        </logicalFolder>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <logicalFolder name="LibraryFiles"
-                   displayName="LibraryFiles"
-                   projectFiles="true">
+    <logicalFolder name="LibraryFiles" displayName="LibraryFiles" projectFiles="true">
     </logicalFolder>
-    <logicalFolder name="LinkerScript"
-                   displayName="Linker Files"
-                   projectFiles="true">
+    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="default" displayName="default" projectFiles="true">
           <itemPath>../src/config/default/p32MX470F512H.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles"
-                   displayName="Source Files"
-                   projectFiles="true">
+    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="default" displayName="default" projectFiles="true">
           <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/default/bsp/bsp.c</itemPath>
           </logicalFolder>
           <logicalFolder name="library" displayName="library" projectFiles="true">
-            <logicalFolder name="emulated_eeprom"
-                           displayName="emulated_eeprom"
-                           projectFiles="true">
+            <logicalFolder name="emulated_eeprom" displayName="emulated_eeprom" projectFiles="true">
               <itemPath>../src/config/default/library/emulated_eeprom/emulated_eeprom.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -149,11 +128,11 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC32MX470F512H</targetDevice>
-        <targetHeader></targetHeader>
-        <targetPluginBoard></targetPluginBoard>
+        <targetHeader/>
+        <targetPluginBoard/>
         <platformTool>PKOBSKDEPlatformTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -171,7 +150,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile></alternateLoadableFile>
+          <alternateLoadableFile/>
         </loading>
         <subordinates>
         </subordinates>
@@ -179,9 +158,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPreStep/>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPostStep/>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>

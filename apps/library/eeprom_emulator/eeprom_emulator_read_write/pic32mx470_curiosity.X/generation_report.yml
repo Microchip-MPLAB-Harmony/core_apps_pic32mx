@@ -1,0 +1,188 @@
+generatedFiles:
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\bsp\bsp.c
+  projectFolder: config\default\bsp
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\bsp\bsp.h
+  projectFolder: config\default\bsp
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\toolchain_specifics.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\main.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\definitions.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\initialization.c
+  projectFolder: config\default
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\interrupts.c
+  projectFolder: config\default
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\interrupts.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\exceptions.c
+  projectFolder: config\default
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\p32MX470F512H.ld
+  projectFolder: config\default
+  type: Linker Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\stdio\xc32_monitor.c
+  projectFolder: config\default\stdio
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\clk\plib_clk.h
+  projectFolder: config\default\peripheral\clk
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\clk\plib_clk.c
+  projectFolder: config\default\peripheral\clk
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\gpio\plib_gpio.h
+  projectFolder: config\default\peripheral\gpio
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\gpio\plib_gpio.c
+  projectFolder: config\default\peripheral\gpio
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\evic\plib_evic.c
+  projectFolder: config\default\peripheral\evic
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\evic\plib_evic.h
+  projectFolder: config\default\peripheral\evic
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\device.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\library\emulated_eeprom\emulated_eeprom.c
+  projectFolder: config\default\library\emulated_eeprom
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\library\emulated_eeprom\emulated_eeprom.h
+  projectFolder: config\default\library\emulated_eeprom
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\library\emulated_eeprom\emulated_eeprom_local.h
+  projectFolder: config\default\library\emulated_eeprom
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\library\emulated_eeprom\emulated_eeprom_definitions.h
+  projectFolder: config\default\library\emulated_eeprom
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\system.h
+  projectFolder: config\default\system
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\system_common.h
+  projectFolder: config\default\system
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\system_module.h
+  projectFolder: config\default\system
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\int\sys_int.h
+  projectFolder: config\default\system\int
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\int\sys_int_mapping.h
+  projectFolder: config\default\system\int
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\int\src\sys_int.c
+  projectFolder: config\default\system\int
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\osal\osal.h
+  projectFolder: config\default\osal
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\osal\osal_definitions.h
+  projectFolder: config\default\osal
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\osal\osal_impl_basic.h
+  projectFolder: config\default\osal
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\app.c
+  projectFolder: ''
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\app.h
+  projectFolder: ''
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\user.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\configuration.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\sys_tasks.h
+  projectFolder: config\default
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\tasks.c
+  projectFolder: config\default
+  type: Source Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\system\debug\sys_debug.h
+  projectFolder: config\default\system\debug
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\nvm\plib_nvm.h
+  projectFolder: config\default\peripheral\nvm
+  type: Header Files
+- excludeFromProject: false
+  path: C:\Pranjal\DFT\h3_test\core_apps_pic32mx\apps\library\eeprom_emulator\eeprom_emulator_read_write\src\config\default\peripheral\nvm\plib_nvm.c
+  projectFolder: config\default\peripheral\nvm
+  type: Source Files
+generatedSettings:
+- category: C32-LD
+  key: preprocessor-macros
+  value: ''
+- category: C32
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32CPP
+  key: generate-16-bit-code
+  value: 'false'
+- category: C32-LD
+  key: heap-size
+  value: '512'
+- category: C32
+  key: extra-include-directories
+  value: ../src;../src/config/default;
+- category: C32CPP
+  key: extra-include-directories
+  value: ../src;../src/config/default;
+- category: C32-LD
+  key: no-device-startup-code
+  value: 'true'
+- category: C32-LD
+  key: preprocessor-macros
+  value: ROM_LENGTH=0x7c000
+removedFiles: [
+  ]

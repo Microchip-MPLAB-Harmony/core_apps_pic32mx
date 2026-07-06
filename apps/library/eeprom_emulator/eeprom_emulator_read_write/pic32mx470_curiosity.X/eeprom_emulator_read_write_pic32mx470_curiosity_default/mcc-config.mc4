@@ -21,7 +21,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\configuration.h
   hash: feb106abae40367e7ea5d7303f21f6a9a309234b629486e838202b786580acce
 - file: ..\src\config\default\definitions.h
-  hash: 624420f6c9030cf8fec9d28aa5744e22d10665b7885aac7a262b6b7bc4cc1781
+  hash: 6b9d8e595d9d5e01341a8f46faeb90a3e0d18d942cd8c9c8b33dc0c4a78d77dc
 - file: ..\src\config\default\device.h
   hash: 4d4341a6f9628cea0bf73f980b639f7cb81089e55a60ad7e434be2a71e477442
 - file: ..\src\config\default\exceptions.c
@@ -33,13 +33,13 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\default\interrupts.h
   hash: bd51c3c5264a10459c01fabb79b440af80e049a39110c43f28566cb6a73fe3ed
 - file: ..\src\config\default\library\emulated_eeprom\emulated_eeprom.c
-  hash: c677256260f8e7d3a1a9283f1ccce82222ad7f61e2c7923b6793e23377301235
+  hash: 02d4e236d98d32cc84979143e0d9620c13961d3c37c354eda7262415e06f827d
 - file: ..\src\config\default\library\emulated_eeprom\emulated_eeprom.h
   hash: 2002c2251e0eb49d2d292e05520828fccf936e4912ae82836a013e57dfe72c16
 - file: ..\src\config\default\library\emulated_eeprom\emulated_eeprom_definitions.h
   hash: 31b9fadf28096e75c42c2e469d917c4e80f058213498f18d0c85e97fa83da01f
 - file: ..\src\config\default\library\emulated_eeprom\emulated_eeprom_local.h
-  hash: 3816a9a093505d55b67282acbae8e447528b0fe13f8a80e8476c98ffa90ad3cc
+  hash: a287e3176c1f7f3120490845aa2f652a22807e103f3e2aa87818406acba0375d
 - file: ..\src\config\default\osal\osal.h
   hash: 1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c
 - file: ..\src\config\default\osal\osal_definitions.h
